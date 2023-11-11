@@ -1,0 +1,64 @@
+{
+  "name": "Seba's Blog",
+  "short_name": "Seba's Blog",
+  "lang": "en",
+  "description": "Sebastiano Racca's personal blog. Discover new ways of thinking, new technologies and much more",
+  "id": "https://blog.racca.me",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "categories": ["education", "blog"],
+  "background_color": "white",
+  "theme_color": "white",
+  "icons": [
+    {
+      "src": "https://blog.racca.me/_app/immutable/assets/avatar.3288fe50.jpeg",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://blog.racca.me/_app/immutable/assets/avatar.3288fe50.jpeg",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://blog.racca.me/_app/immutable/assets/avatar.2149bba4.jpeg",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://blog.racca.me/_app/immutable/assets/avatar.2149bba4.jpeg",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://blog.racca.me/_app/immutable/assets/avatar.fa6b069e.jpeg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://blog.racca.me/_app/immutable/assets/avatar.fa6b069e.jpeg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://blog.racca.me/_app/immutable/assets/avatar.df189fa7.jpeg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://blog.racca.me/_app/immutable/assets/avatar.df189fa7.jpeg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
