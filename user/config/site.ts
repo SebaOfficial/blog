@@ -48,11 +48,6 @@ export const headConfig: Site.Head = {
         ]
       : [
           // For Production Environment
-          `<script type="text/javascript">
-            var infolinks_pid = 3408965;
-            var infolinks_wsid = 0;
-          </script>
-          <script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>`,
         ],
 };
 
