@@ -8,7 +8,10 @@
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "categories": ["education", "blog"],
+  "categories": [
+    "education",
+    "blog"
+  ],
   "background_color": "white",
   "theme_color": "white",
   "icons": [

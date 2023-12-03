@@ -17,9 +17,10 @@ import {
   x as Ee,
 } from '../chunks/scheduler.b261eb3c.js';
 import { S as Zt, i as en, b as H, d as y, m as L, a as M, t as x, e as P } from '../chunks/index.5ccb46b4.js';
-import { P as tn } from '../chunks/post.f84d512f.js';
-import '../chunks/image_banner.32849a6c.js';
-import { C as $e, I as Gt } from '../chunks/info_box.2cabc52f.js';
+import { P as tn } from '../chunks/post.06d5c26b.js';
+import '../chunks/image_banner.8ab919dd.js';
+import { C as $e } from '../chunks/code_copy.99453248.js';
+import { I as Gt } from '../chunks/info_box.1f925e92.js';
 function Qt(u) {
   let e, s;
   return {
@@ -991,9 +992,9 @@ function un(u) {
     }
   );
 }
-class wn extends Zt {
+class Tn extends Zt {
   constructor(e) {
     super(), en(this, e, null, un, Xt, {});
   }
 }
-export { wn as component };
+export { Tn as component };

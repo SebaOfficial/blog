@@ -19,7 +19,7 @@ import {
   y as T,
 } from '../chunks/scheduler.b261eb3c.js';
 import { S as J, i as K } from '../chunks/index.5ccb46b4.js';
-import { s as O, p as Q, L as V } from '../chunks/i18n-svelte.2f0d0f90.js';
+import { s as O, p as Q, L as V } from '../chunks/i18n-svelte.2f1c6e10.js';
 const W = '' + new URL('../assets/404.9de340c4.webp', import.meta.url).href;
 function X(r) {
   var R;

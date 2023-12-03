@@ -34,10 +34,11 @@ import {
   m as D,
   e as M,
 } from '../chunks/index.5ccb46b4.js';
-import { P as yt } from '../chunks/post.f84d512f.js';
-import '../chunks/image_banner.32849a6c.js';
-import { C as O, I as Ht } from '../chunks/info_box.2cabc52f.js';
-import { e as mt } from '../chunks/tippy.6de01e5a.js';
+import { P as yt } from '../chunks/post.06d5c26b.js';
+import '../chunks/image_banner.8ab919dd.js';
+import { C as O } from '../chunks/code_copy.99453248.js';
+import { I as Ht } from '../chunks/info_box.1f925e92.js';
+import { e as mt } from '../chunks/tippy.a1e8f09d.js';
 function Lt(v, e) {
   const n = {},
     s = {},
@@ -1761,9 +1762,9 @@ function ni(v) {
     },
   ];
 }
-class di extends un {
+class ci extends un {
   constructor(e) {
     super(), hn(this, e, ni, ei, fn, {});
   }
 }
-export { di as component };
+export { ci as component };

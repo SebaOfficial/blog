@@ -13,7 +13,7 @@ import {
   e as J,
   P as Me,
   h as Xe,
-} from '../chunks/singletons.3d6b7982.js';
+} from '../chunks/singletons.af1bc4ce.js';
 function Ze(t, r) {
   return t === '/' || r === 'ignore'
     ? t

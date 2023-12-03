@@ -1,10 +1,10 @@
 import {
   s as q,
   a as B,
-  e as h,
+  e as d,
   c as U,
-  i as w,
-  d,
+  i as b,
+  d as h,
   b as j,
   o as z,
   f as W,
@@ -28,29 +28,29 @@ import {
   g as P,
   b as v,
   d as O,
-  m as y,
-  e as R,
+  m as R,
+  e as y,
 } from '../chunks/index.5ccb46b4.js';
 const Y = 'modulepreload',
   Z = function (o, e) {
     return new URL(o, e).href;
   },
   T = {},
-  k = function (e, n, i) {
+  w = function (e, n, i) {
     if (!n || n.length === 0) return e();
-    const s = document.getElementsByTagName('link');
+    const r = document.getElementsByTagName('link');
     return Promise.all(
       n.map((f) => {
         if (((f = Z(f, i)), f in T)) return;
         T[f] = !0;
         const t = f.endsWith('.css'),
-          r = t ? '[rel="stylesheet"]' : '';
+          s = t ? '[rel="stylesheet"]' : '';
         if (!!i)
-          for (let a = s.length - 1; a >= 0; a--) {
-            const u = s[a];
+          for (let a = r.length - 1; a >= 0; a--) {
+            const u = r[a];
             if (u.href === f && (!t || u.rel === 'stylesheet')) return;
           }
-        else if (document.querySelector(`link[href="${f}"]${r}`)) return;
+        else if (document.querySelector(`link[href="${f}"]${s}`)) return;
         const c = document.createElement('link');
         if (
           ((c.rel = t ? 'stylesheet' : Y),
@@ -71,39 +71,39 @@ const Y = 'modulepreload',
         if (((t.payload = f), window.dispatchEvent(t), !t.defaultPrevented)) throw f;
       });
   },
-  re = {};
+  se = {};
 function $(o) {
   let e, n, i;
-  var s = o[1][0];
-  function f(t, r) {
+  var r = o[1][0];
+  function f(t, s) {
     return { props: { data: t[3], form: t[2] } };
   }
   return (
-    s && ((e = E(s, f(o))), o[12](e)),
+    r && ((e = E(r, f(o))), o[12](e)),
     {
       c() {
-        e && v(e.$$.fragment), (n = h());
+        e && v(e.$$.fragment), (n = d());
       },
       l(t) {
-        e && O(e.$$.fragment, t), (n = h());
+        e && O(e.$$.fragment, t), (n = d());
       },
-      m(t, r) {
-        e && y(e, t, r), w(t, n, r), (i = !0);
+      m(t, s) {
+        e && R(e, t, s), b(t, n, s), (i = !0);
       },
-      p(t, r) {
-        if (r & 2 && s !== (s = t[1][0])) {
+      p(t, s) {
+        if (s & 2 && r !== (r = t[1][0])) {
           if (e) {
             P();
             const l = e;
             p(l.$$.fragment, 1, 0, () => {
-              R(l, 1);
+              y(l, 1);
             }),
               L();
           }
-          s ? ((e = E(s, f(t))), t[12](e), v(e.$$.fragment), g(e.$$.fragment, 1), y(e, n.parentNode, n)) : (e = null);
-        } else if (s) {
+          r ? ((e = E(r, f(t))), t[12](e), v(e.$$.fragment), g(e.$$.fragment, 1), R(e, n.parentNode, n)) : (e = null);
+        } else if (r) {
           const l = {};
-          r & 8 && (l.data = t[3]), r & 4 && (l.form = t[2]), e.$set(l);
+          s & 8 && (l.data = t[3]), s & 4 && (l.form = t[2]), e.$set(l);
         }
       },
       i(t) {
@@ -113,43 +113,43 @@ function $(o) {
         e && p(e.$$.fragment, t), (i = !1);
       },
       d(t) {
-        t && d(n), o[12](null), e && R(e, t);
+        t && h(n), o[12](null), e && y(e, t);
       },
     }
   );
 }
 function x(o) {
   let e, n, i;
-  var s = o[1][0];
-  function f(t, r) {
+  var r = o[1][0];
+  function f(t, s) {
     return { props: { data: t[3], $$slots: { default: [ee] }, $$scope: { ctx: t } } };
   }
   return (
-    s && ((e = E(s, f(o))), o[11](e)),
+    r && ((e = E(r, f(o))), o[11](e)),
     {
       c() {
-        e && v(e.$$.fragment), (n = h());
+        e && v(e.$$.fragment), (n = d());
       },
       l(t) {
-        e && O(e.$$.fragment, t), (n = h());
+        e && O(e.$$.fragment, t), (n = d());
       },
-      m(t, r) {
-        e && y(e, t, r), w(t, n, r), (i = !0);
+      m(t, s) {
+        e && R(e, t, s), b(t, n, s), (i = !0);
       },
-      p(t, r) {
-        if (r & 2 && s !== (s = t[1][0])) {
+      p(t, s) {
+        if (s & 2 && r !== (r = t[1][0])) {
           if (e) {
             P();
             const l = e;
             p(l.$$.fragment, 1, 0, () => {
-              R(l, 1);
+              y(l, 1);
             }),
               L();
           }
-          s ? ((e = E(s, f(t))), t[11](e), v(e.$$.fragment), g(e.$$.fragment, 1), y(e, n.parentNode, n)) : (e = null);
-        } else if (s) {
+          r ? ((e = E(r, f(t))), t[11](e), v(e.$$.fragment), g(e.$$.fragment, 1), R(e, n.parentNode, n)) : (e = null);
+        } else if (r) {
           const l = {};
-          r & 8 && (l.data = t[3]), r & 8215 && (l.$$scope = { dirty: r, ctx: t }), e.$set(l);
+          s & 8 && (l.data = t[3]), s & 8215 && (l.$$scope = { dirty: s, ctx: t }), e.$set(l);
         }
       },
       i(t) {
@@ -159,43 +159,43 @@ function x(o) {
         e && p(e.$$.fragment, t), (i = !1);
       },
       d(t) {
-        t && d(n), o[11](null), e && R(e, t);
+        t && h(n), o[11](null), e && y(e, t);
       },
     }
   );
 }
 function ee(o) {
   let e, n, i;
-  var s = o[1][1];
-  function f(t, r) {
+  var r = o[1][1];
+  function f(t, s) {
     return { props: { data: t[4], form: t[2] } };
   }
   return (
-    s && ((e = E(s, f(o))), o[10](e)),
+    r && ((e = E(r, f(o))), o[10](e)),
     {
       c() {
-        e && v(e.$$.fragment), (n = h());
+        e && v(e.$$.fragment), (n = d());
       },
       l(t) {
-        e && O(e.$$.fragment, t), (n = h());
+        e && O(e.$$.fragment, t), (n = d());
       },
-      m(t, r) {
-        e && y(e, t, r), w(t, n, r), (i = !0);
+      m(t, s) {
+        e && R(e, t, s), b(t, n, s), (i = !0);
       },
-      p(t, r) {
-        if (r & 2 && s !== (s = t[1][1])) {
+      p(t, s) {
+        if (s & 2 && r !== (r = t[1][1])) {
           if (e) {
             P();
             const l = e;
             p(l.$$.fragment, 1, 0, () => {
-              R(l, 1);
+              y(l, 1);
             }),
               L();
           }
-          s ? ((e = E(s, f(t))), t[10](e), v(e.$$.fragment), g(e.$$.fragment, 1), y(e, n.parentNode, n)) : (e = null);
-        } else if (s) {
+          r ? ((e = E(r, f(t))), t[10](e), v(e.$$.fragment), g(e.$$.fragment, 1), R(e, n.parentNode, n)) : (e = null);
+        } else if (r) {
           const l = {};
-          r & 16 && (l.data = t[4]), r & 4 && (l.form = t[2]), e.$set(l);
+          s & 16 && (l.data = t[4]), s & 4 && (l.form = t[2]), e.$set(l);
         }
       },
       i(t) {
@@ -205,7 +205,7 @@ function ee(o) {
         e && p(e.$$.fragment, t), (i = !1);
       },
       d(t) {
-        t && d(n), o[10](null), e && R(e, t);
+        t && h(n), o[10](null), e && y(e, t);
       },
     }
   );
@@ -219,8 +219,8 @@ function V(o) {
     },
     l(i) {
       e = F(i, 'DIV', { id: !0, 'aria-live': !0, 'aria-atomic': !0, style: !0 });
-      var s = G(e);
-      n && n.l(s), s.forEach(d), this.h();
+      var r = G(e);
+      n && n.l(r), r.forEach(h), this.h();
     },
     h() {
       D(e, 'id', 'svelte-announcer'),
@@ -236,14 +236,14 @@ function V(o) {
         m(e, 'width', '1px'),
         m(e, 'height', '1px');
     },
-    m(i, s) {
-      w(i, e, s), n && n.m(e, null);
+    m(i, r) {
+      b(i, e, r), n && n.m(e, null);
     },
-    p(i, s) {
-      i[6] ? (n ? n.p(i, s) : ((n = A(i)), n.c(), n.m(e, null))) : n && (n.d(1), (n = null));
+    p(i, r) {
+      i[6] ? (n ? n.p(i, r) : ((n = A(i)), n.c(), n.m(e, null))) : n && (n.d(1), (n = null));
     },
     d(i) {
-      i && d(e), n && n.d();
+      i && h(e), n && n.d();
     },
   };
 }
@@ -257,50 +257,50 @@ function A(o) {
       e = J(n, o[7]);
     },
     m(n, i) {
-      w(n, e, i);
+      b(n, e, i);
     },
     p(n, i) {
       i & 128 && K(e, n[7]);
     },
     d(n) {
-      n && d(e);
+      n && h(e);
     },
   };
 }
 function te(o) {
-  let e, n, i, s, f;
+  let e, n, i, r, f;
   const t = [x, $],
-    r = [];
+    s = [];
   function l(a, u) {
     return a[1][1] ? 0 : 1;
   }
-  (e = l(o)), (n = r[e] = t[e](o));
+  (e = l(o)), (n = s[e] = t[e](o));
   let c = o[5] && V(o);
   return {
     c() {
-      n.c(), (i = B()), c && c.c(), (s = h());
+      n.c(), (i = B()), c && c.c(), (r = d());
     },
     l(a) {
-      n.l(a), (i = U(a)), c && c.l(a), (s = h());
+      n.l(a), (i = U(a)), c && c.l(a), (r = d());
     },
     m(a, u) {
-      r[e].m(a, u), w(a, i, u), c && c.m(a, u), w(a, s, u), (f = !0);
+      s[e].m(a, u), b(a, i, u), c && c.m(a, u), b(a, r, u), (f = !0);
     },
     p(a, [u]) {
-      let b = e;
+      let k = e;
       (e = l(a)),
-        e === b
-          ? r[e].p(a, u)
+        e === k
+          ? s[e].p(a, u)
           : (P(),
-            p(r[b], 1, 1, () => {
-              r[b] = null;
+            p(s[k], 1, 1, () => {
+              s[k] = null;
             }),
             L(),
-            (n = r[e]),
-            n ? n.p(a, u) : ((n = r[e] = t[e](a)), n.c()),
+            (n = s[e]),
+            n ? n.p(a, u) : ((n = s[e] = t[e](a)), n.c()),
             g(n, 1),
             n.m(i.parentNode, i)),
-        a[5] ? (c ? c.p(a, u) : ((c = V(a)), c.c(), c.m(s.parentNode, s))) : c && (c.d(1), (c = null));
+        a[5] ? (c ? c.p(a, u) : ((c = V(a)), c.c(), c.m(r.parentNode, r))) : c && (c.d(1), (c = null));
     },
     i(a) {
       f || (g(n), (f = !0));
@@ -309,28 +309,28 @@ function te(o) {
       p(n), (f = !1);
     },
     d(a) {
-      a && (d(i), d(s)), r[e].d(a), c && c.d(a);
+      a && (h(i), h(r)), s[e].d(a), c && c.d(a);
     },
   };
 }
 function ne(o, e, n) {
   let { stores: i } = e,
-    { page: s } = e,
+    { page: r } = e,
     { constructors: f } = e,
     { components: t = [] } = e,
-    { form: r } = e,
+    { form: s } = e,
     { data_0: l = null } = e,
     { data_1: c = null } = e;
   j(i.page.notify);
   let a = !1,
     u = !1,
-    b = null;
+    k = null;
   z(() => {
     const _ = i.page.subscribe(() => {
       a &&
         (n(6, (u = !0)),
         M().then(() => {
-          n(7, (b = document.title || 'untitled page'));
+          n(7, (k = document.title || 'untitled page'));
         }));
     });
     return n(5, (a = !0)), _;
@@ -353,17 +353,17 @@ function ne(o, e, n) {
   return (
     (o.$$set = (_) => {
       'stores' in _ && n(8, (i = _.stores)),
-        'page' in _ && n(9, (s = _.page)),
+        'page' in _ && n(9, (r = _.page)),
         'constructors' in _ && n(1, (f = _.constructors)),
         'components' in _ && n(0, (t = _.components)),
-        'form' in _ && n(2, (r = _.form)),
+        'form' in _ && n(2, (s = _.form)),
         'data_0' in _ && n(3, (l = _.data_0)),
         'data_1' in _ && n(4, (c = _.data_1));
     }),
     (o.$$.update = () => {
-      o.$$.dirty & 768 && i.page.set(s);
+      o.$$.dirty & 768 && i.page.set(r);
     }),
-    [t, f, r, l, c, a, u, b, i, s, N, S, C]
+    [t, f, s, l, c, a, u, k, i, r, N, S, C]
   );
 }
 class oe extends Q {
@@ -374,112 +374,140 @@ class oe extends Q {
 }
 const ae = [
     () =>
-      k(
-        () => import('../nodes/0.c03bea82.js'),
+      w(
+        () => import('../nodes/0.42189d8d.js'),
         [
-          '../nodes/0.c03bea82.js',
+          '../nodes/0.42189d8d.js',
           '../chunks/scheduler.b261eb3c.js',
           '../chunks/index.5ccb46b4.js',
-          '../chunks/tippy.6de01e5a.js',
-          '../chunks/singletons.3d6b7982.js',
-          '../chunks/i18n-svelte.2f0d0f90.js',
+          '../chunks/tippy.a1e8f09d.js',
+          '../chunks/singletons.af1bc4ce.js',
+          '../chunks/i18n-svelte.2f1c6e10.js',
           '../assets/tippy.7df0e90e.css',
-          '../chunks/timeFormat.64a220de.js',
-          '../assets/0.b5282c81.css',
+          '../chunks/timeFormat.02408a74.js',
+          '../assets/0.9ad1cd50.css',
         ],
         import.meta.url,
       ),
     () =>
-      k(
-        () => import('../nodes/1.254d9bcf.js'),
+      w(
+        () => import('../nodes/1.a908ae4f.js'),
         [
-          '../nodes/1.254d9bcf.js',
+          '../nodes/1.a908ae4f.js',
           '../chunks/scheduler.b261eb3c.js',
           '../chunks/index.5ccb46b4.js',
-          '../chunks/i18n-svelte.2f0d0f90.js',
-          '../chunks/singletons.3d6b7982.js',
+          '../chunks/i18n-svelte.2f1c6e10.js',
+          '../chunks/singletons.af1bc4ce.js',
         ],
         import.meta.url,
       ),
     () =>
-      k(
-        () => import('../nodes/2.adec12d2.js'),
+      w(
+        () => import('../nodes/2.80421ed0.js'),
         [
-          '../nodes/2.adec12d2.js',
+          '../nodes/2.80421ed0.js',
           '../chunks/scheduler.b261eb3c.js',
           '../chunks/index.5ccb46b4.js',
-          '../chunks/i18n-svelte.2f0d0f90.js',
-          '../chunks/singletons.3d6b7982.js',
-          '../chunks/tippy.6de01e5a.js',
+          '../chunks/i18n-svelte.2f1c6e10.js',
+          '../chunks/singletons.af1bc4ce.js',
+          '../chunks/tippy.a1e8f09d.js',
           '../assets/tippy.7df0e90e.css',
-          '../chunks/image_banner.32849a6c.js',
+          '../chunks/image_banner.8ab919dd.js',
           '../assets/2.9c2a354b.css',
         ],
         import.meta.url,
       ),
     () =>
-      k(
-        () => import('../nodes/3.371b6593.js'),
+      w(
+        () => import('../nodes/3.dd9dc2dc.js'),
         [
-          '../nodes/3.371b6593.js',
+          '../nodes/3.dd9dc2dc.js',
           '../chunks/scheduler.b261eb3c.js',
           '../chunks/index.5ccb46b4.js',
-          '../chunks/post.f84d512f.js',
-          '../chunks/i18n-svelte.2f0d0f90.js',
-          '../chunks/singletons.3d6b7982.js',
-          '../chunks/tippy.6de01e5a.js',
+          '../chunks/post.06d5c26b.js',
+          '../chunks/i18n-svelte.2f1c6e10.js',
+          '../chunks/singletons.af1bc4ce.js',
+          '../chunks/tippy.a1e8f09d.js',
           '../assets/tippy.7df0e90e.css',
-          '../chunks/image_banner.32849a6c.js',
-          '../chunks/timeFormat.64a220de.js',
+          '../chunks/image_banner.8ab919dd.js',
+          '../chunks/timeFormat.02408a74.js',
           '../assets/post.2fdef224.css',
         ],
         import.meta.url,
       ),
     () =>
-      k(
-        () => import('../nodes/4.4c52980d.js'),
+      w(
+        () => import('../nodes/4.79d4829a.js'),
         [
-          '../nodes/4.4c52980d.js',
+          '../nodes/4.79d4829a.js',
           '../chunks/scheduler.b261eb3c.js',
           '../chunks/index.5ccb46b4.js',
-          '../chunks/post.f84d512f.js',
-          '../chunks/i18n-svelte.2f0d0f90.js',
-          '../chunks/singletons.3d6b7982.js',
-          '../chunks/tippy.6de01e5a.js',
+          '../chunks/post.06d5c26b.js',
+          '../chunks/i18n-svelte.2f1c6e10.js',
+          '../chunks/singletons.af1bc4ce.js',
+          '../chunks/tippy.a1e8f09d.js',
           '../assets/tippy.7df0e90e.css',
-          '../chunks/image_banner.32849a6c.js',
-          '../chunks/timeFormat.64a220de.js',
+          '../chunks/image_banner.8ab919dd.js',
+          '../chunks/timeFormat.02408a74.js',
           '../assets/post.2fdef224.css',
-          '../chunks/info_box.2cabc52f.js',
+          '../chunks/code_copy.99453248.js',
+          '../chunks/info_box.1f925e92.js',
           '../assets/4.1ecd1937.css',
         ],
         import.meta.url,
       ),
     () =>
-      k(
-        () => import('../nodes/5.ba05432b.js'),
+      w(
+        () => import('../nodes/5.0e6d26ec.js'),
         [
-          '../nodes/5.ba05432b.js',
+          '../nodes/5.0e6d26ec.js',
           '../chunks/scheduler.b261eb3c.js',
           '../chunks/index.5ccb46b4.js',
-          '../chunks/post.f84d512f.js',
-          '../chunks/i18n-svelte.2f0d0f90.js',
-          '../chunks/singletons.3d6b7982.js',
-          '../chunks/tippy.6de01e5a.js',
+          '../chunks/post.06d5c26b.js',
+          '../chunks/i18n-svelte.2f1c6e10.js',
+          '../chunks/singletons.af1bc4ce.js',
+          '../chunks/tippy.a1e8f09d.js',
           '../assets/tippy.7df0e90e.css',
-          '../chunks/image_banner.32849a6c.js',
-          '../chunks/timeFormat.64a220de.js',
+          '../chunks/image_banner.8ab919dd.js',
+          '../chunks/timeFormat.02408a74.js',
           '../assets/post.2fdef224.css',
-          '../chunks/info_box.2cabc52f.js',
+          '../chunks/code_copy.99453248.js',
+          '../chunks/info_box.1f925e92.js',
+        ],
+        import.meta.url,
+      ),
+    () =>
+      w(
+        () => import('../nodes/6.8a32f764.js'),
+        [
+          '../nodes/6.8a32f764.js',
+          '../chunks/scheduler.b261eb3c.js',
+          '../chunks/index.5ccb46b4.js',
+          '../chunks/post.06d5c26b.js',
+          '../chunks/i18n-svelte.2f1c6e10.js',
+          '../chunks/singletons.af1bc4ce.js',
+          '../chunks/tippy.a1e8f09d.js',
+          '../assets/tippy.7df0e90e.css',
+          '../chunks/image_banner.8ab919dd.js',
+          '../chunks/timeFormat.02408a74.js',
+          '../assets/post.2fdef224.css',
+          '../chunks/code_copy.99453248.js',
+          '../assets/6.8acb73dd.css',
         ],
         import.meta.url,
       ),
   ],
   le = [],
-  fe = { '/': [2], '/7-reasons-i-love-hetzner': [3], '/create-an-echo-bot': [4], '/create-your-first-bot': [5] },
+  fe = {
+    '/': [2],
+    '/7-reasons-i-love-hetzner': [3],
+    '/create-an-echo-bot': [4],
+    '/create-your-first-bot': [5],
+    '/custom-email-with-cloudflare-and-gmail': [6],
+  },
   ce = {
     handleError: ({ error: o }) => {
       console.error(o);
     },
   };
-export { fe as dictionary, ce as hooks, re as matchers, ae as nodes, oe as root, le as server_loads };
+export { fe as dictionary, ce as hooks, se as matchers, ae as nodes, oe as root, le as server_loads };
