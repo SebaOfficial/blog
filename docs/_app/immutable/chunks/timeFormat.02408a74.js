@@ -1,5 +1,5 @@
-import { w as g } from './singletons.3d6b7982.js';
-import { L as o, f as d } from './i18n-svelte.2f0d0f90.js';
+import { w as g } from './singletons.af1bc4ce.js';
+import { L as o, f as d } from './i18n-svelte.2f1c6e10.js';
 import { W as a } from './scheduler.b261eb3c.js';
 const s = 'theme',
   h = 'dark';

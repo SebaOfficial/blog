@@ -2,6 +2,56 @@
   'use strict';
   var W = [
     [
+      'custom-email-with-cloudflare-and-gmail',
+      {
+        slug: 'custom-email-with-cloudflare-and-gmail',
+        title: 'Create a Custom Email address with Gmail and Cloudflare',
+        language: 'English',
+        description: 'Create a custom email address using gmail and cloudflare for free',
+        summary: '📩 Create a custom email address in 10 minutes',
+        content:
+          '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',
+        html: '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',
+        created: '2023-12-03T14:58:03.553Z',
+        published: '2023-12-03T15:58:03.000+01:00',
+        updated: '2023-12-03T15:58:03.000+01:00',
+        cover: '/custom-email-with-cloudflare-and-gmail/cover.jpg',
+        coverCaption:
+          'Photo by <a href="https://unsplash.com/@solenfeyissa">Solen Feyissa</a> on <a href="https://unsplash.com/photos/windows-7-logo-on-black-background-M7zS8puGg18">Unsplash</a>',
+        coverStyle: 'IN',
+        tags: [{ Year: '2023' }, { Language: 'English' }],
+        toc: [
+          {
+            level: 1,
+            heading: 'Create a Custom Email Address for Free',
+            slug: '#create-a-custom-email-address-for-free',
+            child: [{ level: 2, heading: 'Prerequisites', slug: '#prerequisites' }],
+          },
+          {
+            level: 1,
+            heading: 'Setup Your Google Account',
+            slug: '#setup-your-google-account',
+            child: [
+              { level: 2, heading: 'Enable 2 Factor Authentification', slug: '#enable-2-factor-authentification' },
+              { level: 2, heading: 'Create an App Password', slug: '#create-an-app-password' },
+            ],
+          },
+          {
+            level: 1,
+            heading: 'Enable Cloudflare&#39;s Email Routing',
+            slug: '#enable-cloudflare-and-39-s-email-routing',
+          },
+          {
+            level: 1,
+            heading: 'Add Your Cloudflare-Routed Email to Gmail',
+            slug: '#add-your-cloudflare-routed-email-to-gmail',
+          },
+          { level: 1, heading: 'Enjoy', slug: '#enjoy' },
+        ],
+        prev: '7-reasons-i-love-hetzner',
+      },
+    ],
+    [
       '7-reasons-i-love-hetzner',
       {
         slug: '7-reasons-i-love-hetzner',
@@ -35,6 +85,7 @@
           { level: 1, heading: 'Conclusion', slug: '#conclusion' },
         ],
         prev: 'create-an-echo-bot',
+        next: 'custom-email-with-cloudflare-and-gmail',
       },
     ],
     [
@@ -164,226 +215,226 @@
       },
     ],
   ];
-  function Y(e, A) {
-    return typeof e > 'u' ? A : e;
+  function J(e, t) {
+    return typeof e > 'u' ? t : e;
   }
   function Z(e) {
-    const A = Array(e);
-    for (let t = 0; t < e; t++) A[t] = G();
-    return A;
+    const t = Array(e);
+    for (let A = 0; A < e; A++) t[A] = G();
+    return t;
   }
-  function x(e) {
+  function b(e) {
     return Object.keys(e);
   }
   function G() {
     return Object.create(null);
   }
-  function V(e) {
+  function N(e) {
     return [].concat.apply([], e);
   }
-  function L(e, A) {
-    return A.length - e.length;
+  function V(e, t) {
+    return t.length - e.length;
   }
-  function N(e) {
+  function L(e) {
     return e.constructor === Array;
   }
-  function M(e) {
+  function S(e) {
     return typeof e == 'string';
   }
-  function R(e) {
+  function y(e) {
     return typeof e == 'object';
   }
   function j(e) {
     return typeof e == 'function';
   }
-  function P(e, A, t, i) {
+  function P(e, t, A, o) {
     if (
       e &&
-      (A && (e = K(e, A)),
-      this.matcher && (e = K(e, this.matcher)),
-      this.stemmer && 1 < e.length && (e = K(e, this.stemmer)),
-      i && 1 < e.length && (e = X(e)),
-      t || t === '')
+      (t && (e = R(e, t)),
+      this.matcher && (e = R(e, this.matcher)),
+      this.stemmer && 1 < e.length && (e = R(e, this.stemmer)),
+      o && 1 < e.length && (e = X(e)),
+      A || A === '')
     ) {
-      const g = e.split(t);
-      return this.filter ? _(g, this.filter) : g;
+      const n = e.split(A);
+      return this.filter ? _(n, this.filter) : n;
     }
     return e;
   }
-  const v = /[\p{Z}\p{S}\p{P}\p{C}]+/u;
-  function z(e) {
-    const A = G();
-    for (let t = 0, i = e.length; t < i; t++) A[e[t]] = 1;
-    return A;
+  const z = /[\p{Z}\p{S}\p{P}\p{C}]+/u;
+  function v(e) {
+    const t = G();
+    for (let A = 0, o = e.length; A < o; A++) t[e[A]] = 1;
+    return t;
   }
-  function q(e, A) {
-    const t = x(e),
-      i = t.length,
-      g = [];
+  function T(e, t) {
+    const A = b(e),
+      o = A.length,
+      n = [];
     let l = '',
       r = 0;
-    for (let u, s, n = 0; n < i; n++)
-      (u = t[n]),
-        (s = e[u]),
-        s ? ((g[r++] = O(A ? '(?!\\b)' + u + '(\\b|_)' : u)), (g[r++] = s)) : (l += (l ? '|' : '') + u);
-    return l && ((g[r++] = O(A ? '(?!\\b)(' + l + ')(\\b|_)' : '(' + l + ')')), (g[r] = '')), g;
+    for (let B, s, g = 0; g < o; g++)
+      (B = A[g]),
+        (s = e[B]),
+        s ? ((n[r++] = O(t ? '(?!\\b)' + B + '(\\b|_)' : B)), (n[r++] = s)) : (l += (l ? '|' : '') + B);
+    return l && ((n[r++] = O(t ? '(?!\\b)(' + l + ')(\\b|_)' : '(' + l + ')')), (n[r] = '')), n;
   }
-  function K(e, A) {
-    for (let t = 0, i = A.length; t < i && ((e = e.replace(A[t], A[t + 1])), !!e); t += 2);
+  function R(e, t) {
+    for (let A = 0, o = t.length; A < o && ((e = e.replace(t[A], t[A + 1])), !!e); A += 2);
     return e;
   }
   function O(e) {
     return new RegExp(e, 'g');
   }
   function X(e) {
-    let A = '',
-      t = '';
-    for (let i, g = 0, l = e.length; g < l; g++) (i = e[g]) !== t && (A += t = i);
-    return A;
+    let t = '',
+      A = '';
+    for (let o, n = 0, l = e.length; n < l; n++) (o = e[n]) !== A && (t += A = o);
+    return t;
   }
-  function _(e, A) {
-    const t = e.length,
-      i = [];
-    for (let g = 0, l = 0; g < t; g++) {
-      const r = e[g];
-      r && !A[r] && (i[l++] = r);
+  function _(e, t) {
+    const A = e.length,
+      o = [];
+    for (let n = 0, l = 0; n < A; n++) {
+      const r = e[n];
+      r && !t[r] && (o[l++] = r);
     }
-    return i;
+    return o;
   }
   function $(e) {
-    return P.call(this, ('' + e).toLowerCase(), !1, v, !1);
+    return P.call(this, ('' + e).toLowerCase(), !1, z, !1);
   }
   const ee = {},
-    te = {};
-  function Ae(e) {
-    U(e, 'add'), U(e, 'append'), U(e, 'search'), U(e, 'update'), U(e, 'remove');
+    Ae = {};
+  function te(e) {
+    Y(e, 'add'), Y(e, 'append'), Y(e, 'search'), Y(e, 'update'), Y(e, 'remove');
   }
-  function U(e, A) {
-    e[A + 'Async'] = function () {
-      const t = this,
-        i = arguments,
-        g = i[i.length - 1];
+  function Y(e, t) {
+    e[t + 'Async'] = function () {
+      const A = this,
+        o = arguments,
+        n = o[o.length - 1];
       let l;
-      j(g) && ((l = g), delete i[i.length - 1]);
-      const r = new Promise(function (u) {
+      j(n) && ((l = n), delete o[o.length - 1]);
+      const r = new Promise(function (B) {
         setTimeout(function () {
-          t.async = !0;
-          const s = t[A].apply(t, i);
-          (t.async = !1), u(s);
+          A.async = !0;
+          const s = A[t].apply(A, o);
+          (A.async = !1), B(s);
         });
       });
       return l ? (r.then(l), this) : r;
     };
   }
-  function ie(e, A, t, i) {
-    const g = e.length;
+  function oe(e, t, A, o) {
+    const n = e.length;
     let l,
       r,
-      u = [],
+      B = [],
       s = 0;
-    i && (i = []);
-    for (let n = g - 1; 0 <= n; n--) {
-      const a = e[n],
-        o = a.length,
+    o && (o = []);
+    for (let g = n - 1; 0 <= g; g--) {
+      const c = e[g],
+        i = c.length,
         h = G();
-      let B = !l;
-      for (let I = 0; I < o; I++) {
-        const f = a[I],
-          D = f.length;
-        if (D)
-          for (let d, E, m = 0; m < D; m++)
-            if (((E = f[m]), l)) {
-              if (l[E]) {
-                if (!n) {
-                  if (t) t--;
-                  else if (((u[s++] = E), s === A)) return u;
+      let u = !l;
+      for (let E = 0; E < i; E++) {
+        const w = c[E],
+          f = w.length;
+        if (f)
+          for (let d, p, m = 0; m < f; m++)
+            if (((p = w[m]), l)) {
+              if (l[p]) {
+                if (!g) {
+                  if (A) A--;
+                  else if (((B[s++] = p), s === t)) return B;
                 }
-                (n || i) && (h[E] = 1), (B = !0);
+                (g || o) && (h[p] = 1), (u = !0);
               }
-              if (i && ((d = (r[E] || 0) + 1), (r[E] = d), d < g)) {
-                const p = i[d - 2] || (i[d - 2] = []);
-                p[p.length] = E;
+              if (o && ((d = (r[p] || 0) + 1), (r[p] = d), d < n)) {
+                const I = o[d - 2] || (o[d - 2] = []);
+                I[I.length] = p;
               }
-            } else h[E] = 1;
+            } else h[p] = 1;
       }
-      if (i) l || (r = h);
-      else if (!B) return [];
+      if (o) l || (r = h);
+      else if (!u) return [];
       l = h;
     }
-    if (i)
-      for (let n, a, o = i.length - 1; 0 <= o; o--) {
-        (n = i[o]), (a = n.length);
-        for (let h, B = 0; B < a; B++)
-          if (((h = n[B]), !l[h])) {
-            if (t) t--;
-            else if (((u[s++] = h), s === A)) return u;
+    if (o)
+      for (let g, c, i = o.length - 1; 0 <= i; i--) {
+        (g = o[i]), (c = g.length);
+        for (let h, u = 0; u < c; u++)
+          if (((h = g[u]), !l[h])) {
+            if (A) A--;
+            else if (((B[s++] = h), s === t)) return B;
             l[h] = 1;
           }
       }
-    return u;
+    return B;
   }
-  function y(e) {
+  function U(e) {
     (this.limit = e !== !0 && e), (this.cache = G()), (this.queue = []);
   }
-  function oe(e, A, t) {
-    R(e) && (e = e.query);
-    let i = this.cache.get(e);
-    return i || ((i = this.search(e, A, t)), this.cache.set(e, i)), i;
+  function ie(e, t, A) {
+    y(e) && (e = e.query);
+    let o = this.cache.get(e);
+    return o || ((o = this.search(e, t, A)), this.cache.set(e, o)), o;
   }
-  (y.prototype.set = function (e, A) {
+  (U.prototype.set = function (e, t) {
     if (!this.cache[e]) {
-      let t = this.queue.length;
-      t === this.limit ? delete this.cache[this.queue[t - 1]] : t++;
-      for (let i = t - 1; 0 < i; i--) this.queue[i] = this.queue[i - 1];
+      let A = this.queue.length;
+      A === this.limit ? delete this.cache[this.queue[A - 1]] : A++;
+      for (let o = A - 1; 0 < o; o--) this.queue[o] = this.queue[o - 1];
       this.queue[0] = e;
     }
-    this.cache[e] = A;
+    this.cache[e] = t;
   }),
-    (y.prototype.get = function (e) {
-      const A = this.cache[e];
-      if (this.limit && A) {
-        const t = this.queue.indexOf(e);
-        if (t) {
-          const i = this.queue[t - 1];
-          (this.queue[t - 1] = this.queue[t]), (this.queue[t] = i);
+    (U.prototype.get = function (e) {
+      const t = this.cache[e];
+      if (this.limit && t) {
+        const A = this.queue.indexOf(e);
+        if (A) {
+          const o = this.queue[A - 1];
+          (this.queue[A - 1] = this.queue[A]), (this.queue[A] = o);
         }
       }
-      return A;
+      return t;
     }),
-    (y.prototype.del = function (e) {
-      for (let A, t, i = 0; i < this.queue.length; i++)
-        (t = this.queue[i]), (A = this.cache[t]), A.includes(e) && (this.queue.splice(i--, 1), delete this.cache[t]);
+    (U.prototype.del = function (e) {
+      for (let t, A, o = 0; o < this.queue.length; o++)
+        (A = this.queue[o]), (t = this.cache[A]), t.includes(e) && (this.queue.splice(o--, 1), delete this.cache[A]);
     });
-  const ne = {
+  const ge = {
     memory: { charset: 'latin:extra', resolution: 3, minlength: 4, fastupdate: !1 },
     performance: { resolution: 3, minlength: 3, optimize: !1, context: { depth: 2, resolution: 1 } },
     match: { charset: 'latin:extra', tokenize: 'reverse' },
     score: { charset: 'latin:advanced', resolution: 20, minlength: 3, context: { depth: 3, resolution: 9 } },
     default: {},
   };
-  function ge(e) {
-    if (M(e)) e = ne[e];
+  function ne(e) {
+    if (S(e)) e = ge[e];
     else {
-      const A = e.preset;
-      A && (e = Object.assign({}, A[A], e));
+      const t = e.preset;
+      t && (e = Object.assign({}, t[t], e));
     }
     return e;
   }
-  function se(e, A, t, i, g, l, r) {
+  function se(e, t, A, o, n, l, r) {
     setTimeout(function () {
-      const u = e(t ? t + '.' + i : i, JSON.stringify(r));
-      u && u.then
-        ? u.then(function () {
-            A.export(e, A, t, g, l + 1);
+      const B = e(A ? A + '.' + o : o, JSON.stringify(r));
+      B && B.then
+        ? B.then(function () {
+            t.export(e, t, A, n, l + 1);
           })
-        : A.export(e, A, t, g, l + 1);
+        : t.export(e, t, A, n, l + 1);
     });
   }
-  function re(e, A, t, i, g) {
+  function re(e, t, A, o, n) {
     let l, r;
-    switch (g || (g = 0)) {
+    switch (n || (n = 0)) {
       case 0:
-        if (((l = 'reg'), this.fastupdate)) for (let u in ((r = G()), this.register)) r[u] = 1;
+        if (((l = 'reg'), this.fastupdate)) for (let B in ((r = G()), this.register)) r[B] = 1;
         else r = this.register;
         break;
       case 1:
@@ -398,113 +449,113 @@
       default:
         return;
     }
-    return se(e, A || this, t, l, i, g, r), !0;
+    return se(e, t || this, A, l, o, n, r), !0;
   }
-  function le(e, A) {
-    A &&
-      (M(A) && (A = JSON.parse(A)),
+  function le(e, t) {
+    t &&
+      (S(t) && (t = JSON.parse(t)),
       e === 'cfg'
-        ? (this.optimize = !!A.opt)
+        ? (this.optimize = !!t.opt)
         : e === 'reg'
-        ? ((this.fastupdate = !1), (this.register = A))
+        ? ((this.fastupdate = !1), (this.register = t))
         : e === 'map'
-        ? (this.map = A)
-        : e === 'ctx' && (this.ctx = A));
+        ? (this.map = t)
+        : e === 'ctx' && (this.ctx = t));
   }
-  function k(e, A) {
+  function k(e, t) {
     if (!(this instanceof k)) return new k(e);
-    let t, i, g;
+    let A, o, n;
     e
-      ? ((e = ge(e)),
-        (t = e.charset),
-        (i = e.lang),
-        M(t) && (t.indexOf(':') === -1 && (t += ':default'), (t = te[t])),
-        M(i) && (i = ee[i]))
+      ? ((e = ne(e)),
+        (A = e.charset),
+        (o = e.lang),
+        S(A) && (A.indexOf(':') === -1 && (A += ':default'), (A = Ae[A])),
+        S(o) && (o = ee[o]))
       : (e = {});
     let l,
       r,
-      u = e.context || {};
-    (this.encode = e.encode || (t && t.encode) || $),
-      (this.register = A || G()),
+      B = e.context || {};
+    (this.encode = e.encode || (A && A.encode) || $),
+      (this.register = t || G()),
       (this.resolution = l = e.resolution || 9),
-      (this.tokenize = g = (t && t.tokenize) || e.tokenize || 'strict'),
-      (this.depth = g === 'strict' && u.depth),
-      (this.bidirectional = Y(u.bidirectional, !0)),
-      (this.optimize = r = Y(e.optimize, !0)),
-      (this.fastupdate = Y(e.fastupdate, !0)),
+      (this.tokenize = n = (A && A.tokenize) || e.tokenize || 'strict'),
+      (this.depth = n === 'strict' && B.depth),
+      (this.bidirectional = J(B.bidirectional, !0)),
+      (this.optimize = r = J(e.optimize, !0)),
+      (this.fastupdate = J(e.fastupdate, !0)),
       (this.minlength = e.minlength || 1),
       (this.boost = e.boost),
       (this.map = r ? Z(l) : G()),
-      (this.resolution_ctx = l = u.resolution || 1),
+      (this.resolution_ctx = l = B.resolution || 1),
       (this.ctx = r ? Z(l) : G()),
-      (this.rtl = (t && t.rtl) || e.rtl),
-      (this.matcher = (g = e.matcher || (i && i.matcher)) && q(g, !1)),
-      (this.stemmer = (g = e.stemmer || (i && i.stemmer)) && q(g, !0)),
-      (this.filter = (g = e.filter || (i && i.filter)) && z(g)),
-      (this.cache = (g = e.cache) && new y(g));
+      (this.rtl = (A && A.rtl) || e.rtl),
+      (this.matcher = (n = e.matcher || (o && o.matcher)) && T(n, !1)),
+      (this.stemmer = (n = e.stemmer || (o && o.stemmer)) && T(n, !0)),
+      (this.filter = (n = e.filter || (o && o.filter)) && v(n)),
+      (this.cache = (n = e.cache) && new U(n));
   }
-  (k.prototype.append = function (e, A) {
-    return this.add(e, A, !0);
+  (k.prototype.append = function (e, t) {
+    return this.add(e, t, !0);
   }),
-    (k.prototype.add = function (e, A, t, i) {
-      if (A && (e || e === 0)) {
-        if (!i && !t && this.register[e]) return this.update(e, A);
-        A = this.encode('' + A);
-        const g = A.length;
-        if (g) {
+    (k.prototype.add = function (e, t, A, o) {
+      if (t && (e || e === 0)) {
+        if (!o && !A && this.register[e]) return this.update(e, t);
+        t = this.encode('' + t);
+        const n = t.length;
+        if (n) {
           const l = G(),
             r = G(),
-            u = this.depth,
+            B = this.depth,
             s = this.resolution;
-          for (let n = 0; n < g; n++) {
-            let a = A[this.rtl ? g - 1 - n : n],
-              o = a.length;
-            if (a && o >= this.minlength && (u || !r[a])) {
-              let h = F(s, g, n),
-                B = '';
+          for (let g = 0; g < n; g++) {
+            let c = t[this.rtl ? n - 1 - g : g],
+              i = c.length;
+            if (c && i >= this.minlength && (B || !r[c])) {
+              let h = M(s, n, g),
+                u = '';
               switch (this.tokenize) {
                 case 'full':
-                  if (2 < o) {
-                    for (let I = 0; I < o; I++)
-                      for (let f = o; f > I; f--)
-                        if (f - I >= this.minlength) {
-                          const D = F(s, g, n, o, I);
-                          (B = a.substring(I, f)), this.push_index(r, B, D, e, t);
+                  if (2 < i) {
+                    for (let E = 0; E < i; E++)
+                      for (let w = i; w > E; w--)
+                        if (w - E >= this.minlength) {
+                          const f = M(s, n, g, i, E);
+                          (u = c.substring(E, w)), this.push_index(r, u, f, e, A);
                         }
                     break;
                   }
                 case 'reverse':
-                  if (1 < o) {
-                    for (let I = o - 1; 0 < I; I--)
-                      if (((B = a[I] + B), B.length >= this.minlength)) {
-                        const f = F(s, g, n, o, I);
-                        this.push_index(r, B, f, e, t);
+                  if (1 < i) {
+                    for (let E = i - 1; 0 < E; E--)
+                      if (((u = c[E] + u), u.length >= this.minlength)) {
+                        const w = M(s, n, g, i, E);
+                        this.push_index(r, u, w, e, A);
                       }
-                    B = '';
+                    u = '';
                   }
                 case 'forward':
-                  if (1 < o) {
-                    for (let I = 0; I < o; I++)
-                      (B += a[I]), B.length >= this.minlength && this.push_index(r, B, h, e, t);
+                  if (1 < i) {
+                    for (let E = 0; E < i; E++)
+                      (u += c[E]), u.length >= this.minlength && this.push_index(r, u, h, e, A);
                     break;
                   }
                 default:
                   if (
-                    (this.boost && (h = Math.min(0 | (h / this.boost(A, a, n)), s - 1)),
-                    this.push_index(r, a, h, e, t),
-                    u && 1 < g && n < g - 1)
+                    (this.boost && (h = Math.min(0 | (h / this.boost(t, c, g)), s - 1)),
+                    this.push_index(r, c, h, e, A),
+                    B && 1 < n && g < n - 1)
                   ) {
-                    const I = G(),
-                      f = this.resolution_ctx,
-                      D = a,
-                      d = Math.min(u + 1, g - n);
-                    I[D] = 1;
-                    for (let E = 1; E < d; E++)
-                      if (((a = A[this.rtl ? g - 1 - n - E : n + E]), a && a.length >= this.minlength && !I[a])) {
-                        I[a] = 1;
-                        const m = F(f + (g / 2 > f ? 0 : 1), g, n, d - 1, E - 1),
-                          p = this.bidirectional && a > D;
-                        this.push_index(l, p ? D : a, m, e, t, p ? a : D);
+                    const E = G(),
+                      w = this.resolution_ctx,
+                      f = c,
+                      d = Math.min(B + 1, n - g);
+                    E[f] = 1;
+                    for (let p = 1; p < d; p++)
+                      if (((c = t[this.rtl ? n - 1 - g - p : g + p]), c && c.length >= this.minlength && !E[c])) {
+                        E[c] = 1;
+                        const m = M(w + (n / 2 > w ? 0 : 1), n, g, d - 1, p - 1),
+                          I = this.bidirectional && c > f;
+                        this.push_index(l, I ? f : c, m, e, A, I ? c : f);
                       }
                   }
               }
@@ -515,169 +566,169 @@
       }
       return this;
     });
-  function F(e, A, t, i, g) {
-    return t && 1 < e ? (A + (i || 0) <= e ? t + (g || 0) : 0 | (((e - 1) / (A + (i || 0))) * (t + (g || 0)) + 1)) : 0;
+  function M(e, t, A, o, n) {
+    return A && 1 < e ? (t + (o || 0) <= e ? A + (n || 0) : 0 | (((e - 1) / (t + (o || 0))) * (A + (n || 0)) + 1)) : 0;
   }
-  (k.prototype.push_index = function (e, A, t, i, g, l) {
+  (k.prototype.push_index = function (e, t, A, o, n, l) {
     let r = l ? this.ctx : this.map;
     if (
-      (!e[A] || (l && !e[A][l])) &&
-      (this.optimize && (r = r[t]),
-      l ? ((e = e[A] || (e[A] = G())), (e[l] = 1), (r = r[l] || (r[l] = G()))) : (e[A] = 1),
-      (r = r[A] || (r[A] = [])),
-      this.optimize || (r = r[t] || (r[t] = [])),
-      (!g || !r.includes(i)) && ((r[r.length] = i), this.fastupdate))
+      (!e[t] || (l && !e[t][l])) &&
+      (this.optimize && (r = r[A]),
+      l ? ((e = e[t] || (e[t] = G())), (e[l] = 1), (r = r[l] || (r[l] = G()))) : (e[t] = 1),
+      (r = r[t] || (r[t] = [])),
+      this.optimize || (r = r[A] || (r[A] = [])),
+      (!n || !r.includes(o)) && ((r[r.length] = o), this.fastupdate))
     ) {
-      const u = this.register[i] || (this.register[i] = []);
-      u[u.length] = r;
+      const B = this.register[o] || (this.register[o] = []);
+      B[B.length] = r;
     }
   }),
-    (k.prototype.search = function (e, A, t) {
-      t || (!A && R(e) ? ((t = e), (e = t.query)) : R(A) && (t = A));
-      let i,
-        g,
+    (k.prototype.search = function (e, t, A) {
+      A || (!t && y(e) ? ((A = e), (e = A.query)) : y(t) && (A = t));
+      let o,
+        n,
         l,
         r = [],
-        u = 0;
+        B = 0;
       if (
-        (t && ((e = t.query || e), (A = t.limit), (u = t.offset || 0), (g = t.context), (l = t.suggest)),
-        e && ((e = this.encode('' + e)), (i = e.length), 1 < i))
+        (A && ((e = A.query || e), (t = A.limit), (B = A.offset || 0), (n = A.context), (l = A.suggest)),
+        e && ((e = this.encode('' + e)), (o = e.length), 1 < o))
       ) {
-        const o = G(),
+        const i = G(),
           h = [];
-        for (let B, I = 0, f = 0; I < i; I++)
-          if (((B = e[I]), B && B.length >= this.minlength && !o[B])) {
-            if (!this.optimize && !l && !this.map[B]) return r;
-            (h[f++] = B), (o[B] = 1);
+        for (let u, E = 0, w = 0; E < o; E++)
+          if (((u = e[E]), u && u.length >= this.minlength && !i[u])) {
+            if (!this.optimize && !l && !this.map[u]) return r;
+            (h[w++] = u), (i[u] = 1);
           }
-        (e = h), (i = e.length);
+        (e = h), (o = e.length);
       }
-      if (!i) return r;
-      A || (A = 100);
+      if (!o) return r;
+      t || (t = 100);
       let s,
-        n = this.depth && 1 < i && g !== !1,
-        a = 0;
-      n ? ((s = e[0]), (a = 1)) : 1 < i && e.sort(L);
-      for (let o, h; a < i; a++) {
+        g = this.depth && 1 < o && n !== !1,
+        c = 0;
+      g ? ((s = e[0]), (c = 1)) : 1 < o && e.sort(V);
+      for (let i, h; c < o; c++) {
         if (
-          ((h = e[a]),
-          n
-            ? ((o = this.add_result(r, l, A, u, i === 2, h, s)), (!l || o !== !1 || !r.length) && (s = h))
-            : (o = this.add_result(r, l, A, u, i === 1, h)),
-          o)
+          ((h = e[c]),
+          g
+            ? ((i = this.add_result(r, l, t, B, o === 2, h, s)), (!l || i !== !1 || !r.length) && (s = h))
+            : (i = this.add_result(r, l, t, B, o === 1, h)),
+          i)
         )
-          return o;
-        if (l && a == i - 1) {
-          let B = r.length;
-          if (!B) {
-            if (n) {
-              (n = 0), (a = -1);
+          return i;
+        if (l && c == o - 1) {
+          let u = r.length;
+          if (!u) {
+            if (g) {
+              (g = 0), (c = -1);
               continue;
             }
             return r;
           }
-          if (B === 1) return H(r[0], A, u);
+          if (u === 1) return x(r[0], t, B);
         }
       }
-      return ie(r, A, u, l);
+      return oe(r, t, B, l);
     }),
-    (k.prototype.add_result = function (e, A, t, i, g, l, r) {
-      let u = [],
+    (k.prototype.add_result = function (e, t, A, o, n, l, r) {
+      let B = [],
         s = r ? this.ctx : this.map;
-      if ((this.optimize || (s = T(s, l, r, this.bidirectional)), s)) {
-        let n = 0;
-        const a = Math.min(s.length, r ? this.resolution_ctx : this.resolution);
+      if ((this.optimize || (s = q(s, l, r, this.bidirectional)), s)) {
+        let g = 0;
+        const c = Math.min(s.length, r ? this.resolution_ctx : this.resolution);
         for (
-          let o, h, B = 0, I = 0;
-          B < a &&
-          ((o = s[B]),
+          let i, h, u = 0, E = 0;
+          u < c &&
+          ((i = s[u]),
           !(
-            o &&
-            (this.optimize && (o = T(o, l, r, this.bidirectional)),
-            i && o && g && ((h = o.length), h <= i ? ((i -= h), (o = null)) : ((o = o.slice(i)), (i = 0))),
-            o && ((u[n++] = o), g && ((I += o.length), I >= t)))
+            i &&
+            (this.optimize && (i = q(i, l, r, this.bidirectional)),
+            o && i && n && ((h = i.length), h <= o ? ((o -= h), (i = null)) : ((i = i.slice(o)), (o = 0))),
+            i && ((B[g++] = i), n && ((E += i.length), E >= A)))
           ));
-          B++
+          u++
         );
-        if (n) return g ? H(u, t, 0) : void (e[e.length] = u);
+        if (g) return n ? x(B, A, 0) : void (e[e.length] = B);
       }
-      return !A && u;
+      return !t && B;
     });
-  function H(e, A, t) {
-    return (e = e.length === 1 ? e[0] : V(e)), t || e.length > A ? e.slice(t, t + A) : e;
+  function x(e, t, A) {
+    return (e = e.length === 1 ? e[0] : N(e)), A || e.length > t ? e.slice(A, A + t) : e;
   }
-  function T(e, A, t, i) {
-    if (t) {
-      const g = i && A > t;
-      (e = e[g ? A : t]), (e = e && e[g ? t : A]);
-    } else e = e[A];
+  function q(e, t, A, o) {
+    if (A) {
+      const n = o && t > A;
+      (e = e[n ? t : A]), (e = e && e[n ? A : t]);
+    } else e = e[t];
     return e;
   }
   (k.prototype.contain = function (e) {
     return !!this.register[e];
   }),
-    (k.prototype.update = function (e, A) {
-      return this.remove(e).add(e, A);
+    (k.prototype.update = function (e, t) {
+      return this.remove(e).add(e, t);
     }),
-    (k.prototype.remove = function (e, A) {
-      const t = this.register[e];
-      if (t) {
-        if (this.fastupdate) for (let i, g = 0; g < t.length; g++) (i = t[g]), i.splice(i.indexOf(e), 1);
+    (k.prototype.remove = function (e, t) {
+      const A = this.register[e];
+      if (A) {
+        if (this.fastupdate) for (let o, n = 0; n < A.length; n++) (o = A[n]), o.splice(o.indexOf(e), 1);
         else
-          S(this.map, e, this.resolution, this.optimize),
-            this.depth && S(this.ctx, e, this.resolution_ctx, this.optimize);
-        A || delete this.register[e], this.cache && this.cache.del(e);
+          F(this.map, e, this.resolution, this.optimize),
+            this.depth && F(this.ctx, e, this.resolution_ctx, this.optimize);
+        t || delete this.register[e], this.cache && this.cache.del(e);
       }
       return this;
     });
-  function S(e, A, t, i, g) {
+  function F(e, t, A, o, n) {
     let l = 0;
-    if (N(e))
-      if (g) {
-        const r = e.indexOf(A);
+    if (L(e))
+      if (n) {
+        const r = e.indexOf(t);
         r === -1 ? l++ : 1 < e.length && (e.splice(r, 1), l++);
       } else {
-        g = Math.min(e.length, t);
-        for (let r, u = 0; u < g; u++) (r = e[u]), r && ((l = S(r, A, t, i, g)), !i && !l && delete e[u]);
+        n = Math.min(e.length, A);
+        for (let r, B = 0; B < n; B++) (r = e[B]), r && ((l = F(r, t, A, o, n)), !o && !l && delete e[B]);
       }
-    else for (let r in e) (l = S(e[r], A, t, i, g)), l || delete e[r];
+    else for (let r in e) (l = F(e[r], t, A, o, n)), l || delete e[r];
     return l;
   }
-  (k.prototype.searchCache = oe), (k.prototype.export = re), (k.prototype.import = le), Ae(k.prototype);
+  (k.prototype.searchCache = ie), (k.prototype.export = re), (k.prototype.import = le), te(k.prototype);
   function he(e) {
     return e && e.__esModule && Object.prototype.hasOwnProperty.call(e, 'default') ? e.default : e;
   }
-  var J = { exports: {} };
-  J.exports,
+  var K = { exports: {} };
+  K.exports,
     (function (e) {
-      var A = (function () {
-        var t = String.fromCharCode,
-          i = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=',
-          g = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-$',
+      var t = (function () {
+        var A = String.fromCharCode,
+          o = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=',
+          n = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+-$',
           l = {};
-        function r(s, n) {
+        function r(s, g) {
           if (!l[s]) {
             l[s] = {};
-            for (var a = 0; a < s.length; a++) l[s][s.charAt(a)] = a;
+            for (var c = 0; c < s.length; c++) l[s][s.charAt(c)] = c;
           }
-          return l[s][n];
+          return l[s][g];
         }
-        var u = {
+        var B = {
           compressToBase64: function (s) {
             if (s == null) return '';
-            var n = u._compress(s, 6, function (a) {
-              return i.charAt(a);
+            var g = B._compress(s, 6, function (c) {
+              return o.charAt(c);
             });
-            switch (n.length % 4) {
+            switch (g.length % 4) {
               default:
               case 0:
-                return n;
+                return g;
               case 1:
-                return n + '===';
+                return g + '===';
               case 2:
-                return n + '==';
+                return g + '==';
               case 3:
-                return n + '=';
+                return g + '=';
             }
           },
           decompressFromBase64: function (s) {
@@ -685,15 +736,15 @@
               ? ''
               : s == ''
               ? null
-              : u._decompress(s.length, 32, function (n) {
-                  return r(i, s.charAt(n));
+              : B._decompress(s.length, 32, function (g) {
+                  return r(o, s.charAt(g));
                 });
           },
           compressToUTF16: function (s) {
             return s == null
               ? ''
-              : u._compress(s, 15, function (n) {
-                  return t(n + 32);
+              : B._compress(s, 15, function (g) {
+                  return A(g + 32);
                 }) + ' ';
           },
           decompressFromUTF16: function (s) {
@@ -701,33 +752,33 @@
               ? ''
               : s == ''
               ? null
-              : u._decompress(s.length, 16384, function (n) {
-                  return s.charCodeAt(n) - 32;
+              : B._decompress(s.length, 16384, function (g) {
+                  return s.charCodeAt(g) - 32;
                 });
           },
           compressToUint8Array: function (s) {
-            for (var n = u.compress(s), a = new Uint8Array(n.length * 2), o = 0, h = n.length; o < h; o++) {
-              var B = n.charCodeAt(o);
-              (a[o * 2] = B >>> 8), (a[o * 2 + 1] = B % 256);
+            for (var g = B.compress(s), c = new Uint8Array(g.length * 2), i = 0, h = g.length; i < h; i++) {
+              var u = g.charCodeAt(i);
+              (c[i * 2] = u >>> 8), (c[i * 2 + 1] = u % 256);
             }
-            return a;
+            return c;
           },
           decompressFromUint8Array: function (s) {
-            if (s == null) return u.decompress(s);
-            for (var n = new Array(s.length / 2), a = 0, o = n.length; a < o; a++) n[a] = s[a * 2] * 256 + s[a * 2 + 1];
+            if (s == null) return B.decompress(s);
+            for (var g = new Array(s.length / 2), c = 0, i = g.length; c < i; c++) g[c] = s[c * 2] * 256 + s[c * 2 + 1];
             var h = [];
             return (
-              n.forEach(function (B) {
-                h.push(t(B));
+              g.forEach(function (u) {
+                h.push(A(u));
               }),
-              u.decompress(h.join(''))
+              B.decompress(h.join(''))
             );
           },
           compressToEncodedURIComponent: function (s) {
             return s == null
               ? ''
-              : u._compress(s, 6, function (n) {
-                  return g.charAt(n);
+              : B._compress(s, 6, function (g) {
+                  return n.charAt(g);
                 });
           },
           decompressFromEncodedURIComponent: function (s) {
@@ -736,208 +787,208 @@
               : s == ''
               ? null
               : ((s = s.replace(/ /g, '+')),
-                u._decompress(s.length, 32, function (n) {
-                  return r(g, s.charAt(n));
+                B._decompress(s.length, 32, function (g) {
+                  return r(n, s.charAt(g));
                 }));
           },
           compress: function (s) {
-            return u._compress(s, 16, function (n) {
-              return t(n);
+            return B._compress(s, 16, function (g) {
+              return A(g);
             });
           },
-          _compress: function (s, n, a) {
+          _compress: function (s, g, c) {
             if (s == null) return '';
-            var o,
+            var i,
               h,
-              B = {},
-              I = {},
+              u = {},
+              E = {},
+              w = '',
               f = '',
-              D = '',
               d = '',
-              E = 2,
-              m = 3,
               p = 2,
-              w = [],
-              c = 0,
+              m = 3,
+              I = 2,
+              D = [],
+              a = 0,
               Q = 0,
               C;
             for (C = 0; C < s.length; C += 1)
               if (
-                ((f = s.charAt(C)),
-                Object.prototype.hasOwnProperty.call(B, f) || ((B[f] = m++), (I[f] = !0)),
-                (D = d + f),
-                Object.prototype.hasOwnProperty.call(B, D))
+                ((w = s.charAt(C)),
+                Object.prototype.hasOwnProperty.call(u, w) || ((u[w] = m++), (E[w] = !0)),
+                (f = d + w),
+                Object.prototype.hasOwnProperty.call(u, f))
               )
-                d = D;
+                d = f;
               else {
-                if (Object.prototype.hasOwnProperty.call(I, d)) {
+                if (Object.prototype.hasOwnProperty.call(E, d)) {
                   if (d.charCodeAt(0) < 256) {
-                    for (o = 0; o < p; o++) (c = c << 1), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++;
-                    for (h = d.charCodeAt(0), o = 0; o < 8; o++)
-                      (c = (c << 1) | (h & 1)), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++, (h = h >> 1);
+                    for (i = 0; i < I; i++) (a = a << 1), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++;
+                    for (h = d.charCodeAt(0), i = 0; i < 8; i++)
+                      (a = (a << 1) | (h & 1)), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++, (h = h >> 1);
                   } else {
-                    for (h = 1, o = 0; o < p; o++)
-                      (c = (c << 1) | h), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++, (h = 0);
-                    for (h = d.charCodeAt(0), o = 0; o < 16; o++)
-                      (c = (c << 1) | (h & 1)), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++, (h = h >> 1);
+                    for (h = 1, i = 0; i < I; i++)
+                      (a = (a << 1) | h), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++, (h = 0);
+                    for (h = d.charCodeAt(0), i = 0; i < 16; i++)
+                      (a = (a << 1) | (h & 1)), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++, (h = h >> 1);
                   }
-                  E--, E == 0 && ((E = Math.pow(2, p)), p++), delete I[d];
+                  p--, p == 0 && ((p = Math.pow(2, I)), I++), delete E[d];
                 } else
-                  for (h = B[d], o = 0; o < p; o++)
-                    (c = (c << 1) | (h & 1)), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++, (h = h >> 1);
-                E--, E == 0 && ((E = Math.pow(2, p)), p++), (B[D] = m++), (d = String(f));
+                  for (h = u[d], i = 0; i < I; i++)
+                    (a = (a << 1) | (h & 1)), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++, (h = h >> 1);
+                p--, p == 0 && ((p = Math.pow(2, I)), I++), (u[f] = m++), (d = String(w));
               }
             if (d !== '') {
-              if (Object.prototype.hasOwnProperty.call(I, d)) {
+              if (Object.prototype.hasOwnProperty.call(E, d)) {
                 if (d.charCodeAt(0) < 256) {
-                  for (o = 0; o < p; o++) (c = c << 1), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++;
-                  for (h = d.charCodeAt(0), o = 0; o < 8; o++)
-                    (c = (c << 1) | (h & 1)), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++, (h = h >> 1);
+                  for (i = 0; i < I; i++) (a = a << 1), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++;
+                  for (h = d.charCodeAt(0), i = 0; i < 8; i++)
+                    (a = (a << 1) | (h & 1)), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++, (h = h >> 1);
                 } else {
-                  for (h = 1, o = 0; o < p; o++)
-                    (c = (c << 1) | h), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++, (h = 0);
-                  for (h = d.charCodeAt(0), o = 0; o < 16; o++)
-                    (c = (c << 1) | (h & 1)), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++, (h = h >> 1);
+                  for (h = 1, i = 0; i < I; i++)
+                    (a = (a << 1) | h), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++, (h = 0);
+                  for (h = d.charCodeAt(0), i = 0; i < 16; i++)
+                    (a = (a << 1) | (h & 1)), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++, (h = h >> 1);
                 }
-                E--, E == 0 && ((E = Math.pow(2, p)), p++), delete I[d];
+                p--, p == 0 && ((p = Math.pow(2, I)), I++), delete E[d];
               } else
-                for (h = B[d], o = 0; o < p; o++)
-                  (c = (c << 1) | (h & 1)), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++, (h = h >> 1);
-              E--, E == 0 && ((E = Math.pow(2, p)), p++);
+                for (h = u[d], i = 0; i < I; i++)
+                  (a = (a << 1) | (h & 1)), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++, (h = h >> 1);
+              p--, p == 0 && ((p = Math.pow(2, I)), I++);
             }
-            for (h = 2, o = 0; o < p; o++)
-              (c = (c << 1) | (h & 1)), Q == n - 1 ? ((Q = 0), w.push(a(c)), (c = 0)) : Q++, (h = h >> 1);
+            for (h = 2, i = 0; i < I; i++)
+              (a = (a << 1) | (h & 1)), Q == g - 1 ? ((Q = 0), D.push(c(a)), (a = 0)) : Q++, (h = h >> 1);
             for (;;)
-              if (((c = c << 1), Q == n - 1)) {
-                w.push(a(c));
+              if (((a = a << 1), Q == g - 1)) {
+                D.push(c(a));
                 break;
               } else Q++;
-            return w.join('');
+            return D.join('');
           },
           decompress: function (s) {
             return s == null
               ? ''
               : s == ''
               ? null
-              : u._decompress(s.length, 32768, function (n) {
-                  return s.charCodeAt(n);
+              : B._decompress(s.length, 32768, function (g) {
+                  return s.charCodeAt(g);
                 });
           },
-          _decompress: function (s, n, a) {
-            var o = [],
+          _decompress: function (s, g, c) {
+            var i = [],
               h = 4,
-              B = 4,
-              I = 3,
-              f = '',
-              D = [],
+              u = 4,
+              E = 3,
+              w = '',
+              f = [],
               d,
-              E,
-              m,
               p,
-              w,
-              c,
+              m,
+              I,
+              D,
+              a,
               Q,
-              C = { val: a(0), position: n, index: 1 };
-            for (d = 0; d < 3; d += 1) o[d] = d;
-            for (m = 0, w = Math.pow(2, 2), c = 1; c != w; )
-              (p = C.val & C.position),
+              C = { val: c(0), position: g, index: 1 };
+            for (d = 0; d < 3; d += 1) i[d] = d;
+            for (m = 0, D = Math.pow(2, 2), a = 1; a != D; )
+              (I = C.val & C.position),
                 (C.position >>= 1),
-                C.position == 0 && ((C.position = n), (C.val = a(C.index++))),
-                (m |= (p > 0 ? 1 : 0) * c),
-                (c <<= 1);
+                C.position == 0 && ((C.position = g), (C.val = c(C.index++))),
+                (m |= (I > 0 ? 1 : 0) * a),
+                (a <<= 1);
             switch (m) {
               case 0:
-                for (m = 0, w = Math.pow(2, 8), c = 1; c != w; )
-                  (p = C.val & C.position),
+                for (m = 0, D = Math.pow(2, 8), a = 1; a != D; )
+                  (I = C.val & C.position),
                     (C.position >>= 1),
-                    C.position == 0 && ((C.position = n), (C.val = a(C.index++))),
-                    (m |= (p > 0 ? 1 : 0) * c),
-                    (c <<= 1);
-                Q = t(m);
+                    C.position == 0 && ((C.position = g), (C.val = c(C.index++))),
+                    (m |= (I > 0 ? 1 : 0) * a),
+                    (a <<= 1);
+                Q = A(m);
                 break;
               case 1:
-                for (m = 0, w = Math.pow(2, 16), c = 1; c != w; )
-                  (p = C.val & C.position),
+                for (m = 0, D = Math.pow(2, 16), a = 1; a != D; )
+                  (I = C.val & C.position),
                     (C.position >>= 1),
-                    C.position == 0 && ((C.position = n), (C.val = a(C.index++))),
-                    (m |= (p > 0 ? 1 : 0) * c),
-                    (c <<= 1);
-                Q = t(m);
+                    C.position == 0 && ((C.position = g), (C.val = c(C.index++))),
+                    (m |= (I > 0 ? 1 : 0) * a),
+                    (a <<= 1);
+                Q = A(m);
                 break;
               case 2:
                 return '';
             }
-            for (o[3] = Q, E = Q, D.push(Q); ; ) {
+            for (i[3] = Q, p = Q, f.push(Q); ; ) {
               if (C.index > s) return '';
-              for (m = 0, w = Math.pow(2, I), c = 1; c != w; )
-                (p = C.val & C.position),
+              for (m = 0, D = Math.pow(2, E), a = 1; a != D; )
+                (I = C.val & C.position),
                   (C.position >>= 1),
-                  C.position == 0 && ((C.position = n), (C.val = a(C.index++))),
-                  (m |= (p > 0 ? 1 : 0) * c),
-                  (c <<= 1);
+                  C.position == 0 && ((C.position = g), (C.val = c(C.index++))),
+                  (m |= (I > 0 ? 1 : 0) * a),
+                  (a <<= 1);
               switch ((Q = m)) {
                 case 0:
-                  for (m = 0, w = Math.pow(2, 8), c = 1; c != w; )
-                    (p = C.val & C.position),
+                  for (m = 0, D = Math.pow(2, 8), a = 1; a != D; )
+                    (I = C.val & C.position),
                       (C.position >>= 1),
-                      C.position == 0 && ((C.position = n), (C.val = a(C.index++))),
-                      (m |= (p > 0 ? 1 : 0) * c),
-                      (c <<= 1);
-                  (o[B++] = t(m)), (Q = B - 1), h--;
+                      C.position == 0 && ((C.position = g), (C.val = c(C.index++))),
+                      (m |= (I > 0 ? 1 : 0) * a),
+                      (a <<= 1);
+                  (i[u++] = A(m)), (Q = u - 1), h--;
                   break;
                 case 1:
-                  for (m = 0, w = Math.pow(2, 16), c = 1; c != w; )
-                    (p = C.val & C.position),
+                  for (m = 0, D = Math.pow(2, 16), a = 1; a != D; )
+                    (I = C.val & C.position),
                       (C.position >>= 1),
-                      C.position == 0 && ((C.position = n), (C.val = a(C.index++))),
-                      (m |= (p > 0 ? 1 : 0) * c),
-                      (c <<= 1);
-                  (o[B++] = t(m)), (Q = B - 1), h--;
+                      C.position == 0 && ((C.position = g), (C.val = c(C.index++))),
+                      (m |= (I > 0 ? 1 : 0) * a),
+                      (a <<= 1);
+                  (i[u++] = A(m)), (Q = u - 1), h--;
                   break;
                 case 2:
-                  return D.join('');
+                  return f.join('');
               }
-              if ((h == 0 && ((h = Math.pow(2, I)), I++), o[Q])) f = o[Q];
-              else if (Q === B) f = E + E.charAt(0);
+              if ((h == 0 && ((h = Math.pow(2, E)), E++), i[Q])) w = i[Q];
+              else if (Q === u) w = p + p.charAt(0);
               else return null;
-              D.push(f), (o[B++] = E + f.charAt(0)), h--, (E = f), h == 0 && ((h = Math.pow(2, I)), I++);
+              f.push(w), (i[u++] = p + w.charAt(0)), h--, (p = w), h == 0 && ((h = Math.pow(2, E)), E++);
             }
           },
         };
-        return u;
+        return B;
       })();
       e != null
-        ? (e.exports = A)
+        ? (e.exports = t)
         : typeof angular < 'u' &&
           angular != null &&
           angular.module('LZString', []).factory('LZString', function () {
-            return A;
+            return t;
           });
-    })(J);
-  var ce = J.exports,
-    ae = he(ce);
-  const b = (() => {
+    })(K);
+  var ae = K.exports,
+    ce = he(ae);
+  const H = (() => {
       const e = new k({ tokenize: 'full' });
-      let A = !1;
+      let t = !1;
       return {
-        inited: A,
-        init: (g) => {
-          if (!A) {
-            for (const l of g) e.add(l.slug, `${l.title};${l.summary};${ae.decompressFromBase64(l.content ?? '')}`);
-            A = !0;
+        inited: t,
+        init: (n) => {
+          if (!t) {
+            for (const l of n) e.add(l.slug, `${l.title};${l.summary};${ce.decompressFromBase64(l.content ?? '')}`);
+            t = !0;
           }
         },
-        search: (g) => (A ? e.search(g) : void 0),
+        search: (n) => (t ? e.search(n) : void 0),
       };
     })(),
-    ue = (() => ({
-      data: W.filter((t) => !(t[1].options && t[1].options.includes('unlisted'))).flatMap((t) => t[1]),
+    Be = (() => ({
+      data: W.filter((A) => !(A[1].options && A[1].options.includes('unlisted'))).flatMap((A) => A[1]),
     }))();
   addEventListener('message', async (e) => {
-    const { type: A, payload: t } = e.data;
-    if ((A === 'init' && (b.init(ue.data), postMessage({ type: 'ready' })), A === 'query')) {
-      const i = b.search(t);
-      postMessage({ type: 'query', payload: i });
+    const { type: t, payload: A } = e.data;
+    if ((t === 'init' && (H.init(Be.data), postMessage({ type: 'ready' })), t === 'query')) {
+      const o = H.search(A);
+      postMessage({ type: 'query', payload: o });
     }
   });
 })();

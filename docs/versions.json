@@ -24,7 +24,10 @@
       "status": "☕️",
       "statusTip": "Give me a <a href=\"https://www.buymeacoffee.com/sebadev\" rel=\"external\" style=\"color:#0F0\" onMouseOver=\"this.style.color='#0FF'\" onMouseOut=\"this.style.color='#0F0'\" >Coffee break</a>",
       "avatar": "/_app/immutable/assets/avatar.9d2117a3.png",
-      "avatar_128": ["/_app/immutable/assets/avatar.f6a08045.avif", "/_app/immutable/assets/avatar.ec2b368f.webp"],
+      "avatar_128": [
+        "/_app/immutable/assets/avatar.f6a08045.avif",
+        "/_app/immutable/assets/avatar.ec2b368f.webp"
+      ],
       "avatar_48_png": "/_app/immutable/assets/avatar.3288fe50.jpeg",
       "avatar_96_png": "/_app/immutable/assets/avatar.2149bba4.jpeg",
       "avatar_192_png": "/_app/immutable/assets/avatar.fa6b069e.jpeg",
@@ -36,7 +39,9 @@
     }
   },
   "headConfig": {
-    "me": ["https://github.com/SebaOfficial"]
+    "me": [
+      "https://github.com/SebaOfficial"
+    ]
   },
   "svelte-QWER": {
     "name": "@sebaofficial/blog",
