@@ -25,8 +25,8 @@ function getAdapter() {
     return process.env.ADAPTER === 'node'
       ? adapterNode({ out: 'build' })
       : adapterStatic({
-          pages: 'docs',
-          assets: 'docs',
+          pages: 'build',
+          assets: 'build',
           fallback: undefined,
           strict: true,
         });
