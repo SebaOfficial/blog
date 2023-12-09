@@ -24,7 +24,7 @@ export const siteConfig: Site.Config = {
     name: 'Sebastiano Racca',
     status: '☕️',
     statusTip:
-      'Give me a <a href="https://www.buymeacoffee.com/sebadev" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >Coffee break</a>',
+      'Support me with a <a href="https://www.buymeacoffee.com/sebadev" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >Coffee</a>',
     avatar: Avatar,
     avatar_128: Avatar_128,
     avatar_48_png: Avatar_48_PNG,
