@@ -3,7 +3,7 @@ title: Create a Telegram Echo Bot
 description: Create a Telegram bot that replies to every message you send.
 summary: 🤖 Create a Telegram Echo Bot
 published: '2023-11-07T12:00:00.000+01:00'
-updated: '2023-11-07T12:00:00.000+01:00'
+updated: '2023-12-12T11:00:00.000+01:00'
 cover: ./cover.jpg
 coverCaption: Photo by <a href="https://unsplash.com/@rubaitulazad">Nitish Meena</a> on <a href="https://unsplash.com/photos/a-blue-and-white-square-button-with-a-paper-airplane-on-it-u4F54GIZWGI">Unsplash</a>
 coverStyle: 'IN'
@@ -30,7 +30,7 @@ tag:
                 ]
             },
             { name: 'bootstrap.php', icon: 'i-vscode-icons-file-type-php' },
-            { name: 'envirorment.php', icon: 'i-vscode-icons-file-type-php' }
+            { name: 'environment.php', icon: 'i-vscode-icons-file-type-php' }
         ]
       },
       {
@@ -44,7 +44,7 @@ tag:
 </script>
 
 # Introduction
-This article is part of the [FirstBot](/?tags-Series=PHPBot) serie.
+This article is part of the [FirstBot](/?tags-Series=PHPBot) series.
 We recommend reading the [introcution chapter](/create-your-first-bot) before continuing.
 
 ```bash
@@ -68,164 +68,140 @@ Here's a simple example on how to get updates from Telegram and reply to them wi
 /// showLineNumber
 /// title: bot.php
 <?php
-define("PRODUCTION", false);
-require_once "vendor/autoload.php";
 
-define("GREEN_TEXT", "\033[0;32m");
-define("RED_TEXT", "\033[0;31m");
-define("DEFAULT_TEXT", "\033[0m");
+require_once  "vendor/autoload.php";
 
-use TelegramSDK\BotAPI\Telegram\Bot;
-$bot = new Bot("YOUR_BOT_TOKEN", Bot::UPDATES_FROM_GET_UPDATES);
+use TelegramSDK\BotAPI\Exception\TelegramException;
+use TelegramSDK\BotAPI\Telegram\{Bot, Update};
 
-echo GREEN_TEXT . "Bot Started!\n" . DEFAULT_TEXT;
 
-while(true){
-    $updates = $bot->updates(true, $updates->lastUpdateID ?? null);
+define("GREEN_COLOR", "\033[0;32m");
+define("RED_COLOR", "\033[0;31m");
+define("DEFAULT_COLOR", "\033[0m");
+
+
+$bot = new Bot("YOUR_BOT_TOKEN", Update::UPDATES_FROM_GET_UPDATES);
+
+if(!$bot->isValidToken(true)) {
+    echo RED_COLOR . "Invalid bot token.\n" . DEFAULT_COLOR;
+    exit(1);
+}
+
+echo GREEN_COLOR . "Bot Started!\n" . DEFAULT_COLOR;
+
+for ( ; ; sleep(5)) {
+
+    $updates = $bot->updates(isset($updates) ? $updates->getLastUpdateId() : null);
 
     foreach($updates->result as $update){
         if(isset($update->message)){
-            $res = $bot->copyMessage([
-                "chat_id" => $update->chat->id,
-                "from_chat_id" => $update->chat->id,
-                "message_id" => $update->message->message_id
-            ]);
+            $chat = $update->getChat();
 
-            if($res->body->ok){
-                echo GREEN_TEXT . "Replied to " . $update->chat->id . "\n" . DEFAULT_TEXT;
-            } else{
-                echo RED_TEXT . "Coulnd't reply to " . $update->chat->id . ": " . $res->body->error . "\n" . DEFAULT_TEXT;
+            try {
+
+                $res = $bot->copyMessage([
+                    "chat_id" => $chat->id,
+                    "from_chat_id" => $chat->id,
+                    "message_id" => $update->getMessage()->message_id
+                ]);
+
+                echo GREEN_COLOR . "Replied to " . $chat->id . "\n" . DEFAULT_COLOR;
+
+            } catch (TelegramException $e) {
+                echo RED_COLOR . "Coulnd't reply to " . $chat->id . ": " . $e->getResponseBody()->description . "\n" . DEFAULT_COLOR;
             }
+
         }
     }
-
-    sleep(5);
 }
 ```
 
 ### 🤔 What Am I Doing?
-If you already worked with [TelegramSDK](https://github.com/TelegramSDK/BotAPI) you might already know what I've just written, but I still reccommend having a look at the [official documentation](https://botapi.racca.me/docs/examples/echo-bot) where this example is explained.
+If you already worked with [TelegramSDK](https://github.com/TelegramSDK/BotAPI) you might already know what I've just written, but I still reccommend having a look at the [official documentation](https://botapi.racca.me/) for more information.
 
-#### Definitions
-[TelegramSDK](https://botapi.racca.me) uses the `PRODUCTION` as the method to show errors.
-Here's how it works:
-* `false`: set `PRODUCTION` to `false` to throw exceptions whenever there is an API error;
-* `true`: set `PRODUCTION` to `true` to suppress exceptions and throw warnings instead.
-
-The other definitions are useful in our program to output the result of every API call.
+#### Include the Library
 ```php
-/// showLineNumber
-/// title: bot.php
-/// hlLines: 2,5-7
-<?php
-define("PRODUCTION", false);
-require_once "vendor/autoload.php";
-
-define("GREEN_TEXT", "\033[0;32m");
-define("RED_TEXT", "\033[0;31m");
-define("DEFAULT_TEXT", "\033[0m");
+require_once  "vendor/autoload.php";
 ```
+This line includes the autoloader file from the Composer dependency manager.
+It's used to autoload classes and functions from the third-party libraries, ensuring that you don't need to manually include each file.
 
-#### Instancing a new Bot
-In this lines we're importing the library from the `vendor/` directory and instancing a new Bot object.
+#### Use Statements
 ```php
-/// showLineNumber
-/// title: bot.php
-/// hlLines: 3,9-10
-<?php
-define("PRODUCTION", false);
-require_once "vendor/autoload.php";
-
-define("GREEN_TEXT", "\033[0;32m");
-define("RED_TEXT", "\033[0;31m");
-define("DEFAULT_TEXT", "\033[0m");
-
-use TelegramSDK\BotAPI\Telegram\Bot;
-$bot = new Bot("YOUR_BOT_TOKEN", Bot::UPDATES_FROM_GET_UPDATES);
+use TelegramSDK\BotAPI\Exception\TelegramException;
+use TelegramSDK\BotAPI\Telegram\{Bot, Update};
 ```
-:::info Replace the Token!
-Please remember to replace `YOUR_BOT_TOKEN` with the actual bot token that [@botfather](https://t.me/botfather) sent you.
+These use statements import specific classes from `telgramsdk/botapi`.
+This allows you to use these classes in the code without specifying the full namespace each time.
 
-See "[Setup your Bot on Telegram](/create-your-first-bot#setup-your-bot-on-telegram)" if you don't know how to do it.
-:::
-
-#### Getting the updates
-* `while(1)` is used to to continuously [poll]((https://en.wikipedia.org/wiki/Push_technology#Long_polling)) the Telegram server for new updates.
-* `sleep(5)` creates an interval from each request to aviod getting timed out.
-* `$bot->updates()` is one of the few built-in functions of the [Bot](https://botapi.racca.me/docs/usage/general) class.
-    See [Default Updates](https://botapi.racca.me/docs/usage/updates#default-updates) for the first parameter.
-    The second parameter sets the last update to get only the most recent ones.
-
+#### Define Constants for Console Colors
 ```php
-/// showLineNumber
-/// title: bot.php
-/// hlLines: 14-15,17-18
-<?php
-define("PRODUCTION", false);
-require_once "vendor/autoload.php";
+define("GREEN_COLOR", "\033[0;32m");
+define("RED_COLOR", "\033[0;31m");
+define("DEFAULT_COLOR", "\033[0m");
+```
+These lines define constants for ANSI escape codes, which are used to colorize the console output. `GREEN_COLOR` sets the text color to green, `RED_COLOR` to red, and `DEFAULT_COLOR` resets the color to the default.
 
-define("GREEN_TEXT", "\033[0;32m");
-define("RED_TEXT", "\033[0;31m");
-define("DEFAULT_TEXT", "\033[0m");
+#### Initialize the Telegram Bot
+```php
+$bot = new Bot("YOUR_BOT_TOKEN", Update::UPDATES_FROM_GET_UPDATES);
+```
+An instance of the Bot class is created with the Telegram bot token and the update method (`UPDATES_FROM_GET_UPDATES`) specified. The `Update::UPDATES_FROM_GET_UPDATES` constant indicates that updates should be fetched using the `getUpdates` method.
 
-use TelegramSDK\BotAPI\Telegram\Bot;
-$bot = new Bot("YOUR_BOT_TOKEN", Bot::UPDATES_FROM_GET_UPDATES);
-
-echo GREEN_TEXT . "Bot Started!\n" . DEFAULT_TEXT;
-
-while(true){
-    $updates = $bot->updates(true, $updates->lastUpdateID ?? null);
-    ...
-    sleep(5);
+#### Check Token Validity
+```php
+if (!$bot->isValidToken(true)) {
+    echo RED_COLOR . "Invalid bot token.\n" . DEFAULT_COLOR;
+    exit(1);
 }
 ```
-#### Replying to the user
-Once we have received the update we can finally reply to the user with the same message they sent by just copying it with [copyMessage](https://core.telegram.org/bots/api#copymessage).
+It checks if the bot token is valid. If not, it prints an error message in red and exits the script.
 
-* `foreach($updates->result as $update)` loops through the updates
-* `if(isset($update->message))` check if a message was sent. See the [update](https://core.telegram.org/bots/api#update) object.
-* `$bot->copyMessage()` copies the message and sends it to the user that sent the update (`$update->chat->id`).
-* `if($res->body->ok)` checks if the message was sent successfully.
-
+#### Infinite Loop for Handling Updates
 ```php
-/// showLineNumber
-/// title: bot.php
-/// hlLines: 17-31
-<?php
-define("PRODUCTION", false);
-require_once "vendor/autoload.php";
-
-define("GREEN_TEXT", "\033[0;32m");
-define("RED_TEXT", "\033[0;31m");
-define("DEFAULT_TEXT", "\033[0m");
-
-use TelegramSDK\BotAPI\Telegram\Bot;
-$bot = new Bot("YOUR_BOT_TOKEN", Bot::UPDATES_FROM_GET_UPDATES);
-
-echo GREEN_TEXT . "Bot Started!\n" . DEFAULT_TEXT;
-
-while(true){
-    $updates = $bot->updates(true, $updates->lastUpdateID ?? null);
-
-    foreach($updates->result as $update){
-        if(isset($update->message)){
-            $res = $bot->copyMessage([
-                "chat_id" => $update->chat->id,
-                "from_chat_id" => $update->chat->id,
-                "message_id" => $update->message->message_id
-            ]);
-
-            if($res->body->ok){
-                echo GREEN_TEXT . "Replied to " . $update->chat->id . "\n" . DEFAULT_TEXT;
-            } else{
-                echo RED_TEXT . "Coulnd't reply to " . $update->chat->id . ": " . $res->body->error . "\n" . DEFAULT_TEXT;
-            }
-        }
-    }
-
-    sleep(5);
+for (; ; sleep(5)) {
+    // Code for handling updates
 }
 ```
+An infinite loop that fetches updates every 5 seconds.
+
+#### Handle Updates
+```php
+$updates = $bot->updates(isset($updates) ? $updates->getLastUpdateId() : null);
+```
+Fetches updates using the `getUpdates` method. If `$updates` is set, it fetches updates starting from the last processed update.
+
+```php
+foreach ($updates->result as $update) {
+    // Code for processing each update
+}
+```
+Loops through each update in the result array.
+
+##### Process Message Updates
+```php
+if (isset($update->message)) {
+    // Code for processing message updates
+}
+```
+Checks if the update is a message.
+
+```php
+$res = $bot->copyMessage([
+    "chat_id" => $chat->id,
+    "from_chat_id" => $chat->id,
+    "message_id" => $update->getMessage()->message_id
+]);
+```
+Copies the received message and sends it back to the same chat.
+
+##### Handle Exceptions
+```php
+} catch (TelegramException $e) {
+    // Code for handling exceptions
+}
+```
+Catches any exceptions that may occur during the message copy process and prints an error message.
 
 ### Start the Bot
 That's it, now you can start the bot with
@@ -233,6 +209,8 @@ That's it, now you can start the bot with
 php bot.php
 ```
 Send to it a message and see it replying!
+
+
 
 
 ## Set Webhook
@@ -246,23 +224,21 @@ Here's an example of directory structure you might follow:
 </div>
 
 
-### Envirorment
-Let's start with `envirorment.php`, a file that will hamdle common tasks such as creating a new instance of the bot.
+### Environment
+Let's start with `environment.php`, a file that will hamdle common tasks such as creating a new instance of the bot.
 
 ```php
 /// showLineNumber
-/// title: src/envirorment.php
+/// title: src/environment.php
 <?php
-
-define("PRODUCTION", false);
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use TelegramSDK\BotAPI\Telegram\Bot;
+use TelegramSDK\BotAPI\Telegram\{Bot, Update};
 
-$bot = new Bot("YOUR_BOT_TOKEN", Bot::UPDATES_FROM_WEBHOOK);
+$bot = new Bot("YOUR_BOT_TOKEN", Update::UPDATES_FROM_WEBHOOK);
 
-$update = $bot->updates(true); // Getting the updates
+$update = $bot->updates(); // Getting the updates
 ```
 As you can see, getting updates from the webhook is much easier than doing it with `getUpdates`.
 
@@ -275,11 +251,11 @@ The `bootstrap.php` file simply sets the webhook to the specified url.
 /// title: src/bootstrap.php
 <?php
 
-require_once __DIR__ . "/envirorment.php";
+require_once __DIR__ . "/environment.php";
 
 $bot->setWebhook([
     "url" => "https://example.com", // Remember to use https
-    "drop_pending_updates" => true,
+    "drop_pending_updates" => true // Drop any pending updates
 ]);
 ```
 See [setWebhook](https://core.telegram.org/bots/api#setwebhook) for more information.
@@ -292,11 +268,11 @@ The `src/public/` directory will be the one exposed to your web server and it wi
 /// title: src/public/index.php
 <?php
 
-require_once __DIR__ . "/../envirorment.php";
+require_once __DIR__ . "/../environment.php"; // require the environment
 
-if(isset($update->update_id)){ // Check if there is an update
+if(isset($update->update_id)) { // Check if there is an update
 
-    if(isset($update->message)){ // Check if a message was sent
+    if(isset($update->message)) { // Check if a message was sent
         $bot->copyMessage([ // Copy the message
             "chat_id" => $update->chat->id,
             "from_chat_id" => $update->chat->id,
@@ -314,6 +290,7 @@ Once you have those files you just need to bootstrap your bot:
 ```bash
 php src/bootstrap.php
 ```
+And start your HTTPS web server.
 
 
 
