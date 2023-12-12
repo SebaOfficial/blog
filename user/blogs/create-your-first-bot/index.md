@@ -75,7 +75,7 @@ Just send a message to [@userinfobot](https://t.me/userinfobot) and replace `YOU
 :::
 
 
-### 🤔 What Am I Doing?
+### What Am I Doing?
 If this is your first approach to Telegram or to [telegramsdk/botapi](https://github.com/TelegramSDK/BotAPI), you may wonder:
 > What am I Doing?
 

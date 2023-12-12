@@ -59,7 +59,7 @@ Before writing the code we have to mention that there are 2 methods to get updat
 
 In this article we'll look into both ways of creating a Telegram Bot.
 
-# 🧑‍💻 Start Coding
+# Start Coding
 
 ## Get Updates
 Here's a simple example on how to get updates from Telegram and reply to them with the same message they sent.
@@ -116,7 +116,7 @@ for ( ; ; sleep(5)) {
 }
 ```
 
-### 🤔 What Am I Doing?
+### What Am I Doing?
 If you already worked with [TelegramSDK](https://github.com/TelegramSDK/BotAPI) you might already know what I've just written, but I still reccommend having a look at the [official documentation](https://botapi.racca.me/) for more information.
 
 #### Include the Library
