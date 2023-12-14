@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2023-12-14T18:26:48.019Z</updated>
+<updated>2023-12-14T18:46:33.239Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -173,6 +173,8 @@ personalized and efficient service. This capability is especially valuable in re
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">sudo</span> <span class="token function">apt-get</span> update</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> barcode</div></div>`}</code></pre></CodeCopy></div>
 <p>Generate the barcode:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">barcode <span class="token parameter variable">-E</span> <span class="token parameter variable">-b</span> <span class="token string">"id:0123456789"</span> <span class="token operator">></span> barcode.ps</div></div>`}</code></pre></CodeCopy></div>
+<p>Convert it to png:</p>
+<div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">convert barcode.ps barcode.png</div></div>`}</code></pre></CodeCopy></div>
 <h1 id="qr-codes"><a href="#qr-codes">QR Codes</a></h1>
 <p>QR Codes are a type of two-dimensional matrix barcodes, they consists of black squares arranged in a square grid on a white background, including some fiducial markers, which can be read by an imaging device.</p>
 <p>QR codes offer remarkable versatility, making them a powerful tool for various applications:</p>
