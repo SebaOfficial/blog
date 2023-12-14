@@ -111,6 +111,7 @@ export const mobilenavConfig: DD.Nav = {
     {
       name: 'About',
       url: 'https://racca.me/',
+      rel: 'external',
     },
     {
       name: 'Contacts',
