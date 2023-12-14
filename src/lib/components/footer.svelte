@@ -53,12 +53,17 @@
             CC BY-SA 4.0
           </a>
         </p>
-        <p itemprop="copyrightNotice">
-          Copyright © <span itemprop="copyrightYear">{copyrightYear}</span>
-          <a href={siteConfig.author.website} rel="external author">
-            <span itemprop="copyrightHolder">{siteConfig.author.name}</span>
-          </a>
-        </p>
+        <div id="legals">
+          <p itemprop="copyrightNotice">
+            Copyright © <span itemprop="copyrightYear">{copyrightYear}</span>
+            <a href={siteConfig.author.website} rel="external author">
+              <span itemprop="copyrightHolder">{siteConfig.author.name}</span>
+            </a>
+          </p>
+          <p itemprop="privacyNotice">
+            <a href="/privacy-policy">Privacy Policy</a>
+          </p>
+        </div>
       </main>
     </footer>
   {/key}
@@ -74,5 +79,14 @@
     &:hover {
       color: var(--qwer-link-hover-color);
     }
+  }
+  #legals {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+  }
+  #legals > p:not(:first-child)::before {
+    content: '•';
+    margin-right: 0.5em;
   }
 </style>
