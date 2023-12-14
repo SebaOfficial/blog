@@ -88,6 +88,10 @@ Generate the barcode:
 barcode -E -b "id:0123456789" > barcode.ps
 ```
 
+Convert it to png:
+```bash
+convert barcode.ps barcode.png
+```
 
 # QR Codes
 QR Codes are a type of two-dimensional matrix barcodes, they consists of black squares arranged in a square grid on a white background, including some fiducial markers, which can be read by an imaging device.
