@@ -201,6 +201,13 @@
             class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">barcode <span class="token parameter variable">-E</span> <span class="token parameter variable">-b</span> <span class="token string">"id:0123456789"</span> <span class="token operator">></span> barcode.ps</div></div>`}</code></pre>
       </CodeCopy>
     </div>
+    <p>Convert it to png:</p>
+    <div class="code-block">
+      <CodeCopy>
+        <pre><code
+            class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">convert barcode.ps barcode.png</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
     <h1 id="qr-codes"><a href="#qr-codes">QR Codes</a></h1>
     <p>
       QR Codes are a type of two-dimensional matrix barcodes, they consists of black squares arranged in a square grid
