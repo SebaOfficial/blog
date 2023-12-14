@@ -3,7 +3,7 @@ title: Barcodes VS QR Codes
 description: Comparison between barcodes and QR codes, how to generate them and why they are usefull
 summary: 🖥 Barcodes VS QR Codes - 101 comparison
 published: '2023-12-05T19:10:53.000+01:00'
-updated: '2023-12-05T19:10:53.000+01:00'
+updated: '2023-14-05T19:47:53.000+01:00'
 cover: ./cover.jpg
 coverCaption: Photo by <a href="./cover.jpg">blog.racca.me</a>
 coverStyle: 'IN'
