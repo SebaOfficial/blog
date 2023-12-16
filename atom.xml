@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2023-12-16T19:13:35.470Z</updated>
+<updated>2023-12-16T19:15:31.055Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -21,7 +21,9 @@
 <category term="Bot" scheme="https://blog.racca.me/?tags=Bot" />
 <category term="Automation" scheme="https://blog.racca.me/?tags=Automation" />
 <category term="TelegramSDK" scheme="https://blog.racca.me/?tags=TelegramSDK" />
-<category term="email gmail clodflare" scheme="https://blog.racca.me/?tags=email%20gmail%20clodflare" />
+<category term="email" scheme="https://blog.racca.me/?tags=email" />
+<category term="gmail" scheme="https://blog.racca.me/?tags=gmail" />
+<category term="clodflare" scheme="https://blog.racca.me/?tags=clodflare" />
 <category term="privacy" scheme="https://blog.racca.me/?tags=privacy" />
 <category term="Year-2023" scheme="https://blog.racca.me/?tags=tags-Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?tags=tags-Language=English" />
@@ -361,7 +363,9 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
 <p>You now have a fully working email that is routed through Cloudflare to receive emails and uses Google&#39;s SMTP server to send them.</p>
 <p>Whenever you send a new email via GMail, make sure to switch the sender accordingly to your preferences.</p>
 ]]></content>
-    <category term="email gmail clodflare" scheme="https://blog.racca.me/?tags=email%20gmail%20clodflare" />
+    <category term="email" scheme="https://blog.racca.me/?tags=email" />
+<category term="gmail" scheme="https://blog.racca.me/?tags=gmail" />
+<category term="clodflare" scheme="https://blog.racca.me/?tags=clodflare" />
 <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
