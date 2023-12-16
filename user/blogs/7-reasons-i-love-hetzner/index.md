@@ -9,7 +9,7 @@ coverCaption: Photo by <a href="https://unsplash.com/@tvick">Taylor Vick</a> on 
 coverStyle: 'IN'
 series_tag:
 series_title:
-tag:
+tags:
   - [ Hosting, Hetzner, Referral ]
 ---
 
