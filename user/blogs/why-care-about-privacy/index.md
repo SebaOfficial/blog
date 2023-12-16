@@ -8,7 +8,7 @@ cover: ./cover.jpg
 coverCaption: Photo by <a href="https://unsplash.com/@timmossholder">Tim Mossholder</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-black-and-white-wooden-sign-0zRt0bQysMw">Unsplash</a>
 coverStyle: 'IN'
 tags:
-  - [ privacy ]
+  - [ Privacy ]
 ---
 
 # Privacy isn’t about hiding

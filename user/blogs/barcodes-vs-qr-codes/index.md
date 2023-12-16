@@ -8,7 +8,7 @@ cover: ./cover.jpg
 coverCaption: Photo by <a href="./cover.jpg">blog.racca.me</a>
 coverStyle: 'IN'
 tags:
-  - [ qr-code, barcode ]
+  - [ QRCode, Barcode ]
 ---
 
 # Barcodes VS QR Codes - 101 Comparison
