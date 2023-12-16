@@ -8,10 +8,21 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2023-12-16T16:15:00.280Z</updated>
+<updated>2023-12-16T19:04:36.329Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
+<category term="Hosting" scheme="https://blog.racca.me/?tags=Hosting" />
+<category term="Hetzner" scheme="https://blog.racca.me/?tags=Hetzner" />
+<category term="Referral" scheme="https://blog.racca.me/?tags=Referral" />
+<category term="qr-code" scheme="https://blog.racca.me/?tags=qr-code" />
+<category term="barcode" scheme="https://blog.racca.me/?tags=barcode" />
+<category term="Telegram" scheme="https://blog.racca.me/?tags=Telegram" />
+<category term="Bot" scheme="https://blog.racca.me/?tags=Bot" />
+<category term="Automation" scheme="https://blog.racca.me/?tags=Automation" />
+<category term="TelegramSDK" scheme="https://blog.racca.me/?tags=TelegramSDK" />
+<category term="email gmail clodflare" scheme="https://blog.racca.me/?tags=email%20gmail%20clodflare" />
+<category term="privacy" scheme="https://blog.racca.me/?tags=privacy" />
 <category term="Year-2023" scheme="https://blog.racca.me/?tags=tags-Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?tags=tags-Language=English" />
 <category term="Series-FirstBot" scheme="https://blog.racca.me/?tags=tags-Series=FirstBot" />
@@ -69,7 +80,8 @@ If someone asked you in person 100 questions about your personal life to sell it
 Probably not, right?
 But you let this happen every time you use a service that makes money by selling your info.</p>
 ]]></content>
-    <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
+    <category term="privacy" scheme="https://blog.racca.me/?tags=privacy" />
+<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
@@ -279,7 +291,9 @@ personalized and efficient service. This capability is especially valuable in re
 <p>Generate the QR Code:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">qrencode <span class="token parameter variable">-o</span> qrcode.png <span class="token string">'https://example.com'</span></div></div>`}</code></pre></CodeCopy></div>
 ]]></content>
-    <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
+    <category term="qr-code" scheme="https://blog.racca.me/?tags=qr-code" />
+<category term="barcode" scheme="https://blog.racca.me/?tags=barcode" />
+<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
@@ -347,7 +361,8 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
 <p>You now have a fully working email that is routed through Cloudflare to receive emails and uses Google&#39;s SMTP server to send them.</p>
 <p>Whenever you send a new email via GMail, make sure to switch the sender accordingly to your preferences.</p>
 ]]></content>
-    <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
+    <category term="email gmail clodflare" scheme="https://blog.racca.me/?tags=email%20gmail%20clodflare" />
+<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
@@ -389,7 +404,10 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
 <h1 id="conclusion"><a href="#conclusion">Conclusion</a></h1>
 <p>In conclusion, Hetzner Cloud offers a compelling array of advantages that make it a top choice for cloud hosting. Its affordability, outstanding performance, user-friendly interface, scalability, private network options, developer-friendly APIs, and a lucrative referral program are all standout features that have won over many users.</p>
 ]]></content>
-    <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
+    <category term="Hosting" scheme="https://blog.racca.me/?tags=Hosting" />
+<category term="Hetzner" scheme="https://blog.racca.me/?tags=Hetzner" />
+<category term="Referral" scheme="https://blog.racca.me/?tags=Referral" />
+<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
@@ -483,7 +501,11 @@ In this article will assume that you already have it.</p>
 <p>You now have a full functioning bot that replies to every message sent by the users.</p>
 <p>If you have any question please leave a comment below and I&#39;ll be happy to reply.</p>
 ]]></content>
-    <category term="Series-FirstBot" scheme="https://blog.racca.me/?Series=FirstBot" />
+    <category term="Telegram" scheme="https://blog.racca.me/?tags=Telegram" />
+<category term="Bot" scheme="https://blog.racca.me/?tags=Bot" />
+<category term="Automation" scheme="https://blog.racca.me/?tags=Automation" />
+<category term="TelegramSDK" scheme="https://blog.racca.me/?tags=TelegramSDK" />
+<category term="Series-FirstBot" scheme="https://blog.racca.me/?Series=FirstBot" />
 <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
@@ -555,7 +577,11 @@ Go to <a href="https://t.me/BotFather" rel="external" >@botfather</a>, start it 
 <p>Make sure to check out the <a href="/create-an-echo-bot"  >next post</a> of the series.</p>
 <p>If you have any question please leave a comment below and I&#39;ll be happy to reply.</p>
 ]]></content>
-    <category term="Series-FirstBot" scheme="https://blog.racca.me/?Series=FirstBot" />
+    <category term="Telegram" scheme="https://blog.racca.me/?tags=Telegram" />
+<category term="Bot" scheme="https://blog.racca.me/?tags=Bot" />
+<category term="Automation" scheme="https://blog.racca.me/?tags=Automation" />
+<category term="TelegramSDK" scheme="https://blog.racca.me/?tags=TelegramSDK" />
+<category term="Series-FirstBot" scheme="https://blog.racca.me/?Series=FirstBot" />
 <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
