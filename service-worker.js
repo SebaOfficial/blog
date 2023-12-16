@@ -1,24 +1,24 @@
 const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u = [
-  a + "/_app/immutable/entry/app.ba86a67f.js",
+  a + "/_app/immutable/entry/app.6124baa9.js",
   a + "/_app/immutable/assets/0.ce236f83.css",
-  a + "/_app/immutable/nodes/0.d7572e17.js",
-  a + "/_app/immutable/nodes/1.836a5af8.js",
+  a + "/_app/immutable/nodes/0.555a8f47.js",
+  a + "/_app/immutable/nodes/1.1d3f792e.js",
   a + "/_app/immutable/assets/404.9de340c4.webp",
   a + "/_app/immutable/assets/2.9c2a354b.css",
-  a + "/_app/immutable/nodes/2.67c07d6e.js",
-  a + "/_app/immutable/nodes/3.b41c0413.js",
-  a + "/_app/immutable/nodes/4.0dd61964.js",
+  a + "/_app/immutable/nodes/2.ba223436.js",
+  a + "/_app/immutable/nodes/3.a221e56e.js",
+  a + "/_app/immutable/nodes/4.7c240eb1.js",
   a + "/_app/immutable/assets/5.1ecd1937.css",
-  a + "/_app/immutable/nodes/5.65721620.js",
-  a + "/_app/immutable/nodes/6.a3a8ada2.js",
+  a + "/_app/immutable/nodes/5.bec94408.js",
+  a + "/_app/immutable/nodes/6.34ba04e0.js",
   a + "/_app/immutable/assets/7.65d60ef0.css",
-  a + "/_app/immutable/nodes/7.5e08312c.js",
+  a + "/_app/immutable/nodes/7.19bea818.js",
   a + "/_app/immutable/assets/right-arrow.3907c376.svg",
-  a + "/_app/immutable/nodes/8.1a5d91fd.js",
-  a + "/_app/immutable/nodes/9.0b7d8e90.js",
+  a + "/_app/immutable/nodes/8.ef5628e1.js",
+  a + "/_app/immutable/nodes/9.c7ace4e2.js",
   a + "/_app/immutable/assets/404.936a22c6.avif",
-  a + "/_app/immutable/chunks/code_copy.a6588381.js",
-  a + "/_app/immutable/chunks/i18n-svelte.a29f8652.js",
+  a + "/_app/immutable/chunks/code_copy.aca678ee.js",
+  a + "/_app/immutable/chunks/i18n-svelte.9b2095e4.js",
   a + "/_app/immutable/assets/avatar.9d2117a3.png",
   a + "/_app/immutable/assets/avatar.f6a08045.avif",
   a + "/_app/immutable/assets/avatar.ec2b368f.webp",
@@ -27,7 +27,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/avatar.fa6b069e.jpeg",
   a + "/_app/immutable/assets/avatar.df189fa7.jpeg",
   a + "/_app/immutable/assets/cover.ed3357af.webp",
-  a + "/_app/immutable/chunks/image_banner.14e2d687.js",
+  a + "/_app/immutable/chunks/image_banner.8301c802.js",
   a + "/_app/immutable/assets/404.3df25504.avif",
   a + "/_app/immutable/assets/avatar.d57963db.avif",
   a + "/_app/immutable/assets/avatar.79e8785a.avif",
@@ -60,7 +60,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/cover.91123ef0.jpg",
   a + "/_app/immutable/assets/cover.68364fa9.avif",
   a + "/_app/immutable/chunks/index.5ccb46b4.js",
-  a + "/_app/immutable/chunks/post.1f78be29.js",
+  a + "/_app/immutable/chunks/post.49c718b7.js",
   a + "/_app/immutable/assets/post.2fdef224.css",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.0cdd387c.woff2",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.30da91e8.woff",
@@ -122,12 +122,12 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.e14fed02.woff",
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.f01f3e87.ttf",
   a + "/_app/immutable/chunks/scheduler.b261eb3c.js",
-  a + "/_app/immutable/chunks/singletons.d7e88f32.js",
-  a + "/_app/immutable/chunks/timeFormat.c9fd2dd6.js",
-  a + "/_app/immutable/chunks/tippy.7949ea4c.js",
+  a + "/_app/immutable/chunks/singletons.402b15bf.js",
+  a + "/_app/immutable/chunks/timeFormat.9f13c7b0.js",
+  a + "/_app/immutable/chunks/tippy.64ed9b95.js",
   a + "/_app/immutable/assets/tippy.7df0e90e.css",
-  a + "/_app/immutable/entry/start.ab1b75b3.js"
-], r = [
+  a + "/_app/immutable/entry/start.8603718c.js"
+], b = [
   a + "/.nojekyll",
   a + "/create-your-first-bot/botfather.mp4",
   a + "/favicon.ico",
@@ -144,7 +144,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/~partytown/partytown-media.js",
   a + "/~partytown/partytown-sw.js",
   a + "/~partytown/partytown.js"
-], b = [
+], r = [
   a + "/",
   a + "/7-reasons-i-love-hetzner",
   a + "/atom.xml",
@@ -158,7 +158,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/sitemap.xml",
   a + "/versions.json",
   a + "/why-care-about-privacy"
-], l = "1702753440998", p = self, c = `cache${l}`, f = u.concat(r).concat(b), _ = new Set(f);
+], l = "1702753979898", p = self, c = `cache${l}`, f = u.concat(b).concat(r), _ = new Set(f);
 p.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(c).then((s) => s.addAll(f)).then(() => {
@@ -175,7 +175,7 @@ p.addEventListener("activate", (e) => {
     })
   );
 });
-async function d(e) {
+async function n(e) {
   const s = await caches.open(`offline${l}`);
   try {
     const t = await fetch(e);
@@ -192,6 +192,6 @@ p.addEventListener("fetch", (e) => {
     return;
   const s = new URL(e.request.url), t = s.protocol.startsWith("http"), i = s.hostname === self.location.hostname && s.port !== self.location.port, m = s.host === self.location.host && _.has(s.pathname), o = e.request.cache === "only-if-cached" && !m;
   t && !i && !o && e.respondWith(
-    (async () => m && await caches.match(e.request) || d(e.request))()
+    (async () => m && await caches.match(e.request) || n(e.request))()
   );
 });
