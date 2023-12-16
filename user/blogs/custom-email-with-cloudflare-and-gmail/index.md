@@ -8,7 +8,7 @@ cover: ./cover.jpg
 coverCaption: Photo by <a href="https://unsplash.com/@solenfeyissa">Solen Feyissa</a> on <a href="https://unsplash.com/photos/windows-7-logo-on-black-background-M7zS8puGg18">Unsplash</a>
 coverStyle: 'IN'
 tags:
-  - [ email, gmail, clodflare ]
+  - [ Email, Gmail, Clodflare ]
 ---
 
 <script lang="ts">
