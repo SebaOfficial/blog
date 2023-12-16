@@ -8,23 +8,23 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2023-12-16T19:15:31.055Z</updated>
+<updated>2023-12-16T19:19:26.624Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
 <category term="Hosting" scheme="https://blog.racca.me/?tags=Hosting" />
 <category term="Hetzner" scheme="https://blog.racca.me/?tags=Hetzner" />
 <category term="Referral" scheme="https://blog.racca.me/?tags=Referral" />
-<category term="qr-code" scheme="https://blog.racca.me/?tags=qr-code" />
-<category term="barcode" scheme="https://blog.racca.me/?tags=barcode" />
+<category term="QRCode" scheme="https://blog.racca.me/?tags=QRCode" />
+<category term="Barcode" scheme="https://blog.racca.me/?tags=Barcode" />
 <category term="Telegram" scheme="https://blog.racca.me/?tags=Telegram" />
 <category term="Bot" scheme="https://blog.racca.me/?tags=Bot" />
 <category term="Automation" scheme="https://blog.racca.me/?tags=Automation" />
 <category term="TelegramSDK" scheme="https://blog.racca.me/?tags=TelegramSDK" />
-<category term="email" scheme="https://blog.racca.me/?tags=email" />
-<category term="gmail" scheme="https://blog.racca.me/?tags=gmail" />
-<category term="clodflare" scheme="https://blog.racca.me/?tags=clodflare" />
-<category term="privacy" scheme="https://blog.racca.me/?tags=privacy" />
+<category term="Email" scheme="https://blog.racca.me/?tags=Email" />
+<category term="Gmail" scheme="https://blog.racca.me/?tags=Gmail" />
+<category term="Clodflare" scheme="https://blog.racca.me/?tags=Clodflare" />
+<category term="Privacy" scheme="https://blog.racca.me/?tags=Privacy" />
 <category term="Year-2023" scheme="https://blog.racca.me/?tags=tags-Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?tags=tags-Language=English" />
 <category term="Series-FirstBot" scheme="https://blog.racca.me/?tags=tags-Series=FirstBot" />
@@ -82,7 +82,7 @@ If someone asked you in person 100 questions about your personal life to sell it
 Probably not, right?
 But you let this happen every time you use a service that makes money by selling your info.</p>
 ]]></content>
-    <category term="privacy" scheme="https://blog.racca.me/?tags=privacy" />
+    <category term="Privacy" scheme="https://blog.racca.me/?tags=Privacy" />
 <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
@@ -293,8 +293,8 @@ personalized and efficient service. This capability is especially valuable in re
 <p>Generate the QR Code:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">qrencode <span class="token parameter variable">-o</span> qrcode.png <span class="token string">'https://example.com'</span></div></div>`}</code></pre></CodeCopy></div>
 ]]></content>
-    <category term="qr-code" scheme="https://blog.racca.me/?tags=qr-code" />
-<category term="barcode" scheme="https://blog.racca.me/?tags=barcode" />
+    <category term="QRCode" scheme="https://blog.racca.me/?tags=QRCode" />
+<category term="Barcode" scheme="https://blog.racca.me/?tags=Barcode" />
 <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
@@ -363,9 +363,9 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
 <p>You now have a fully working email that is routed through Cloudflare to receive emails and uses Google&#39;s SMTP server to send them.</p>
 <p>Whenever you send a new email via GMail, make sure to switch the sender accordingly to your preferences.</p>
 ]]></content>
-    <category term="email" scheme="https://blog.racca.me/?tags=email" />
-<category term="gmail" scheme="https://blog.racca.me/?tags=gmail" />
-<category term="clodflare" scheme="https://blog.racca.me/?tags=clodflare" />
+    <category term="Email" scheme="https://blog.racca.me/?tags=Email" />
+<category term="Gmail" scheme="https://blog.racca.me/?tags=Gmail" />
+<category term="Clodflare" scheme="https://blog.racca.me/?tags=Clodflare" />
 <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
 <category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>

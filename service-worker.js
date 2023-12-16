@@ -1,24 +1,24 @@
 const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u = [
-  a + "/_app/immutable/entry/app.7eeb3271.js",
+  a + "/_app/immutable/entry/app.5ec08dc7.js",
   a + "/_app/immutable/assets/0.ce236f83.css",
-  a + "/_app/immutable/nodes/0.f9d4259e.js",
-  a + "/_app/immutable/nodes/1.a7a8ddee.js",
+  a + "/_app/immutable/nodes/0.17930ece.js",
+  a + "/_app/immutable/nodes/1.b8ee6917.js",
   a + "/_app/immutable/assets/404.9de340c4.webp",
   a + "/_app/immutable/assets/2.9c2a354b.css",
-  a + "/_app/immutable/nodes/2.f8a4b562.js",
-  a + "/_app/immutable/nodes/3.375aa965.js",
-  a + "/_app/immutable/nodes/4.c761af91.js",
+  a + "/_app/immutable/nodes/2.ea4a0251.js",
+  a + "/_app/immutable/nodes/3.20d5543f.js",
+  a + "/_app/immutable/nodes/4.2b9ce513.js",
   a + "/_app/immutable/assets/5.1ecd1937.css",
-  a + "/_app/immutable/nodes/5.8b187293.js",
-  a + "/_app/immutable/nodes/6.9b455d5d.js",
+  a + "/_app/immutable/nodes/5.eb6972f2.js",
+  a + "/_app/immutable/nodes/6.06d48423.js",
   a + "/_app/immutable/assets/7.65d60ef0.css",
-  a + "/_app/immutable/nodes/7.8570d00f.js",
+  a + "/_app/immutable/nodes/7.e53dd54d.js",
   a + "/_app/immutable/assets/right-arrow.3907c376.svg",
-  a + "/_app/immutable/nodes/8.6e9e04db.js",
-  a + "/_app/immutable/nodes/9.94107192.js",
+  a + "/_app/immutable/nodes/8.4e433120.js",
+  a + "/_app/immutable/nodes/9.bbdf3454.js",
   a + "/_app/immutable/assets/404.936a22c6.avif",
-  a + "/_app/immutable/chunks/code_copy.a4a927f7.js",
-  a + "/_app/immutable/chunks/i18n-svelte.3a033673.js",
+  a + "/_app/immutable/chunks/code_copy.16a97ea6.js",
+  a + "/_app/immutable/chunks/i18n-svelte.87fb99e1.js",
   a + "/_app/immutable/assets/avatar.9d2117a3.png",
   a + "/_app/immutable/assets/avatar.f6a08045.avif",
   a + "/_app/immutable/assets/avatar.ec2b368f.webp",
@@ -27,7 +27,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/avatar.fa6b069e.jpeg",
   a + "/_app/immutable/assets/avatar.df189fa7.jpeg",
   a + "/_app/immutable/assets/cover.ed3357af.webp",
-  a + "/_app/immutable/chunks/image_banner.555963e9.js",
+  a + "/_app/immutable/chunks/image_banner.d1c68222.js",
   a + "/_app/immutable/assets/404.3df25504.avif",
   a + "/_app/immutable/assets/avatar.d57963db.avif",
   a + "/_app/immutable/assets/avatar.79e8785a.avif",
@@ -60,7 +60,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/cover.91123ef0.jpg",
   a + "/_app/immutable/assets/cover.68364fa9.avif",
   a + "/_app/immutable/chunks/index.5ccb46b4.js",
-  a + "/_app/immutable/chunks/post.58545aa6.js",
+  a + "/_app/immutable/chunks/post.0c90948f.js",
   a + "/_app/immutable/assets/post.2fdef224.css",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.0cdd387c.woff2",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.30da91e8.woff",
@@ -122,12 +122,12 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.e14fed02.woff",
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.f01f3e87.ttf",
   a + "/_app/immutable/chunks/scheduler.b261eb3c.js",
-  a + "/_app/immutable/chunks/singletons.633eb037.js",
-  a + "/_app/immutable/chunks/timeFormat.2e13f29b.js",
-  a + "/_app/immutable/chunks/tippy.7bd8e3eb.js",
+  a + "/_app/immutable/chunks/singletons.32394144.js",
+  a + "/_app/immutable/chunks/timeFormat.63f8615b.js",
+  a + "/_app/immutable/chunks/tippy.1909d12a.js",
   a + "/_app/immutable/assets/tippy.7df0e90e.css",
-  a + "/_app/immutable/entry/start.8b6cd333.js"
-], b = [
+  a + "/_app/immutable/entry/start.cd766fe9.js"
+], r = [
   a + "/.nojekyll",
   a + "/create-your-first-bot/botfather.mp4",
   a + "/favicon.ico",
@@ -144,7 +144,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/~partytown/partytown-media.js",
   a + "/~partytown/partytown-sw.js",
   a + "/~partytown/partytown.js"
-], r = [
+], b = [
   a + "/",
   a + "/7-reasons-i-love-hetzner",
   a + "/atom.xml",
@@ -158,7 +158,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/sitemap.xml",
   a + "/versions.json",
   a + "/why-care-about-privacy"
-], l = "1702754095510", p = self, c = `cache${l}`, f = u.concat(b).concat(r), _ = new Set(f);
+], l = "1702754331314", p = self, c = `cache${l}`, f = u.concat(r).concat(b), _ = new Set(f);
 p.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(c).then((s) => s.addAll(f)).then(() => {
