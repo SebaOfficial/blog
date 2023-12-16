@@ -7,7 +7,7 @@ updated: '2023-12-14T19:47:53.000+01:00'
 cover: ./cover.jpg
 coverCaption: Photo by <a href="./cover.jpg">blog.racca.me</a>
 coverStyle: 'IN'
-tag:
+tags:
   - [ qr-code, barcode ]
 ---
 

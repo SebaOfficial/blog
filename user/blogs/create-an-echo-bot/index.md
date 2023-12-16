@@ -9,7 +9,7 @@ coverCaption: Photo by <a href="https://unsplash.com/@rubaitulazad">Nitish Meena
 coverStyle: 'IN'
 series_tag: "FirstBot"
 series_title: "Create A PHP Telegram Bot"
-tag:
+tags:
   - [ Telegram, Bot, Automation, TelegramSDK ]
 ---
 

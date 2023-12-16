@@ -7,7 +7,7 @@ updated: '2023-12-16T16:22:10.000+01:00'
 cover: ./cover.jpg
 coverCaption: Photo by <a href="https://unsplash.com/@timmossholder">Tim Mossholder</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-black-and-white-wooden-sign-0zRt0bQysMw">Unsplash</a>
 coverStyle: 'IN'
-tag:
+tags:
   - [ privacy ]
 ---
 
