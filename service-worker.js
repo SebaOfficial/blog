@@ -1,24 +1,24 @@
 const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u = [
-  a + "/_app/immutable/entry/app.5ec08dc7.js",
+  a + "/_app/immutable/entry/app.c4b5df68.js",
   a + "/_app/immutable/assets/0.ce236f83.css",
-  a + "/_app/immutable/nodes/0.17930ece.js",
-  a + "/_app/immutable/nodes/1.b8ee6917.js",
+  a + "/_app/immutable/nodes/0.b5d34fe8.js",
+  a + "/_app/immutable/nodes/1.baaac32c.js",
   a + "/_app/immutable/assets/404.9de340c4.webp",
   a + "/_app/immutable/assets/2.9c2a354b.css",
-  a + "/_app/immutable/nodes/2.ea4a0251.js",
-  a + "/_app/immutable/nodes/3.20d5543f.js",
-  a + "/_app/immutable/nodes/4.2b9ce513.js",
+  a + "/_app/immutable/nodes/2.9ce679ad.js",
+  a + "/_app/immutable/nodes/3.d073fa6b.js",
+  a + "/_app/immutable/nodes/4.a059352a.js",
   a + "/_app/immutable/assets/5.1ecd1937.css",
-  a + "/_app/immutable/nodes/5.eb6972f2.js",
-  a + "/_app/immutable/nodes/6.06d48423.js",
+  a + "/_app/immutable/nodes/5.99e71d38.js",
+  a + "/_app/immutable/nodes/6.d86d5ed3.js",
   a + "/_app/immutable/assets/7.65d60ef0.css",
-  a + "/_app/immutable/nodes/7.e53dd54d.js",
+  a + "/_app/immutable/nodes/7.64f9b6a5.js",
   a + "/_app/immutable/assets/right-arrow.3907c376.svg",
-  a + "/_app/immutable/nodes/8.4e433120.js",
-  a + "/_app/immutable/nodes/9.bbdf3454.js",
+  a + "/_app/immutable/nodes/8.089f597f.js",
+  a + "/_app/immutable/nodes/9.a20331aa.js",
   a + "/_app/immutable/assets/404.936a22c6.avif",
-  a + "/_app/immutable/chunks/code_copy.16a97ea6.js",
-  a + "/_app/immutable/chunks/i18n-svelte.87fb99e1.js",
+  a + "/_app/immutable/chunks/code_copy.23ea92a5.js",
+  a + "/_app/immutable/chunks/i18n-svelte.aa474df6.js",
   a + "/_app/immutable/assets/avatar.9d2117a3.png",
   a + "/_app/immutable/assets/avatar.f6a08045.avif",
   a + "/_app/immutable/assets/avatar.ec2b368f.webp",
@@ -27,7 +27,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/avatar.fa6b069e.jpeg",
   a + "/_app/immutable/assets/avatar.df189fa7.jpeg",
   a + "/_app/immutable/assets/cover.ed3357af.webp",
-  a + "/_app/immutable/chunks/image_banner.d1c68222.js",
+  a + "/_app/immutable/chunks/image_banner.2be65dcb.js",
   a + "/_app/immutable/assets/404.3df25504.avif",
   a + "/_app/immutable/assets/avatar.d57963db.avif",
   a + "/_app/immutable/assets/avatar.79e8785a.avif",
@@ -39,10 +39,10 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/cover.0813ca5c.avif",
   a + "/_app/immutable/assets/cover.a9d2fd81.jpg",
   a + "/_app/immutable/assets/cover.35b15004.avif",
-  a + "/_app/immutable/assets/cover.7cc6b766.avif",
-  a + "/_app/immutable/assets/cover.5dd85ce9.avif",
-  a + "/_app/immutable/assets/cover.82eaed53.jpg",
-  a + "/_app/immutable/assets/cover.0d0cab76.avif",
+  a + "/_app/immutable/assets/cover.9987f033.avif",
+  a + "/_app/immutable/assets/cover.9e9a75de.avif",
+  a + "/_app/immutable/assets/cover.61c951a7.jpg",
+  a + "/_app/immutable/assets/cover.7b45184c.avif",
   a + "/_app/immutable/assets/cover.20b76685.avif",
   a + "/_app/immutable/assets/cover.76630b80.avif",
   a + "/_app/immutable/assets/cover.b98f3e8c.jpg",
@@ -60,7 +60,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/cover.91123ef0.jpg",
   a + "/_app/immutable/assets/cover.68364fa9.avif",
   a + "/_app/immutable/chunks/index.5ccb46b4.js",
-  a + "/_app/immutable/chunks/post.0c90948f.js",
+  a + "/_app/immutable/chunks/post.e28d46ed.js",
   a + "/_app/immutable/assets/post.2fdef224.css",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.0cdd387c.woff2",
   a + "/_app/immutable/assets/KaTeX_AMS-Regular.30da91e8.woff",
@@ -122,12 +122,12 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.e14fed02.woff",
   a + "/_app/immutable/assets/KaTeX_Typewriter-Regular.f01f3e87.ttf",
   a + "/_app/immutable/chunks/scheduler.b261eb3c.js",
-  a + "/_app/immutable/chunks/singletons.32394144.js",
-  a + "/_app/immutable/chunks/timeFormat.63f8615b.js",
-  a + "/_app/immutable/chunks/tippy.1909d12a.js",
+  a + "/_app/immutable/chunks/singletons.3601ba4e.js",
+  a + "/_app/immutable/chunks/timeFormat.466ce7a0.js",
+  a + "/_app/immutable/chunks/tippy.bf851b34.js",
   a + "/_app/immutable/assets/tippy.7df0e90e.css",
-  a + "/_app/immutable/entry/start.cd766fe9.js"
-], r = [
+  a + "/_app/immutable/entry/start.dc3a99b8.js"
+], b = [
   a + "/.nojekyll",
   a + "/create-your-first-bot/botfather.mp4",
   a + "/favicon.ico",
@@ -144,7 +144,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/~partytown/partytown-media.js",
   a + "/~partytown/partytown-sw.js",
   a + "/~partytown/partytown.js"
-], b = [
+], r = [
   a + "/",
   a + "/7-reasons-i-love-hetzner",
   a + "/atom.xml",
@@ -158,7 +158,7 @@ const a = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), u
   a + "/sitemap.xml",
   a + "/versions.json",
   a + "/why-care-about-privacy"
-], l = "1702754331314", p = self, c = `cache${l}`, f = u.concat(r).concat(b), _ = new Set(f);
+], l = "1703160812537", p = self, c = `cache${l}`, f = u.concat(b).concat(r), _ = new Set(f);
 p.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(c).then((s) => s.addAll(f)).then(() => {
