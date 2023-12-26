@@ -43,7 +43,7 @@ tags:
   };
 </script>
 
-# Introduction
+## Introduction
 This article is part of the [FirstBot](/?tags-Series=PHPBot) series.
 We recommend reading the [introcution chapter](/create-your-first-bot) before continuing.
 
@@ -51,7 +51,7 @@ We recommend reading the [introcution chapter](/create-your-first-bot) before co
 composer require telegramsdk/botapi
 ```
 
-# Telegram Updates
+## Telegram Updates
 Before writing the code we have to mention that there are 2 methods to get updates from our Telegram bot.
 
 1. [getUpdates](https://core.telegram.org/bots/api#getupdates) : used for long polling , usefull if you don't have a public ip or an https url.
@@ -59,9 +59,9 @@ Before writing the code we have to mention that there are 2 methods to get updat
 
 In this article we'll look into both ways of creating a Telegram Bot.
 
-# Start Coding
+## Start Coding
 
-## Get Updates
+### Get Updates
 Here's a simple example on how to get updates from Telegram and reply to them with the same message they sent.
 
 ```php
@@ -116,17 +116,17 @@ for ( ; ; sleep(5)) {
 }
 ```
 
-### What Am I Doing?
+#### What Am I Doing?
 If you already worked with [TelegramSDK](https://github.com/TelegramSDK/BotAPI) you might already know what I've just written, but I still reccommend having a look at the [official documentation](https://botapi.racca.me/) for more information.
 
-#### Include the Library
+##### Include the Library
 ```php
 require_once  "vendor/autoload.php";
 ```
 This line includes the autoloader file from the Composer dependency manager.
 It's used to autoload classes and functions from the third-party libraries, ensuring that you don't need to manually include each file.
 
-#### Use Statements
+##### Use Statements
 ```php
 use TelegramSDK\BotAPI\Exception\TelegramException;
 use TelegramSDK\BotAPI\Telegram\{Bot, Update};
@@ -134,7 +134,7 @@ use TelegramSDK\BotAPI\Telegram\{Bot, Update};
 These use statements import specific classes from `telgramsdk/botapi`.
 This allows you to use these classes in the code without specifying the full namespace each time.
 
-#### Define Constants for Console Colors
+##### Define Constants for Console Colors
 ```php
 define("GREEN_COLOR", "\033[0;32m");
 define("RED_COLOR", "\033[0;31m");
@@ -142,13 +142,13 @@ define("DEFAULT_COLOR", "\033[0m");
 ```
 These lines define constants for ANSI escape codes, which are used to colorize the console output. `GREEN_COLOR` sets the text color to green, `RED_COLOR` to red, and `DEFAULT_COLOR` resets the color to the default.
 
-#### Initialize the Telegram Bot
+##### Initialize the Telegram Bot
 ```php
 $bot = new Bot("YOUR_BOT_TOKEN", Update::UPDATES_FROM_GET_UPDATES);
 ```
 An instance of the Bot class is created with the Telegram bot token and the update method (`UPDATES_FROM_GET_UPDATES`) specified. The `Update::UPDATES_FROM_GET_UPDATES` constant indicates that updates should be fetched using the `getUpdates` method.
 
-#### Check Token Validity
+##### Check Token Validity
 ```php
 if (!$bot->isValidToken(true)) {
     echo RED_COLOR . "Invalid bot token.\n" . DEFAULT_COLOR;
@@ -157,7 +157,7 @@ if (!$bot->isValidToken(true)) {
 ```
 It checks if the bot token is valid. If not, it prints an error message in red and exits the script.
 
-#### Infinite Loop for Handling Updates
+##### Infinite Loop for Handling Updates
 ```php
 for (; ; sleep(5)) {
     // Code for handling updates
@@ -165,7 +165,7 @@ for (; ; sleep(5)) {
 ```
 An infinite loop that fetches updates every 5 seconds.
 
-#### Handle Updates
+##### Handle Updates
 ```php
 $updates = $bot->updates(isset($updates) ? $updates->getLastUpdateId() : null);
 ```
@@ -178,7 +178,7 @@ foreach ($updates->result as $update) {
 ```
 Loops through each update in the result array.
 
-##### Process Message Updates
+###### Process Message Updates
 ```php
 if (isset($update->message)) {
     // Code for processing message updates
@@ -195,7 +195,7 @@ $res = $bot->copyMessage([
 ```
 Copies the received message and sends it back to the same chat.
 
-##### Handle Exceptions
+###### Handle Exceptions
 ```php
 } catch (TelegramException $e) {
     // Code for handling exceptions
@@ -203,7 +203,7 @@ Copies the received message and sends it back to the same chat.
 ```
 Catches any exceptions that may occur during the message copy process and prints an error message.
 
-### Start the Bot
+#### Start the Bot
 That's it, now you can start the bot with
 ```bash
 php bot.php
@@ -213,18 +213,18 @@ Send to it a message and see it replying!
 
 
 
-## Set Webhook
+### Set Webhook
 Setting a [webhook](https://core.telegram.org/bots/api#setwebhook) with Telegram is bit more complicated than working with [getUpdates](https://core.telegram.org/bots/api#getupdates) as it requires an HTTPS url.
 In this article will assume that you already have it.
 
-### Directory Structure
+#### Directory Structure
 Here's an example of directory structure you might follow:
 <div class="p4 border-1 shadow-xl rounded-xl border-black dark:border-white overflow-auto">
   <NestedFolder folderData={webhookDirectory} />
 </div>
 
 
-### Environment
+#### Environment
 Let's start with `environment.php`, a file that will hamdle common tasks such as creating a new instance of the bot.
 
 ```php
@@ -243,7 +243,7 @@ $update = $bot->updates(); // Getting the updates
 As you can see, getting updates from the webhook is much easier than doing it with `getUpdates`.
 
 
-### Bootstrap
+#### Bootstrap
 The `bootstrap.php` file simply sets the webhook to the specified url.
 
 ```php
@@ -261,7 +261,7 @@ $bot->setWebhook([
 See [setWebhook](https://core.telegram.org/bots/api#setwebhook) for more information.
 
 
-### Public file
+#### Public file
 The `src/public/` directory will be the one exposed to your web server and it will contain only one file, `index.php`
 ```php
 /// showLineNumber
@@ -285,7 +285,7 @@ if(isset($update->update_id)) { // Check if there is an update
 }
 ```
 
-### Start the bot
+#### Start the bot
 Once you have those files you just need to bootstrap your bot:
 ```bash
 php src/bootstrap.php
@@ -294,7 +294,7 @@ And start your HTTPS web server.
 
 
 
-# Enjoy
+## Enjoy
 You now have a full functioning bot that replies to every message sent by the users.
 
 

@@ -17,17 +17,17 @@ tags:
   import VideoPlayer from '$lib/components/video.svelte';
 </script>
 
-# Introduction
+## Introduction
 Telegram bots are special accounts that serve as an interface for code running on a server, allowing for a variety of functionalities within the Telegram platform. They can be used to automate tasks, provide information, interact with users, and even replace entire websites.
 
 In this article, we'll explore how to build a PHP Telegram bot using the [Telegram Bot Api](https://core.telegram.org/bots/api) and [TelegramSDK](https://botapi.racca.me). We'll walk through the process of setting up the bot, configuring it, and testing it.
 
-## Prerequisites
+### Prerequisites
 Before we begin, ensure that you have the following:
 * PHP installed on your machine. If not, you can download it from the official [PHP website](https://www.php.net/download).
 * Composer, a dependency manager for PHP. If you don't have it, you can download it from the official Composer website.
 
-# Setup your Bot on Telegram
+## Setup your Bot on Telegram
 The first step is to create a Bot to which users will chat with.
 Go to [@botfather](https://t.me/BotFather), start it and type `/newbot`
 
@@ -40,16 +40,16 @@ Go to [@botfather](https://t.me/BotFather), start it and type `/newbot`
 />
 
 
-# Start Coding
+## Start Coding
 
-## Setup Local Envirorment
+### Setup Local Envirorment
 Before actually writing the bot's logic we need to install the lirary we're going to use:
 ```bash
 composer require telegramsdk/botapi
 ```
 [telegramsdk/botapi](https://github.com/TelegramSDK/BotAPI) is a light weight library that lets us access the [Telegram API](https://core.telegram.org) easly and freely.
 
-## Write the Logic
+### Write the Logic
 It's time for the fun part!
 
 All you need to do is create a new file named `bot.php` (*or whatever you like*) and write this code:
@@ -75,7 +75,7 @@ Just send a message to [@userinfobot](https://t.me/userinfobot) and replace `YOU
 :::
 
 
-### What Am I Doing?
+#### What Am I Doing?
 If this is your first approach to Telegram or to [telegramsdk/botapi](https://github.com/TelegramSDK/BotAPI), you may wonder:
 > What am I Doing?
 
@@ -83,7 +83,7 @@ Otherwise you can skip this explanation.
 
 Let's have a look a the code you've just written:
 
-#### Instancing a new Bot
+##### Instancing a new Bot
 In this lines we're importing the library from the `vendor/` directory and instancing a new Bot object.
 ```php
 /// showLineNumber
@@ -102,7 +102,7 @@ Please remember to replace `YOUR_BOT_TOKEN` with the actual bot token that [@bot
 See "[Setup your Bot on Telegram](#setup-your-bot-on-telegram)" if you don't know how to do it.
 :::
 
-#### Sending a Message
+##### Sending a Message
 The lines are an API call to the Telegram `sendMessage` method.
 
 This call will send a message to the specified user saying "My First Telegram bot!"
@@ -127,7 +127,7 @@ Please remember to replace `YOUR_CHAT_ID` with your actual id.
 
 If you don't know how to get your char id start, [@userinfobot](https://t.me/userinfobot) and get your id.
 
-## Test the bot
+### Test the bot
 Testing the bot is super easy, you just need to start the file!
 ```bash
 php bot.php
@@ -138,7 +138,7 @@ If you don't **start the bot you created**, the program won't be able to send yo
 :::
 
 
-## Enjoy
+### Enjoy
 That's it! You now have a fully working telegram bot.
 [Or do you?](/create-an-echo-bot)
 
