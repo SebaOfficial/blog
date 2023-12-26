@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2023-12-21T12:14:08.133Z</updated>
+<updated>2023-12-26T13:08:02.317Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -36,7 +36,7 @@
     <published>2023-12-16T15:22:10.000Z</published>
     <updated>2023-12-16T15:22:10.000Z</updated>
     <summary type="html"><![CDATA[👀 Reasons why you should care about your privacy]]></summary>
-    <content type="html"><![CDATA[<h1 id="privacy-isnt-about-hiding"><a href="#privacy-isnt-about-hiding">Privacy isn’t about hiding</a></h1>
+    <content type="html"><![CDATA[<h2 id="privacy-isnt-about-hiding"><a href="#privacy-isnt-about-hiding">Privacy isn’t about hiding</a></h2>
 <p>The &quot;I have nothing to hide&quot; argument frames privacy as something only criminals and other bad actors would demand, but nothing could be further from the truth.
 Privacy is about the <strong>freedom</strong> to make choices without fear: how you want to live, what you believe in, who you are friends with, and what you want to share with whom.
 A lack of privacy leads to uniformity and <strong>self-censorship</strong>, which pushes our opinions to the edges and erodes our ability to engage in healthy debate.</p>
@@ -45,7 +45,7 @@ Circumstances change.
 Something that can be harmlessly shared today may <strong>someday</strong> be worth concealing, whether it’s political beliefs or your ethnic or religious background.
 Privacy is the <strong>ultimate insurance</strong> against a rapidly changing corporate and political climate.</p>
 <p>Once we lose our privacy, we won’t get it back.</p>
-<h1 id="privacy-is-a-human-right"><a href="#privacy-is-a-human-right">Privacy is a human right</a></h1>
+<h2 id="privacy-is-a-human-right"><a href="#privacy-is-a-human-right">Privacy is a human right</a></h2>
 <p>Just like other human rights, we didn’t always have the right to privacy.
 Several dictatorships around the world still don&#39;t value this right.
 Generations before ours fought for our right to privacy.
@@ -58,7 +58,7 @@ or correspondence, nor to attacks upon his honour and reputation.</p>
 <!-- Source: https://www.un.org/sites/un2.un.org/files/2021/03/udhr.pdf -->
 
 <p>It’s a <strong>human right</strong> just like the right to equality, to justice, freedom, a nationality, the right to religion, etc.</p>
-<h1 id="your-information-is-valuable"><a href="#your-information-is-valuable">Your information is valuable</a></h1>
+<h2 id="your-information-is-valuable"><a href="#your-information-is-valuable">Your information is valuable</a></h2>
 <p>You might be okay with governments or security agencies or companies having your private information.
 You might trust Google and Facebook.
 But what if these get hacked and your <strong>information</strong> falls in the <strong>wrong hands</strong>?
@@ -94,15 +94,15 @@ But you let this happen every time you use a service that makes money by selling
     <published>2023-12-14T17:41:20.000Z</published>
     <updated>2023-12-14T17:41:20.000Z</updated>
     <summary type="html"><![CDATA[undefined]]></summary>
-    <content type="html"><![CDATA[<h1 id="introduction"><a href="#introduction">Introduction</a></h1>
+    <content type="html"><![CDATA[<h2 id="introduction"><a href="#introduction">Introduction</a></h2>
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
 <p>We use Your Personal data to provide and improve the Service.
 By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
-<h1 id="interpretation-and-definitions"><a href="#interpretation-and-definitions">Interpretation and Definitions</a></h1>
-<h2 id="interpretation"><a href="#interpretation">Interpretation</a></h2>
+<h2 id="interpretation-and-definitions"><a href="#interpretation-and-definitions">Interpretation and Definitions</a></h2>
+<h3 id="interpretation"><a href="#interpretation">Interpretation</a></h3>
 <p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
 The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-<h2 id="definitions"><a href="#definitions">Definitions</a></h2>
+<h3 id="definitions"><a href="#definitions">Definitions</a></h3>
 <p>For the purposes of this Privacy Policy:</p>
 <ul>
 <li><p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Sebastiano Racca&#39;s Blog.</p>
@@ -122,31 +122,31 @@ The following definitions shall have the same meaning regardless of whether they
 <li><p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
 </li>
 </ul>
-<h1 id="collecting-and-using-your-personal-data"><a href="#collecting-and-using-your-personal-data">Collecting and Using Your Personal Data</a></h1>
+<h2 id="collecting-and-using-your-personal-data"><a href="#collecting-and-using-your-personal-data">Collecting and Using Your Personal Data</a></h2>
 <p>This section outlines how Your Personal Data is collected and used when You access or use the Service.</p>
 <p>While the Company, Sebastiano Racca&#39;s Blog, does not personally collect any data, it&#39;s important to note that third-party services, such as GitHub Pages and Cloudflare, are utilized to provide and enhance the Service.
 These third-party services may collect certain information automatically when You interact with the Website.
 Please refer to the privacy policies of GitHub Pages and Cloudflare for details on their data collection and processing practices.</p>
-<h2 id="purpose-of-data-collection"><a href="#purpose-of-data-collection">Purpose of Data Collection</a></h2>
+<h3 id="purpose-of-data-collection"><a href="#purpose-of-data-collection">Purpose of Data Collection</a></h3>
 <p>The primary purpose of collecting and using Your Personal Data is to ensure the proper functioning and improvement of the Service.
 The Company does not use cookies directly; however, third-party services may use cookies for various purposes, including web analytics.</p>
-<h2 id="service-providers"><a href="#service-providers">Service Providers</a></h2>
+<h3 id="service-providers"><a href="#service-providers">Service Providers</a></h3>
 <p>The Company may employ third-party companies or individuals (&quot;Service Providers&quot;) to facilitate the Service, provide the Service on behalf of the Company, perform services related to the Service, or assist the Company in analyzing how the Service is used.
 These Service Providers may have access to Your Personal Data only to perform these tasks on Our behalf and are obligated not to disclose or use it for any other purpose.</p>
-<h2 id="usage-data"><a href="#usage-data">Usage Data</a></h2>
+<h3 id="usage-data"><a href="#usage-data">Usage Data</a></h3>
 <p>Usage Data refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself. This may include the duration of a page visit, but the Company does not personally analyze or process this data.</p>
-<h2 id="your-rights"><a href="#your-rights">Your Rights</a></h2>
+<h3 id="your-rights"><a href="#your-rights">Your Rights</a></h3>
 <p>As an individual accessing or using the Service, You have rights regarding Your data. Even though the Company does not directly collect Personal Data, You may refer to the privacy policies of GitHub Pages and Cloudflare for information on how to exercise Your rights with respect to the data they may collect.</p>
-<h1 id="children-and-39-s-privacy"><a href="#children-and-39-s-privacy">Children&#39;s Privacy</a></h1>
+<h2 id="children-and-39-s-privacy"><a href="#children-and-39-s-privacy">Children&#39;s Privacy</a></h2>
 <p>Our Service does not address anyone under the age of 13.
 If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us.</p>
-<h1 id="changes-to-this-privacy-policy"><a href="#changes-to-this-privacy-policy">Changes to This Privacy Policy</a></h1>
+<h2 id="changes-to-this-privacy-policy"><a href="#changes-to-this-privacy-policy">Changes to This Privacy Policy</a></h2>
 <p>This Privacy Policy may be updated to reflect changes in Our data practices, applicable laws, or to address new concerns.
 The date of the last update will be indicated at the beginning of the Privacy Policy.
 Significant changes will be notified to users through appropriate means.
 You are advised to review this Privacy Policy periodically for any changes.
 Changes to this Privacy Policy are effective when they are posted on this page.</p>
-<h1 id="contact-us"><a href="#contact-us">Contact Us</a></h1>
+<h2 id="contact-us"><a href="#contact-us">Contact Us</a></h2>
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
 <li>By email: <a href="mailto:sebastiano@racca.me"  >sebastiano@racca.me</a></li>
@@ -164,10 +164,10 @@ Changes to this Privacy Policy are effective when they are posted on this page.<
     <published>2023-12-05T18:10:53.000Z</published>
     <updated>2023-12-14T18:47:53.000Z</updated>
     <summary type="html"><![CDATA[🖥 Barcodes VS QR Codes - 101 comparison]]></summary>
-    <content type="html"><![CDATA[<h1 id="barcodes-vs-qr-codes-101-comparison"><a href="#barcodes-vs-qr-codes-101-comparison">Barcodes VS QR Codes - 101 Comparison</a></h1>
+    <content type="html"><![CDATA[<h2 id="barcodes-vs-qr-codes-101-comparison"><a href="#barcodes-vs-qr-codes-101-comparison">Barcodes VS QR Codes - 101 Comparison</a></h2>
 <p>Both barcodes and QR codes offer great functionalities and have embedded themselves in our everyday life, from business applications to personal use.</p>
 <p>In this article we&#39;re going to look advantages and disdvantages of both types.</p>
-<h1 id="barcodes"><a href="#barcodes">Barcodes</a></h1>
+<h2 id="barcodes"><a href="#barcodes">Barcodes</a></h2>
 <p>A barcode is a method of representing data in a visual, machine-readable form.</p>
 <ul>
 <li><strong>1-dimentional barcodes</strong>: represent data by varying the widths, spacings and sizes of parallel lines.</li>
@@ -214,7 +214,7 @@ Changes to this Privacy Policy are effective when they are posted on this page.<
 </ul>
 </li>
 </ul>
-<h2 id="advantages"><a href="#advantages">Advantages</a></h2>
+<h3 id="advantages"><a href="#advantages">Advantages</a></h3>
 <ul>
 <li><p><strong>Accuracy</strong>: Barcodes enhance data accuracy by minimizing the potential for human errors during data entry. This is crucial for maintaining precise records and preventing mistakes that can occur in manual data input.</p>
 </li>
@@ -226,7 +226,7 @@ Changes to this Privacy Policy are effective when they are posted on this page.<
 personalized and efficient service. This capability is especially valuable in retail and other customer-oriented industries, where providing tailored service can enhance the customer experience and satisfaction.</p>
 </li>
 </ul>
-<h2 id="disadvantages"><a href="#disadvantages">Disadvantages</a></h2>
+<h3 id="disadvantages"><a href="#disadvantages">Disadvantages</a></h3>
 <ul>
 <li><p><strong>Restricted data</strong>: Barcodes typically store a limited amount of data, such as a serial number or product code. For more detailed information, additional labels or tags may be required. This limitation can be a drawback when more comprehensive data storage is needed.</p>
 </li>
@@ -239,14 +239,14 @@ personalized and efficient service. This capability is especially valuable in re
 <li><p><strong>Environmental Impact</strong>: The materials used to make barcodes are often non-biodegradable. Improper disposal of barcode-related materials can contribute to environmental issues, such as increased trash and pollution. Considering environmentally friendly alternatives or disposal methods becomes important in addressing this concern.</p>
 </li>
 </ul>
-<h2 id="generate-barcodes-linux"><a href="#generate-barcodes-linux">Generate Barcodes (Linux)</a></h2>
+<h3 id="generate-barcodes-linux"><a href="#generate-barcodes-linux">Generate Barcodes (Linux)</a></h3>
 <p>Install the barcode generator:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">sudo</span> <span class="token function">apt-get</span> update</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> barcode</div></div>`}</code></pre></CodeCopy></div>
 <p>Generate the barcode:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">barcode <span class="token parameter variable">-E</span> <span class="token parameter variable">-b</span> <span class="token string">"id:0123456789"</span> <span class="token operator">></span> barcode.ps</div></div>`}</code></pre></CodeCopy></div>
 <p>Convert it to png:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">convert barcode.ps barcode.png</div></div>`}</code></pre></CodeCopy></div>
-<h1 id="qr-codes"><a href="#qr-codes">QR Codes</a></h1>
+<h2 id="qr-codes"><a href="#qr-codes">QR Codes</a></h2>
 <p>QR Codes are a type of two-dimensional matrix barcodes, they consists of black squares arranged in a square grid on a white background, including some fiducial markers, which can be read by an imaging device.</p>
 <p>QR codes offer remarkable versatility, making them a powerful tool for various applications:</p>
 <ul>
@@ -263,7 +263,7 @@ personalized and efficient service. This capability is especially valuable in re
 <li><p><strong>Connect to Wifi</strong>: Expedite internet network connections without searching for network names or asking for passwords.</p>
 </li>
 </ul>
-<h2 id="advantages"><a href="#advantages">Advantages</a></h2>
+<h3 id="advantages"><a href="#advantages">Advantages</a></h3>
 <ul>
 <li><p><strong>Quick &amp; Simple</strong>: QR codes allow consumers to access information swiftly without the need for manual data entry or typing. This quick and simple process enhances user convenience;</p>
 </li>
@@ -278,7 +278,7 @@ personalized and efficient service. This capability is especially valuable in re
 <li><p><strong>Contactless</strong>: QR codes can be scanned from a distance, allowing for contactless interactions. This is particularly valuable in public settings, promoting hygiene and safety by reducing the need for physical contact.</p>
 </li>
 </ul>
-<h2 id="disadvantages"><a href="#disadvantages">Disadvantages</a></h2>
+<h3 id="disadvantages"><a href="#disadvantages">Disadvantages</a></h3>
 <ul>
 <li><p><strong>Technology Dependency</strong>: Just like barcodes, QR Codes, depend on specialized hardware, such as barcode scanners or mobile devices equipped with scanning capabilities.</p>
 </li>
@@ -287,7 +287,7 @@ personalized and efficient service. This capability is especially valuable in re
 <li><p><strong>User Education</strong>: Some users may not be familiar with QR codes or may be unsure about how to use them.</p>
 </li>
 </ul>
-<h2 id="generate-qr-codes-linux"><a href="#generate-qr-codes-linux">Generate QR Codes (Linux)</a></h2>
+<h3 id="generate-qr-codes-linux"><a href="#generate-qr-codes-linux">Generate QR Codes (Linux)</a></h3>
 <p>Install the QR Code generator:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">sudo</span> <span class="token function">apt-get</span> update</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> qrencode</div></div>`}</code></pre></CodeCopy></div>
 <p>Generate the QR Code:</p>
@@ -306,19 +306,19 @@ personalized and efficient service. This capability is especially valuable in re
     <published>2023-12-03T14:58:03.000Z</published>
     <updated>2023-12-03T14:58:03.000Z</updated>
     <summary type="html"><![CDATA[📩 Create a custom email address in 10 minutes]]></summary>
-    <content type="html"><![CDATA[<h1 id="create-a-custom-email-address-for-free"><a href="#create-a-custom-email-address-for-free">Create a Custom Email Address for Free</a></h1>
+    <content type="html"><![CDATA[<h2 id="create-a-custom-email-address-for-free"><a href="#create-a-custom-email-address-for-free">Create a Custom Email Address for Free</a></h2>
 <p>In the digital age, having a custom email address not only adds a professional touch to your communication but also enhances brand identity.
 In this tutorial, we&#39;ll walk you through the process of setting up a custom email address using Cloudflare Email Routing and Gmail SMTP.
 By the end of this guide, you&#39;ll be able to send and receive emails using your own domain, all while leveraging the power and reliability of Gmail.</p>
-<h2 id="prerequisites"><a href="#prerequisites">Prerequisites</a></h2>
+<h3 id="prerequisites"><a href="#prerequisites">Prerequisites</a></h3>
 <p>Before we dive into the steps, make sure you have the following prerequisites in place:</p>
 <ul>
 <li>An active Gmail account.</li>
 <li>A domain registered with Cloudflare.</li>
 <li>Access to your domain&#39;s DNS settings on Cloudflare.</li>
 </ul>
-<h1 id="setup-your-google-account"><a href="#setup-your-google-account">Setup Your Google Account</a></h1>
-<h2 id="enable-2-factor-authentification"><a href="#enable-2-factor-authentification">Enable 2 Factor Authentification</a></h2>
+<h2 id="setup-your-google-account"><a href="#setup-your-google-account">Setup Your Google Account</a></h2>
+<h3 id="enable-2-factor-authentification"><a href="#enable-2-factor-authentification">Enable 2 Factor Authentification</a></h3>
 <p>If you already have enabled two factor authentification you can safely skip this step.</p>
 <ol>
 <li>Open your <a href="https://myaccount.google.com/" rel="external" >Google Account</a>;</li>
@@ -326,14 +326,14 @@ By the end of this guide, you&#39;ll be able to send and receive emails using yo
 <li>Under “Signing in to Google,” select&quot; 2-Step Verification&quot;, then &quot;Get started&quot;;</li>
 <li>Follow the on-screen steps.</li>
 </ol>
-<h2 id="create-an-app-password"><a href="#create-an-app-password">Create an App Password</a></h2>
+<h3 id="create-an-app-password"><a href="#create-an-app-password">Create an App Password</a></h3>
 <p>An app password is a 16-digit passcode that gives a less secure app or device permission to access your Google Account.</p>
 <ol>
 <li>Open the <a href="https://myaccount.google.com/apppasswords" rel="external" >App Passwords console</a> on your Google account;</li>
 <li>Type a name for your applicatiom <em>i.e. &quot;My Custom Email&quot;</em></li>
 <li>Safely store the 16-digit passcode, you&#39;ll need this later.</li>
 </ol>
-<h1 id="enable-cloudflare-and-39-s-email-routing"><a href="#enable-cloudflare-and-39-s-email-routing">Enable Cloudflare&#39;s Email Routing</a></h1>
+<h2 id="enable-cloudflare-and-39-s-email-routing"><a href="#enable-cloudflare-and-39-s-email-routing">Enable Cloudflare&#39;s Email Routing</a></h2>
 <p>Emails that are routed through Cloudflare to your preferred email inbox, benefit from enhanced security, spam filtering, and improved deliverability.
 Cloudflare Email Routing acts as a protective layer for your email infrastructure, shielding it from potential threats and optimizing the overall email experience.</p>
 <ol>
@@ -345,7 +345,7 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
 <li>Go to the <strong>DNS</strong> section of the dashboard and add a new TXT record with the following content:</li>
 </ol>
 <div class="code-block  "><CodeCopy><pre><code class="language-txt">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"v=spf1 include:_spf.mx.cloudflare.net include:_spf.google.com ~all"</div></div>`}</code></pre></CodeCopy></div>
-<h1 id="add-your-cloudflare-routed-email-to-gmail"><a href="#add-your-cloudflare-routed-email-to-gmail">Add Your Cloudflare-Routed Email to Gmail</a></h1>
+<h2 id="add-your-cloudflare-routed-email-to-gmail"><a href="#add-your-cloudflare-routed-email-to-gmail">Add Your Cloudflare-Routed Email to Gmail</a></h2>
 <p>Once did all the previous we can finally add the custom address to gmail.</p>
 <ol>
 <li>Go to your <a href="https://gmail.com/" rel="external" >Gmail Account</a> <AndThen text="then click on" /> <strong>Settings</strong> <AndThen text="then select" /> <strong>Accounts</strong>;</li>
@@ -359,7 +359,7 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
 <li>Leave <strong>TLS</strong> enabled <AndThen /> click <strong>Add Account</strong></li>
 <li>Confirm the email address with the code Google&#39;s sent you to your gmail account.</li>
 </ol>
-<h1 id="enjoy"><a href="#enjoy">Enjoy</a></h1>
+<h2 id="enjoy"><a href="#enjoy">Enjoy</a></h2>
 <p>You now have a fully working email that is routed through Cloudflare to receive emails and uses Google&#39;s SMTP server to send them.</p>
 <p>Whenever you send a new email via GMail, make sure to switch the sender accordingly to your preferences.</p>
 ]]></content>
@@ -377,9 +377,9 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
     <published>2023-11-08T16:12:00.000Z</published>
     <updated>2023-11-08T16:12:00.000Z</updated>
     <summary type="html"><![CDATA[❤️ 7 reasons why I love Hetzner Cloud]]></summary>
-    <content type="html"><![CDATA[<h1 id="why-i-love-hetzner-cloud"><a href="#why-i-love-hetzner-cloud">Why I Love Hetzner Cloud</a></h1>
+    <content type="html"><![CDATA[<h2 id="why-i-love-hetzner-cloud"><a href="#why-i-love-hetzner-cloud">Why I Love Hetzner Cloud</a></h2>
 <p><a href="{refLink}"  >Hetzner Cloud</a> is a cloud computing service provided by Hetzner Online GmbH, a German web hosting company and data center operator. It offers virtual machines, known as cloud servers, that run on physical servers and are used to run an operating system and computer programs.</p>
-<h2 id="pros"><a href="#pros">Pros</a></h2>
+<h3 id="pros"><a href="#pros">Pros</a></h3>
 <ol>
 <li><p><strong>Affordability</strong>: <a href="{refLink}"  >Hetzner Cloud</a> is known for its competitive pricing. It offers high-performance cloud servers at a reasonable cost, making it an attractive option for users on a budget;</p>
 </li>
@@ -396,7 +396,7 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
 <li><p><strong>Referrals Program</strong>: Users can join <a href="{refLink}"  >Hetzner Cloud</a> with a special link that gives them <a href="{refLink}"  ><strong>€20 in free cloud credits</strong></a>.</p>
 </li>
 </ol>
-<h2 id="cons"><a href="#cons">Cons</a></h2>
+<h3 id="cons"><a href="#cons">Cons</a></h3>
 <ol>
 <li><p><strong>Limited Disk Space</strong>: If you need a huge ammount of disk space, <a href="{refLink}"  >Hetzner Cloud</a> might not be the right solution for you;</p>
 </li>
@@ -405,7 +405,7 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
 <li><p><strong>KYC Requirements</strong>: <a href="{refLink}"  >Hetzner</a> requires users to provide personal identification documents, such as a passport and proof of address, for Know Your Customer (KYC) purposes. This can be a barrier for users who are uncomfortable sharing personal information.</p>
 </li>
 </ol>
-<h1 id="conclusion"><a href="#conclusion">Conclusion</a></h1>
+<h2 id="conclusion"><a href="#conclusion">Conclusion</a></h2>
 <p>In conclusion, Hetzner Cloud offers a compelling array of advantages that make it a top choice for cloud hosting. Its affordability, outstanding performance, user-friendly interface, scalability, private network options, developer-friendly APIs, and a lucrative referral program are all standout features that have won over many users.</p>
 ]]></content>
     <category term="Hosting" scheme="https://blog.racca.me/?tags=Hosting" />
@@ -422,86 +422,86 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
     <published>2023-11-07T11:00:00.000Z</published>
     <updated>2023-12-12T10:00:00.000Z</updated>
     <summary type="html"><![CDATA[🤖 Create a Telegram Echo Bot]]></summary>
-    <content type="html"><![CDATA[<h1 id="introduction"><a href="#introduction">Introduction</a></h1>
+    <content type="html"><![CDATA[<h2 id="introduction"><a href="#introduction">Introduction</a></h2>
 <p>This article is part of the <a href="/?tags-Series=PHPBot"  >FirstBot</a> series.
 We recommend reading the <a href="/create-your-first-bot"  >introcution chapter</a> before continuing.</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">composer</span> require telegramsdk/botapi</div></div>`}</code></pre></CodeCopy></div>
-<h1 id="telegram-updates"><a href="#telegram-updates">Telegram Updates</a></h1>
+<h2 id="telegram-updates"><a href="#telegram-updates">Telegram Updates</a></h2>
 <p>Before writing the code we have to mention that there are 2 methods to get updates from our Telegram bot.</p>
 <ol>
 <li><a href="https://core.telegram.org/bots/api#getupdates" rel="external" >getUpdates</a> : used for long polling , usefull if you don&#39;t have a public ip or an https url.</li>
 <li><a href="https://core.telegram.org/bots/api#setwebhook" rel="external" >setWebhook</a> : more efficient way for recinving incoming updates, you need to have a public ip address with an https url.</li>
 </ol>
 <p>In this article we&#39;ll look into both ways of creating a Telegram Bot.</p>
-<h1 id="start-coding"><a href="#start-coding">Start Coding</a></h1>
-<h2 id="get-updates"><a href="#get-updates">Get Updates</a></h2>
+<h2 id="start-coding"><a href="#start-coding">Start Coding</a></h2>
+<h3 id="get-updates"><a href="#get-updates">Get Updates</a></h3>
 <p>Here&#39;s a simple example on how to get updates from Telegram and reply to them with the same message they sent.</p>
 <div class="code-block titled showLineNumber"><h2 class="code-title">bot.php</h2><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="line-number">1</span><span class="no-line-diff"></span></div><div class="code-content">&lt;?php</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">2</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">3</span><span class="no-line-diff"></span></div><div class="code-content">require_once  "vendor/autoload.php";</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">4</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">5</span><span class="no-line-diff"></span></div><div class="code-content">use TelegramSDK\BotAPI\Exception\TelegramException;</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">6</span><span class="no-line-diff"></span></div><div class="code-content">use TelegramSDK\BotAPI\Telegram\{Bot, Update};</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">7</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">8</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">9</span><span class="no-line-diff"></span></div><div class="code-content">define("GREEN_COLOR", "\033[0;32m");</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">10</span><span class="no-line-diff"></span></div><div class="code-content">define("RED_COLOR", "\033[0;31m");</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">11</span><span class="no-line-diff"></span></div><div class="code-content">define("DEFAULT_COLOR", "\033[0m");</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">12</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">13</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">14</span><span class="no-line-diff"></span></div><div class="code-content">&#36;bot = new Bot("YOUR_BOT_TOKEN", Update::UPDATES_FROM_GET_UPDATES);</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">15</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">16</span><span class="no-line-diff"></span></div><div class="code-content">if(!&#36;bot-&gt;isValidToken(true)) {</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">17</span><span class="no-line-diff"></span></div><div class="code-content">    echo RED_COLOR . "Invalid bot token.\n" . DEFAULT_COLOR;</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">18</span><span class="no-line-diff"></span></div><div class="code-content">    exit(1);</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">19</span><span class="no-line-diff"></span></div><div class="code-content">}</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">20</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">21</span><span class="no-line-diff"></span></div><div class="code-content">echo GREEN_COLOR . "Bot Started!\n" . DEFAULT_COLOR;</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">22</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">23</span><span class="no-line-diff"></span></div><div class="code-content">for ( ; ; sleep(5)) {</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">24</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">25</span><span class="no-line-diff"></span></div><div class="code-content">    &#36;updates = &#36;bot-&gt;updates(isset(&#36;updates) ? &#36;updates-&gt;getLastUpdateId() : null);</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">26</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">27</span><span class="no-line-diff"></span></div><div class="code-content">    foreach(&#36;updates-&gt;result as &#36;update){</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">28</span><span class="no-line-diff"></span></div><div class="code-content">        if(isset(&#36;update-&gt;message)){</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">29</span><span class="no-line-diff"></span></div><div class="code-content">            &#36;chat = &#36;update-&gt;getChat();</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">30</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">31</span><span class="no-line-diff"></span></div><div class="code-content">            try {</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">32</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">33</span><span class="no-line-diff"></span></div><div class="code-content">                &#36;res = &#36;bot-&gt;copyMessage([</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">34</span><span class="no-line-diff"></span></div><div class="code-content">                    "chat_id" =&gt; &#36;chat-&gt;id,</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">35</span><span class="no-line-diff"></span></div><div class="code-content">                    "from_chat_id" =&gt; &#36;chat-&gt;id,</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">36</span><span class="no-line-diff"></span></div><div class="code-content">                    "message_id" =&gt; &#36;update-&gt;getMessage()-&gt;message_id</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">37</span><span class="no-line-diff"></span></div><div class="code-content">                ]);</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">38</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">39</span><span class="no-line-diff"></span></div><div class="code-content">                echo GREEN_COLOR . "Replied to " . &#36;chat-&gt;id . "\n" . DEFAULT_COLOR;</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">40</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">41</span><span class="no-line-diff"></span></div><div class="code-content">            } catch (TelegramException &#36;e) {</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">42</span><span class="no-line-diff"></span></div><div class="code-content">                echo RED_COLOR . "Coulnd't reply to " . &#36;chat-&gt;id . ": " . &#36;e-&gt;getResponseBody()-&gt;description . "\n" . DEFAULT_COLOR;</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">43</span><span class="no-line-diff"></span></div><div class="code-content">            }</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">44</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">45</span><span class="no-line-diff"></span></div><div class="code-content">        }</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">46</span><span class="no-line-diff"></span></div><div class="code-content">    }</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">47</span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre></CodeCopy></div>
-<h3 id="what-am-i-doing"><a href="#what-am-i-doing">What Am I Doing?</a></h3>
+<h4 id="what-am-i-doing"><a href="#what-am-i-doing">What Am I Doing?</a></h4>
 <p>If you already worked with <a href="https://github.com/TelegramSDK/BotAPI" rel="external" >TelegramSDK</a> you might already know what I&#39;ve just written, but I still reccommend having a look at the <a href="https://botapi.racca.me/" rel="external" >official documentation</a> for more information.</p>
-<h4 id="include-the-library"><a href="#include-the-library">Include the Library</a></h4>
+<h5 id="include-the-library"><a href="#include-the-library">Include the Library</a></h5>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">require_once  "vendor/autoload.php";</div></div>`}</code></pre></CodeCopy></div>
 <p>This line includes the autoloader file from the Composer dependency manager.
 It&#39;s used to autoload classes and functions from the third-party libraries, ensuring that you don&#39;t need to manually include each file.</p>
-<h4 id="use-statements"><a href="#use-statements">Use Statements</a></h4>
+<h5 id="use-statements"><a href="#use-statements">Use Statements</a></h5>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">use TelegramSDK\BotAPI\Exception\TelegramException;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">use TelegramSDK\BotAPI\Telegram\{Bot, Update};</div></div>`}</code></pre></CodeCopy></div>
 <p>These use statements import specific classes from <code class="inline-code-block">telgramsdk/botapi</code>.
 This allows you to use these classes in the code without specifying the full namespace each time.</p>
-<h4 id="define-constants-for-console-colors"><a href="#define-constants-for-console-colors">Define Constants for Console Colors</a></h4>
+<h5 id="define-constants-for-console-colors"><a href="#define-constants-for-console-colors">Define Constants for Console Colors</a></h5>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">define("GREEN_COLOR", "\033[0;32m");</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">define("RED_COLOR", "\033[0;31m");</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">define("DEFAULT_COLOR", "\033[0m");</div></div>`}</code></pre></CodeCopy></div>
 <p>These lines define constants for ANSI escape codes, which are used to colorize the console output. <code class="inline-code-block">GREEN_COLOR</code> sets the text color to green, <code class="inline-code-block">RED_COLOR</code> to red, and <code class="inline-code-block">DEFAULT_COLOR</code> resets the color to the default.</p>
-<h4 id="initialize-the-telegram-bot"><a href="#initialize-the-telegram-bot">Initialize the Telegram Bot</a></h4>
+<h5 id="initialize-the-telegram-bot"><a href="#initialize-the-telegram-bot">Initialize the Telegram Bot</a></h5>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&#36;bot = new Bot("YOUR_BOT_TOKEN", Update::UPDATES_FROM_GET_UPDATES);</div></div>`}</code></pre></CodeCopy></div>
 <p>An instance of the Bot class is created with the Telegram bot token and the update method (<code class="inline-code-block">UPDATES_FROM_GET_UPDATES</code>) specified. The <code class="inline-code-block">Update::UPDATES_FROM_GET_UPDATES</code> constant indicates that updates should be fetched using the <code class="inline-code-block">getUpdates</code> method.</p>
-<h4 id="check-token-validity"><a href="#check-token-validity">Check Token Validity</a></h4>
+<h5 id="check-token-validity"><a href="#check-token-validity">Check Token Validity</a></h5>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">if (!&#36;bot-&gt;isValidToken(true)) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    echo RED_COLOR . "Invalid bot token.\n" . DEFAULT_COLOR;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    exit(1);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre></CodeCopy></div>
 <p>It checks if the bot token is valid. If not, it prints an error message in red and exits the script.</p>
-<h4 id="infinite-loop-for-handling-updates"><a href="#infinite-loop-for-handling-updates">Infinite Loop for Handling Updates</a></h4>
+<h5 id="infinite-loop-for-handling-updates"><a href="#infinite-loop-for-handling-updates">Infinite Loop for Handling Updates</a></h5>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">for (; ; sleep(5)) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // Code for handling updates</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre></CodeCopy></div>
 <p>An infinite loop that fetches updates every 5 seconds.</p>
-<h4 id="handle-updates"><a href="#handle-updates">Handle Updates</a></h4>
+<h5 id="handle-updates"><a href="#handle-updates">Handle Updates</a></h5>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&#36;updates = &#36;bot-&gt;updates(isset(&#36;updates) ? &#36;updates-&gt;getLastUpdateId() : null);</div></div>`}</code></pre></CodeCopy></div>
 <p>Fetches updates using the <code class="inline-code-block">getUpdates</code> method. If <code class="inline-code-block">$updates</code> is set, it fetches updates starting from the last processed update.</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">foreach (&#36;updates-&gt;result as &#36;update) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // Code for processing each update</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre></CodeCopy></div>
 <p>Loops through each update in the result array.</p>
-<h5 id="process-message-updates"><a href="#process-message-updates">Process Message Updates</a></h5>
+<h6 id="process-message-updates"><a href="#process-message-updates">Process Message Updates</a></h6>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">if (isset(&#36;update-&gt;message)) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // Code for processing message updates</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre></CodeCopy></div>
 <p>Checks if the update is a message.</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&#36;res = &#36;bot-&gt;copyMessage([</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "chat_id" =&gt; &#36;chat-&gt;id,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "from_chat_id" =&gt; &#36;chat-&gt;id,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "message_id" =&gt; &#36;update-&gt;getMessage()-&gt;message_id</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">]);</div></div>`}</code></pre></CodeCopy></div>
 <p>Copies the received message and sends it back to the same chat.</p>
-<h5 id="handle-exceptions"><a href="#handle-exceptions">Handle Exceptions</a></h5>
+<h6 id="handle-exceptions"><a href="#handle-exceptions">Handle Exceptions</a></h6>
 <div class="code-block  "><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">} catch (TelegramException &#36;e) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // Code for handling exceptions</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre></CodeCopy></div>
 <p>Catches any exceptions that may occur during the message copy process and prints an error message.</p>
-<h3 id="start-the-bot"><a href="#start-the-bot">Start the Bot</a></h3>
+<h4 id="start-the-bot"><a href="#start-the-bot">Start the Bot</a></h4>
 <p>That&#39;s it, now you can start the bot with</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">php bot.php</div></div>`}</code></pre></CodeCopy></div>
 <p>Send to it a message and see it replying!</p>
-<h2 id="set-webhook"><a href="#set-webhook">Set Webhook</a></h2>
+<h3 id="set-webhook"><a href="#set-webhook">Set Webhook</a></h3>
 <p>Setting a <a href="https://core.telegram.org/bots/api#setwebhook" rel="external" >webhook</a> with Telegram is bit more complicated than working with <a href="https://core.telegram.org/bots/api#getupdates" rel="external" >getUpdates</a> as it requires an HTTPS url.
 In this article will assume that you already have it.</p>
-<h3 id="directory-structure"><a href="#directory-structure">Directory Structure</a></h3>
+<h4 id="directory-structure"><a href="#directory-structure">Directory Structure</a></h4>
 <p>Here&#39;s an example of directory structure you might follow:</p>
 <div class="p4 border-1 shadow-xl rounded-xl border-black dark:border-white overflow-auto">
   <NestedFolder folderData={webhookDirectory} />
 </div>
 
 
-<h3 id="environment"><a href="#environment">Environment</a></h3>
+<h4 id="environment"><a href="#environment">Environment</a></h4>
 <p>Let&#39;s start with <code class="inline-code-block">environment.php</code>, a file that will hamdle common tasks such as creating a new instance of the bot.</p>
 <div class="code-block titled showLineNumber"><h2 class="code-title">src/environment.php</h2><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="line-number">1</span><span class="no-line-diff"></span></div><div class="code-content">&lt;?php</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">2</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">3</span><span class="no-line-diff"></span></div><div class="code-content">require_once __DIR__ . "/../vendor/autoload.php";</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">4</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">5</span><span class="no-line-diff"></span></div><div class="code-content">use TelegramSDK\BotAPI\Telegram\{Bot, Update};</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">6</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">7</span><span class="no-line-diff"></span></div><div class="code-content">&#36;bot = new Bot("YOUR_BOT_TOKEN", Update::UPDATES_FROM_WEBHOOK);</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">8</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">9</span><span class="no-line-diff"></span></div><div class="code-content">&#36;update = &#36;bot-&gt;updates(); // Getting the updates</div></div>`}</code></pre></CodeCopy></div>
 <p>As you can see, getting updates from the webhook is much easier than doing it with <code class="inline-code-block">getUpdates</code>.</p>
-<h3 id="bootstrap"><a href="#bootstrap">Bootstrap</a></h3>
+<h4 id="bootstrap"><a href="#bootstrap">Bootstrap</a></h4>
 <p>The <code class="inline-code-block">bootstrap.php</code> file simply sets the webhook to the specified url.</p>
 <div class="code-block titled showLineNumber"><h2 class="code-title">src/bootstrap.php</h2><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="line-number">1</span><span class="no-line-diff"></span></div><div class="code-content">&lt;?php</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">2</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">3</span><span class="no-line-diff"></span></div><div class="code-content">require_once __DIR__ . "/environment.php";</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">4</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">5</span><span class="no-line-diff"></span></div><div class="code-content">&#36;bot-&gt;setWebhook([</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">6</span><span class="no-line-diff"></span></div><div class="code-content">    "url" =&gt; "https://example.com", // Remember to use https</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">7</span><span class="no-line-diff"></span></div><div class="code-content">    "drop_pending_updates" =&gt; true // Drop any pending updates</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">8</span><span class="no-line-diff"></span></div><div class="code-content">]);</div></div>`}</code></pre></CodeCopy></div>
 <p>See <a href="https://core.telegram.org/bots/api#setwebhook" rel="external" >setWebhook</a> for more information.</p>
-<h3 id="public-file"><a href="#public-file">Public file</a></h3>
+<h4 id="public-file"><a href="#public-file">Public file</a></h4>
 <p>The <code class="inline-code-block">src/public/</code> directory will be the one exposed to your web server and it will contain only one file, <code class="inline-code-block">index.php</code></p>
 <div class="code-block titled showLineNumber"><h2 class="code-title">src/public/index.php</h2><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="line-number">1</span><span class="no-line-diff"></span></div><div class="code-content">&lt;?php</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">2</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">3</span><span class="no-line-diff"></span></div><div class="code-content">require_once __DIR__ . "/../environment.php"; // require the environment</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">4</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">5</span><span class="no-line-diff"></span></div><div class="code-content">if(isset(&#36;update-&gt;update_id)) { // Check if there is an update</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">6</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">7</span><span class="no-line-diff"></span></div><div class="code-content">    if(isset(&#36;update-&gt;message)) { // Check if a message was sent</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">8</span><span class="no-line-diff"></span></div><div class="code-content">        &#36;bot-&gt;copyMessage([ // Copy the message</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">9</span><span class="no-line-diff"></span></div><div class="code-content">            "chat_id" =&gt; &#36;update-&gt;chat-&gt;id,</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">10</span><span class="no-line-diff"></span></div><div class="code-content">            "from_chat_id" =&gt; &#36;update-&gt;chat-&gt;id,</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">11</span><span class="no-line-diff"></span></div><div class="code-content">            "message_id" =&gt; &#36;update-&gt;message-&gt;message_id</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">12</span><span class="no-line-diff"></span></div><div class="code-content">        ]);</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">13</span><span class="no-line-diff"></span></div><div class="code-content">    }</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">14</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">15</span><span class="no-line-diff"></span></div><div class="code-content">} else{</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">16</span><span class="no-line-diff"></span></div><div class="code-content">    echo "No updates from telegram where found.\n";</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">17</span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre></CodeCopy></div>
-<h3 id="start-the-bot"><a href="#start-the-bot">Start the bot</a></h3>
+<h4 id="start-the-bot"><a href="#start-the-bot">Start the bot</a></h4>
 <p>Once you have those files you just need to bootstrap your bot:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">php src/bootstrap.php</div></div>`}</code></pre></CodeCopy></div>
 <p>And start your HTTPS web server.</p>
-<h1 id="enjoy"><a href="#enjoy">Enjoy</a></h1>
+<h2 id="enjoy"><a href="#enjoy">Enjoy</a></h2>
 <p>You now have a full functioning bot that replies to every message sent by the users.</p>
 <p>If you have any question please leave a comment below and I&#39;ll be happy to reply.</p>
 ]]></content>
@@ -521,16 +521,16 @@ In this article will assume that you already have it.</p>
     <published>2023-11-06T11:00:00.000Z</published>
     <updated>2023-12-12T10:00:00.000Z</updated>
     <summary type="html"><![CDATA[🤖 Create your first Telegram Bot using PHP in just a few steps]]></summary>
-    <content type="html"><![CDATA[<h1 id="introduction"><a href="#introduction">Introduction</a></h1>
+    <content type="html"><![CDATA[<h2 id="introduction"><a href="#introduction">Introduction</a></h2>
 <p>Telegram bots are special accounts that serve as an interface for code running on a server, allowing for a variety of functionalities within the Telegram platform. They can be used to automate tasks, provide information, interact with users, and even replace entire websites.</p>
 <p>In this article, we&#39;ll explore how to build a PHP Telegram bot using the <a href="https://core.telegram.org/bots/api" rel="external" >Telegram Bot Api</a> and <a href="https://botapi.racca.me" rel="external" >TelegramSDK</a>. We&#39;ll walk through the process of setting up the bot, configuring it, and testing it.</p>
-<h2 id="prerequisites"><a href="#prerequisites">Prerequisites</a></h2>
+<h3 id="prerequisites"><a href="#prerequisites">Prerequisites</a></h3>
 <p>Before we begin, ensure that you have the following:</p>
 <ul>
 <li>PHP installed on your machine. If not, you can download it from the official <a href="https://www.php.net/download" rel="external" >PHP website</a>.</li>
 <li>Composer, a dependency manager for PHP. If you don&#39;t have it, you can download it from the official Composer website.</li>
 </ul>
-<h1 id="setup-your-bot-on-telegram"><a href="#setup-your-bot-on-telegram">Setup your Bot on Telegram</a></h1>
+<h2 id="setup-your-bot-on-telegram"><a href="#setup-your-bot-on-telegram">Setup your Bot on Telegram</a></h2>
 <p>The first step is to create a Bot to which users will chat with.
 Go to <a href="https://t.me/BotFather" rel="external" >@botfather</a>, start it and type <code class="inline-code-block">/newbot</code></p>
 <p><VideoPlayer
@@ -540,42 +540,42 @@ Go to <a href="https://t.me/BotFather" rel="external" >@botfather</a>, start it 
   title="BotFather Tutorial"
   mp4="/create-your-first-bot/botfather.mp4"
 /></p>
-<h1 id="start-coding"><a href="#start-coding">Start Coding</a></h1>
-<h2 id="setup-local-envirorment"><a href="#setup-local-envirorment">Setup Local Envirorment</a></h2>
+<h2 id="start-coding"><a href="#start-coding">Start Coding</a></h2>
+<h3 id="setup-local-envirorment"><a href="#setup-local-envirorment">Setup Local Envirorment</a></h3>
 <p>Before actually writing the bot&#39;s logic we need to install the lirary we&#39;re going to use:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">composer</span> require telegramsdk/botapi</div></div>`}</code></pre></CodeCopy></div>
 <p><a href="https://github.com/TelegramSDK/BotAPI" rel="external" >telegramsdk/botapi</a> is a light weight library that lets us access the <a href="https://core.telegram.org" rel="external" >Telegram API</a> easly and freely.</p>
-<h2 id="write-the-logic"><a href="#write-the-logic">Write the Logic</a></h2>
+<h3 id="write-the-logic"><a href="#write-the-logic">Write the Logic</a></h3>
 <p>It&#39;s time for the fun part!</p>
 <p>All you need to do is create a new file named <code class="inline-code-block">bot.php</code> (<em>or whatever you like</em>) and write this code:</p>
 <div class="code-block titled showLineNumber"><h2 class="code-title">bot.php</h2><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="line-number">1</span><span class="line-diff"> </span></div><div class="code-content">&lt;?php</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">2</span><span class="line-diff"> </span></div><div class="code-content">require_once "vendor/autoload.php";</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">3</span><span class="line-diff"> </span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">4</span><span class="line-diff"> </span></div><div class="code-content">use TelegramSDK\BotAPI\Telegram\Bot;</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">5</span><span class="line-diff"> </span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">6</span><span class="line-diff"> </span></div><div class="code-content">&#36;bot = new Bot("YOUR_BOT_TOKEN");</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">7</span><span class="line-diff"> </span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">8</span><span class="line-diff"> </span></div><div class="code-content">&#36;bot-&gt;sendMessage([</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">9</span><span class="line-diff"> </span></div><div class="code-content">    "chat_id" =&gt; YOUR_CHAT_ID,</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">10</span><span class="line-diff"> </span></div><div class="code-content">    "text" =&gt; "My First Telegram bot!"</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">11</span><span class="line-diff"> </span></div><div class="code-content">]);</div></div>`}</code></pre></CodeCopy></div>
 <InfoBox statusType="info" statusName="How can I get my CHAT_ID?"><p>Just send a message to <a href="https://t.me/userinfobot" rel="external" >@userinfobot</a> and replace <code class="inline-code-block">YOUR_CHAT_ID</code> with the id the bot provided.</p>
 </InfoBox>
-<h3 id="what-am-i-doing"><a href="#what-am-i-doing">What Am I Doing?</a></h3>
+<h4 id="what-am-i-doing"><a href="#what-am-i-doing">What Am I Doing?</a></h4>
 <p>If this is your first approach to Telegram or to <a href="https://github.com/TelegramSDK/BotAPI" rel="external" >telegramsdk/botapi</a>, you may wonder:</p>
 <blockquote>
 <p>What am I Doing?</p>
 </blockquote>
 <p>Otherwise you can skip this explanation.</p>
 <p>Let&#39;s have a look a the code you&#39;ve just written:</p>
-<h4 id="instancing-a-new-bot"><a href="#instancing-a-new-bot">Instancing a new Bot</a></h4>
+<h5 id="instancing-a-new-bot"><a href="#instancing-a-new-bot">Instancing a new Bot</a></h5>
 <p>In this lines we&#39;re importing the library from the <code class="inline-code-block">vendor/</code> directory and instancing a new Bot object.</p>
 <div class="code-block titled showLineNumber"><h2 class="code-title">bot.php</h2><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="line-number">1</span><span class="no-line-diff"></span></div><div class="code-content">&lt;?php</div></div><div class="code-line line-highlight"><div class="code-linenotation"><span class="line-number">2</span><span class="no-line-diff"></span></div><div class="code-content">require_once "vendor/autoload.php";</div></div><div class="code-line line-highlight"><div class="code-linenotation"><span class="line-number">3</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line line-highlight"><div class="code-linenotation"><span class="line-number">4</span><span class="no-line-diff"></span></div><div class="code-content">use TelegramSDK\BotAPI\Telegram\Bot;</div></div><div class="code-line line-highlight"><div class="code-linenotation"><span class="line-number">5</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line line-highlight"><div class="code-linenotation"><span class="line-number">6</span><span class="no-line-diff"></span></div><div class="code-content">&#36;bot = new Bot("YOUR_BOT_TOKEN");</div></div>`}</code></pre></CodeCopy></div>
 <InfoBox statusType="info" statusName="Replace the Token!"><p>Please remember to replace <code class="inline-code-block">YOUR_BOT_TOKEN</code> with the actual bot token that <a href="https://t.me/botfather" rel="external" >@botfather</a> sent you.</p>
 <p>See &quot;<a href="#setup-your-bot-on-telegram"  >Setup your Bot on Telegram</a>&quot; if you don&#39;t know how to do it.</p>
 </InfoBox>
-<h4 id="sending-a-message"><a href="#sending-a-message">Sending a Message</a></h4>
+<h5 id="sending-a-message"><a href="#sending-a-message">Sending a Message</a></h5>
 <p>The lines are an API call to the Telegram <code class="inline-code-block">sendMessage</code> method.</p>
 <p>This call will send a message to the specified user saying &quot;My First Telegram bot!&quot;</p>
 <div class="code-block titled showLineNumber"><h2 class="code-title">bot.php</h2><CodeCopy><pre><code class="language-php">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="line-number">1</span><span class="no-line-diff"></span></div><div class="code-content">&lt;?php</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">2</span><span class="no-line-diff"></span></div><div class="code-content">require_once "vendor/autoload.php";</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">3</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">4</span><span class="no-line-diff"></span></div><div class="code-content">use TelegramSDK\BotAPI\Telegram\Bot;</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">5</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">6</span><span class="no-line-diff"></span></div><div class="code-content">&#36;bot = new Bot("YOUR_BOT_TOKEN");</div></div><div class="code-line"><div class="code-linenotation"><span class="line-number">7</span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line line-highlight"><div class="code-linenotation"><span class="line-number">8</span><span class="no-line-diff"></span></div><div class="code-content">&#36;bot-&gt;sendMessage([</div></div><div class="code-line line-highlight"><div class="code-linenotation"><span class="line-number">9</span><span class="no-line-diff"></span></div><div class="code-content">   "chat_id" =&gt; YOUR_CHAT_ID,</div></div><div class="code-line line-highlight"><div class="code-linenotation"><span class="line-number">10</span><span class="no-line-diff"></span></div><div class="code-content">   "text" =&gt; "My First Telegram bot!"</div></div><div class="code-line line-highlight"><div class="code-linenotation"><span class="line-number">11</span><span class="no-line-diff"></span></div><div class="code-content">]);</div></div>`}</code></pre></CodeCopy></div>
 <p>Please remember to replace <code class="inline-code-block">YOUR_CHAT_ID</code> with your actual id.</p>
 <p>If you don&#39;t know how to get your char id start, <a href="https://t.me/userinfobot" rel="external" >@userinfobot</a> and get your id.</p>
-<h2 id="test-the-bot"><a href="#test-the-bot">Test the bot</a></h2>
+<h3 id="test-the-bot"><a href="#test-the-bot">Test the bot</a></h3>
 <p>Testing the bot is super easy, you just need to start the file!</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-bash">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">php bot.php</div></div>`}</code></pre></CodeCopy></div>
 <InfoBox statusType="info" statusName="Start the Bot"><p>If you don&#39;t <strong>start the bot you created</strong>, the program won&#39;t be able to send you the message.</p>
 </InfoBox>
-<h2 id="enjoy"><a href="#enjoy">Enjoy</a></h2>
+<h3 id="enjoy"><a href="#enjoy">Enjoy</a></h3>
 <p>That&#39;s it! You now have a fully working telegram bot.
 <a href="/create-an-echo-bot"  >Or do you?</a></p>
 <p>Make sure to check out the <a href="/create-an-echo-bot"  >next post</a> of the series.</p>
