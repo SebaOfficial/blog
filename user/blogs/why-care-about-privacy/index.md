@@ -11,7 +11,7 @@ tags:
   - [ Privacy ]
 ---
 
-# Privacy isn’t about hiding
+## Privacy isn’t about hiding
 The "I have nothing to hide" argument frames privacy as something only criminals and other bad actors would demand, but nothing could be further from the truth.
 Privacy is about the **freedom** to make choices without fear: how you want to live, what you believe in, who you are friends with, and what you want to share with whom.
 A lack of privacy leads to uniformity and **self-censorship**, which pushes our opinions to the edges and erodes our ability to engage in healthy debate.
@@ -24,7 +24,7 @@ Privacy is the **ultimate insurance** against a rapidly changing corporate and p
 Once we lose our privacy, we won’t get it back.
 
 
-# Privacy is a human right
+## Privacy is a human right
 Just like other human rights, we didn’t always have the right to privacy.
 Several dictatorships around the world still don't value this right.
 Generations before ours fought for our right to privacy.
@@ -38,7 +38,7 @@ or correspondence, nor to attacks upon his honour and reputation.
 It’s a **human right** just like the right to equality, to justice, freedom, a nationality, the right to religion, etc.
 
 
-# Your information is valuable
+## Your information is valuable
 You might be okay with governments or security agencies or companies having your private information.
 You might trust Google and Facebook.
 But what if these get hacked and your **information** falls in the **wrong hands**?

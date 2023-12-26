@@ -11,13 +11,13 @@ tags:
   - [ QRCode, Barcode ]
 ---
 
-# Barcodes VS QR Codes - 101 Comparison
+## Barcodes VS QR Codes - 101 Comparison
 Both barcodes and QR codes offer great functionalities and have embedded themselves in our everyday life, from business applications to personal use.
 
 In this article we're going to look advantages and disdvantages of both types.
 
 
-# Barcodes
+## Barcodes
 A barcode is a method of representing data in a visual, machine-readable form.
 
 * **1-dimentional barcodes**: represent data by varying the widths, spacings and sizes of parallel lines.
@@ -53,7 +53,7 @@ There are several types of barcodes, each one with symbol variations:
   * Mostly used for electronic part management.
 
 
-## Advantages
+### Advantages
 * **Accuracy**: Barcodes enhance data accuracy by minimizing the potential for human errors during data entry. This is crucial for maintaining precise records and preventing mistakes that can occur in manual data input.
 
 * **Speed**: Scanning barcodes is a quick and efficient process, allowing for the rapid handling of transactions. This speed is particularly beneficial in environments where large volumes of data need to be processed swiftly, such as in retail, logistics, and manufacturing.
@@ -64,7 +64,7 @@ There are several types of barcodes, each one with symbol variations:
 personalized and efficient service. This capability is especially valuable in retail and other customer-oriented industries, where providing tailored service can enhance the customer experience and satisfaction.
 
 
-## Disadvantages
+### Disadvantages
 * **Restricted data**: Barcodes typically store a limited amount of data, such as a serial number or product code. For more detailed information, additional labels or tags may be required. This limitation can be a drawback when more comprehensive data storage is needed.
 
 * **Damage-prone**: Barcodes can be susceptible to damage. Scratches or other forms of damage may make the barcode unreadable, leading to potential issues in data collection and accuracy.
@@ -76,7 +76,7 @@ personalized and efficient service. This capability is especially valuable in re
 * **Environmental Impact**: The materials used to make barcodes are often non-biodegradable. Improper disposal of barcode-related materials can contribute to environmental issues, such as increased trash and pollution. Considering environmentally friendly alternatives or disposal methods becomes important in addressing this concern.
 
 
-## Generate Barcodes (Linux)
+### Generate Barcodes (Linux)
 Install the barcode generator:
 ```bash
 sudo apt-get update
@@ -93,7 +93,7 @@ Convert it to png:
 convert barcode.ps barcode.png
 ```
 
-# QR Codes
+## QR Codes
 QR Codes are a type of two-dimensional matrix barcodes, they consists of black squares arranged in a square grid on a white background, including some fiducial markers, which can be read by an imaging device.
 
 QR codes offer remarkable versatility, making them a powerful tool for various applications:
@@ -110,7 +110,7 @@ QR codes offer remarkable versatility, making them a powerful tool for various a
 * **Connect to Wifi**: Expedite internet network connections without searching for network names or asking for passwords.
 
 
-## Advantages
+### Advantages
 * **Quick & Simple**: QR codes allow consumers to access information swiftly without the need for manual data entry or typing. This quick and simple process enhances user convenience;
 
 * **Large Capacity**: QR codes have a larger data capacity compared to standard barcodes. This makes them versatile and suitable for various applications where more information needs to be stored;
@@ -124,14 +124,14 @@ QR codes offer remarkable versatility, making them a powerful tool for various a
 * **Contactless**: QR codes can be scanned from a distance, allowing for contactless interactions. This is particularly valuable in public settings, promoting hygiene and safety by reducing the need for physical contact.
 
 
-## Disadvantages
+### Disadvantages
 * **Technology Dependency**: Just like barcodes, QR Codes, depend on specialized hardware, such as barcode scanners or mobile devices equipped with scanning capabilities.
 
 * **Visual Aesthetic Concerns**: Some argue that QR codes can be visually unappealing, and their presence might be considered intrusive in certain designs or settings.
 
 * **User Education**: Some users may not be familiar with QR codes or may be unsure about how to use them.
 
-## Generate QR Codes (Linux)
+### Generate QR Codes (Linux)
 Install the QR Code generator:
 ```bash
 sudo apt-get update
