@@ -1,7 +1,7 @@
 ---
 title: How to Choose your Linux Shell
-description: ⌨️ 5 alternatives to Bash
-summary: Tutorial on how to choose your linux shell
+description: Tutorial on how to choose your linux shell
+summary: ⌨️ 5 alternatives to Bash
 published: '2023-12-28T21:58:28.000+01:00'
 updated: '2023-12-28T21:58:28.000+01:00'
 cover: ./cover.jpg
