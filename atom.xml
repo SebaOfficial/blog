@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2023-12-28T21:31:28.175Z</updated>
+<updated>2023-12-28T21:33:56.964Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -40,7 +40,7 @@
     <id>https://blog.racca.me/choose-your-linux-shell</id>
     <published>2023-12-28T20:58:28.000Z</published>
     <updated>2023-12-28T20:58:28.000Z</updated>
-    <summary type="html"><![CDATA[Tutorial on how to choose your linux shell]]></summary>
+    <summary type="html"><![CDATA[⌨️ 5 alternatives to Bash]]></summary>
     <content type="html"><![CDATA[<h2 id="introduction"><a href="#introduction">Introduction</a></h2>
 <p>In the world of Unix-based operating systems, the default shell is often <a href="https://www.gnu.org/software/bash/" rel="external" >Bash</a>. However, the open-source nature of Linux allows for a variety of alternatives, each catering to different preferences and use cases.</p>
 <p>In this tutorial, we&#39;ll explore five alternatives to Bash and guide you on how to choose the Linux shell that best suits your needs.</p>
