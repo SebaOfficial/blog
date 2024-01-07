@@ -3,6 +3,7 @@ title: Privacy Policy
 description: Sebastiano Racca's blog privacy policy
 published: '2023-12-14T18:41:20.000+01:00'
 updated: '2023-12-14T18:41:20.000+01:00'
+giscus: false
 options:
   - unlisted
 ---
