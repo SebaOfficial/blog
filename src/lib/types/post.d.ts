@@ -21,6 +21,7 @@ export namespace Post {
     next?: string;
     toc?: TOC.Heading[];
     tags?: Array<>;
+    giuscus?: boolean;
   };
 
   export enum CoverStyle {
