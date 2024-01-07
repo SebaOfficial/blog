@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-01-07T18:55:26.137Z</updated>
+<updated>2024-01-07T19:14:56.355Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -35,10 +35,10 @@
 <category term="Privacy" scheme="https://blog.racca.me/?tags=Privacy" />
 <category term="Series-FirstBot" scheme="https://blog.racca.me/?tags=tags-Series=FirstBot" />
 <entry>
-    <title type="html"><![CDATA[Passwords Best Practices]]></title>
+    <title type="html"><![CDATA[Best Practices for Passwords]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
-    <link href="https://blog.racca.me/passwords-and-passkeys" />
-    <id>https://blog.racca.me/passwords-and-passkeys</id>
+    <link href="https://blog.racca.me/passwords-best-practices" />
+    <id>https://blog.racca.me/passwords-best-practices</id>
     <published>2024-01-07T15:25:40.000Z</published>
     <updated>2024-01-07T15:25:40.000Z</updated>
     <summary type="html"><![CDATA[🔒 Learn about passwords]]></summary>

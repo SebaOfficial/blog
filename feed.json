@@ -16,11 +16,11 @@
   "language": "en",
   "items": [
     {
-      "id": "passwords-and-passkeys",
-      "url": "https://blog.racca.me/passwords-and-passkeys",
-      "title": "Passwords Best Practices",
+      "id": "passwords-best-practices",
+      "url": "https://blog.racca.me/passwords-best-practices",
+      "title": "Best Practices for Passwords",
       "summary": "🔒 Learn about passwords",
-      "image": "/passwords-and-passkeys/cover.jpg",
+      "image": "/passwords-best-practices/cover.jpg",
       "date_published": "2024-01-07T16:25:40.000+01:00",
       "date_modified": "2024-01-07T16:25:40.000+01:00",
       "content_text": "INTRODUCTION\n\nA password is a string of characters used to verify the identity of a user\nduring the authentication process. Passwords are typically used in tandem with a\nusername; they are designed to be known only to the user and allow that user to\ngain access to a device, application or website. Passwords can vary in length\nand can contain letters, numbers and special characters.\n\n\nHOW TO CREATE A SECURE PASSWORD\n\nPasswords, when carefully created and protected, increase safe and secure\ninteractions online and in the workplace and can prevent password cracking. To\nmaximize the strength and efficacy of passwords, organizations often establish\npassword policies. These policies are designed to help users create strong\npasswords and adopt best practices for managing login credentials. According to\nthe traditional advice, a strong password has:\n\n * Minumum 12 Characters;\n * Both uppercase and lowercase letters;\n * At least one number;\n * At least one special character.\n\n\nWHAT YOU SHOULDN'T INCLUDE\n\n * Dictionary Word or Combination of them;\n * Easily guessed elements, such as names of children, pet names and birthdays;\n * Obvious Substitutions, such as H3llo or H0use\n\n\nUSE PASSWORD MANAGERS\n\nOne of the best advices I always give is to store your password with a password\nmanager like bitwarden [https://bitwarden.com/] and use passwords generators you\ntrust to generate them for you, because:\n\n> If you can remember a password, a computer can remember it too.\n\nBitwardern offers a password generator\n[https://bitwarden.com/password-generator/] but if you're a linux user you could\nuse pwgen, here's an example to generate a password with 16 characters:\n\n{@html String.raw`\npwgen 16 1`}\n\n\nTEST YOUR PASSWORD\n\nHere's how you can test the effectiveness of your password:",
