@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-01-07T19:14:56.355Z</updated>
+<updated>2024-01-07T19:17:05.647Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -29,9 +29,8 @@
 <category term="Email" scheme="https://blog.racca.me/?tags=Email" />
 <category term="Gmail" scheme="https://blog.racca.me/?tags=Gmail" />
 <category term="Clodflare" scheme="https://blog.racca.me/?tags=Clodflare" />
-<category term="password" scheme="https://blog.racca.me/?tags=password" />
-<category term="security" scheme="https://blog.racca.me/?tags=security" />
-<category term="privacy" scheme="https://blog.racca.me/?tags=privacy" />
+<category term="Password" scheme="https://blog.racca.me/?tags=Password" />
+<category term="Security" scheme="https://blog.racca.me/?tags=Security" />
 <category term="Privacy" scheme="https://blog.racca.me/?tags=Privacy" />
 <category term="Series-FirstBot" scheme="https://blog.racca.me/?tags=tags-Series=FirstBot" />
 <entry>
@@ -74,9 +73,9 @@ According to the traditional advice, a strong password has:</p>
 <p>Here&#39;s how you can test the effectiveness of your password:</p>
 <PasswordCrack />
 ]]></content>
-    <category term="password" scheme="https://blog.racca.me/?tags=password" />
-<category term="security" scheme="https://blog.racca.me/?tags=security" />
-<category term="privacy" scheme="https://blog.racca.me/?tags=privacy" />
+    <category term="Password" scheme="https://blog.racca.me/?tags=Password" />
+<category term="Security" scheme="https://blog.racca.me/?tags=Security" />
+<category term="Privacy" scheme="https://blog.racca.me/?tags=Privacy" />
     </entry>
 <entry>
     <title type="html"><![CDATA[How to Choose your Linux Shell]]></title>
