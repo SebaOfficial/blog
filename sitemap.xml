@@ -7,6 +7,13 @@
     </url>
     
         <url>
+        <loc>https://blog.racca.me/passwords-and-passkeys</loc>
+        <lastmod>2024-01-07T15:25:40.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
         <loc>https://blog.racca.me/choose-your-linux-shell</loc>
         <lastmod>2023-12-28T20:58:28.000Z</lastmod>
         <changefreq>weekly</changefreq>
