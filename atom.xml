@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-01-07T19:17:05.647Z</updated>
+<updated>2024-01-07T19:21:50.160Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -17,11 +17,11 @@
 <category term="Referral" scheme="https://blog.racca.me/?tags=Referral" />
 <category term="QRCode" scheme="https://blog.racca.me/?tags=QRCode" />
 <category term="Barcode" scheme="https://blog.racca.me/?tags=Barcode" />
-<category term="linux" scheme="https://blog.racca.me/?tags=linux" />
-<category term="tips" scheme="https://blog.racca.me/?tags=tips" />
-<category term="bash" scheme="https://blog.racca.me/?tags=bash" />
-<category term="fish" scheme="https://blog.racca.me/?tags=fish" />
-<category term="shell" scheme="https://blog.racca.me/?tags=shell" />
+<category term="Linux" scheme="https://blog.racca.me/?tags=Linux" />
+<category term="Shell" scheme="https://blog.racca.me/?tags=Shell" />
+<category term="Tips" scheme="https://blog.racca.me/?tags=Tips" />
+<category term="Bash" scheme="https://blog.racca.me/?tags=Bash" />
+<category term="Fish" scheme="https://blog.racca.me/?tags=Fish" />
 <category term="Telegram" scheme="https://blog.racca.me/?tags=Telegram" />
 <category term="Bot" scheme="https://blog.racca.me/?tags=Bot" />
 <category term="Automation" scheme="https://blog.racca.me/?tags=Automation" />
@@ -177,11 +177,11 @@ It provides an interactive command-line editor, improved autocompletion, and a v
 <p>Red Hat-based Systems:</p>
 <div class="code-block  "><CodeCopy><pre><code class="language-sh">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"><span class="token function">sudo</span> yum <span class="token function">install</span> csh</div></div>`}</code></pre></CodeCopy></div>
 ]]></content>
-    <category term="linux" scheme="https://blog.racca.me/?tags=linux" />
-<category term="tips" scheme="https://blog.racca.me/?tags=tips" />
-<category term="bash" scheme="https://blog.racca.me/?tags=bash" />
-<category term="fish" scheme="https://blog.racca.me/?tags=fish" />
-<category term="shell" scheme="https://blog.racca.me/?tags=shell" />
+    <category term="Linux" scheme="https://blog.racca.me/?tags=Linux" />
+<category term="Shell" scheme="https://blog.racca.me/?tags=Shell" />
+<category term="Tips" scheme="https://blog.racca.me/?tags=Tips" />
+<category term="Bash" scheme="https://blog.racca.me/?tags=Bash" />
+<category term="Fish" scheme="https://blog.racca.me/?tags=Fish" />
     </entry>
 <entry>
     <title type="html"><![CDATA[I have nothing to hide. Why should I care about my privacy?]]></title>
