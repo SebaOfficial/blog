@@ -8,7 +8,7 @@ cover: ./cover.jpg
 coverCaption: Photo by <a href="https://unsplash.com/@6heinz3r">Gabriel Heinzer</a> on <a href="https://unsplash.com/photos/green-and-black-digital-device-xbEVM6oJ1Fs">Unsplash</a>
 coverStyle: 'IN'
 tags:
-  - [ linux, tips, bash, fish, shell ]
+  - [ Linux, Shell, Tips, Bash, Fish ]
 ---
 
 ## Introduction
