@@ -74,6 +74,7 @@
     background-color: var(--qwer-bg-color);
     color: var(--qwer-text-color);
     border-top-color: var(--qwer-border-top-color);
+    text-align: center;
   }
   #footer a:not(.btn) {
     &:hover {
@@ -81,8 +82,10 @@
     }
   }
   #legals {
+    margin-top: 10px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 0.5em;
   }
   #legals > p:not(:first-child)::before {
