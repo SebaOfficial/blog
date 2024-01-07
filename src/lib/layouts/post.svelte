@@ -23,6 +23,7 @@
   const thisPost = $postsAll.get($page.route?.id?.substring(1) ?? '') as Post.Post;
   const prevPost = thisPost?.prev ? $postsAll.get(thisPost.prev) : undefined;
   const nextPost = thisPost?.next ? $postsAll.get(thisPost.next) : undefined;
+  const giscusEnabled = thisPost.giscus ?? true;
   let observer: IntersectionObserver;
   let postElement: HTMLElement;
 
@@ -140,13 +141,13 @@
     <div class="max-w-screen-md flex-1" />
 
     <div id="post-bottom" class="flex-none flex flex-col max-w-[55rem] w-full xl:(rounded-b-2xl)">
-      {#if thisPost}
+      {#if thisPost.tags}
         <TagsSection tags={thisPost.tags} />
       {/if}
 
-      <div class="divider" />
-
       {#if nextPost || prevPost}
+        <div class="divider" />
+
         <nav class="flex flex-col h-[20rem] md:(flex-row h-[12rem]) my8">
           {#if prevPost}
             <div id="prev-post" class="relative flex-1 group overflow-hidden bg-white/[0.5] dark:bg-black/[0.5]">
@@ -185,11 +186,13 @@
         </nav>
       {/if}
 
-      {#key $theme}
-        <div itemscope itemtype="https://schema.org/Comment" itemprop="comment" class="my8 mx6">
-          <Giscuss theme={$theme} />
-        </div>
-      {/key}
+      {#if giscusEnabled}
+        {#key $theme}
+          <div itemscope itemtype="https://schema.org/Comment" itemprop="comment" class="my8 mx6">
+            <Giscuss theme={$theme} />
+          </div>
+        {/key}
+      {/if}
     </div>
 
     <div class="max-w-screen-md flex-1" />

@@ -141,6 +141,7 @@ const _processMD = (file, generateMeta) => {
     series_title: _meta['series_title'],
     tags: _tags ?? [],
     toc: _md.toc,
+    giscus: _meta['giscus'],
   };
 
   if (_meta['series_tag']) {
