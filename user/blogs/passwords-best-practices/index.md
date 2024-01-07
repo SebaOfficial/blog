@@ -8,7 +8,7 @@ cover: ./cover.jpg
 coverCaption: Photo by <a href="https://unsplash.com/@towfiqu999999">Towfiqu barbhuiya</a> on <a href="https://unsplash.com/photos/a-golden-padlock-sitting-on-top-of-a-keyboard-FnA5pAzqhMM">Unsplash</a>
 coverStyle: 'IN'
 tags:
-  - [ password, security, privacy ]
+  - [ Password, Security, Privacy ]
 ---
 
 <script lang="ts">
