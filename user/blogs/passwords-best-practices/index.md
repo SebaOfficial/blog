@@ -1,5 +1,5 @@
 ---
-title: Passwords Best Practices
+title: Best Practices for Passwords
 description: Learn how to use passwords, how to store and secure them.
 summary: 🔒 Learn about passwords
 published: '2024-01-07T16:25:40.000+01:00'
