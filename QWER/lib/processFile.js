@@ -148,11 +148,11 @@ const _processMD = (file, generateMeta) => {
     _postData['tags'].push(series);
   }
 
-  const year = { [UserConfig.YearTagName]: new Date(_postData['published']).getFullYear().toString() };
-  _postData['tags'].push(year);
+  // const year = { [UserConfig.YearTagName]: new Date(_postData['published']).getFullYear().toString() };
+  // _postData['tags'].push(year);
 
-  const language = { [UserConfig.PostLanguageTagName]: _postData['language'] };
-  _postData['tags'].push(language);
+  // const language = { [UserConfig.PostLanguageTagName]: _postData['language'] };
+  // _postData['tags'].push(language);
 
   posts.set(_postData['slug'], _postData);
   tags.set(_postData['tags']);
