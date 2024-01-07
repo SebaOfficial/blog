@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-01-07T17:52:47.381Z</updated>
+<updated>2024-01-07T18:16:47.533Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -33,9 +33,6 @@
 <category term="security" scheme="https://blog.racca.me/?tags=security" />
 <category term="privacy" scheme="https://blog.racca.me/?tags=privacy" />
 <category term="Privacy" scheme="https://blog.racca.me/?tags=Privacy" />
-<category term="Year-2023" scheme="https://blog.racca.me/?tags=tags-Year=2023" />
-<category term="Year-2024" scheme="https://blog.racca.me/?tags=tags-Year=2024" />
-<category term="Language-English" scheme="https://blog.racca.me/?tags=tags-Language=English" />
 <category term="Series-FirstBot" scheme="https://blog.racca.me/?tags=tags-Series=FirstBot" />
 <entry>
     <title type="html"><![CDATA[Passwords Best Practices]]></title>
@@ -80,8 +77,6 @@ According to the traditional advice, a strong password has:</p>
     <category term="password" scheme="https://blog.racca.me/?tags=password" />
 <category term="security" scheme="https://blog.racca.me/?tags=security" />
 <category term="privacy" scheme="https://blog.racca.me/?tags=privacy" />
-<category term="Year-2024" scheme="https://blog.racca.me/?Year=2024" />
-<category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[How to Choose your Linux Shell]]></title>
@@ -188,8 +183,6 @@ It provides an interactive command-line editor, improved autocompletion, and a v
 <category term="bash" scheme="https://blog.racca.me/?tags=bash" />
 <category term="fish" scheme="https://blog.racca.me/?tags=fish" />
 <category term="shell" scheme="https://blog.racca.me/?tags=shell" />
-<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
-<category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[I have nothing to hide. Why should I care about my privacy?]]></title>
@@ -246,8 +239,6 @@ Probably not, right?
 But you let this happen every time you use a service that makes money by selling your info.</p>
 ]]></content>
     <category term="Privacy" scheme="https://blog.racca.me/?tags=Privacy" />
-<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
-<category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Privacy Policy]]></title>
@@ -316,8 +307,7 @@ Changes to this Privacy Policy are effective when they are posted on this page.<
 <li>By visiting this page on our website: <a href="https://racca.me/contact" rel="external" >https://racca.me/contact</a></li>
 </ul>
 ]]></content>
-    <category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
-<category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
+    
     </entry>
 <entry>
     <title type="html"><![CDATA[Barcodes VS QR Codes]]></title>
@@ -458,8 +448,6 @@ personalized and efficient service. This capability is especially valuable in re
 ]]></content>
     <category term="QRCode" scheme="https://blog.racca.me/?tags=QRCode" />
 <category term="Barcode" scheme="https://blog.racca.me/?tags=Barcode" />
-<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
-<category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Create a Custom Email address with Gmail and Cloudflare]]></title>
@@ -529,8 +517,6 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
     <category term="Email" scheme="https://blog.racca.me/?tags=Email" />
 <category term="Gmail" scheme="https://blog.racca.me/?tags=Gmail" />
 <category term="Clodflare" scheme="https://blog.racca.me/?tags=Clodflare" />
-<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
-<category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Why I Love Hetzner Cloud]]></title>
@@ -574,8 +560,6 @@ Cloudflare Email Routing acts as a protective layer for your email infrastructur
     <category term="Hosting" scheme="https://blog.racca.me/?tags=Hosting" />
 <category term="Hetzner" scheme="https://blog.racca.me/?tags=Hetzner" />
 <category term="Referral" scheme="https://blog.racca.me/?tags=Referral" />
-<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
-<category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Create a Telegram Echo Bot]]></title>
@@ -673,8 +657,6 @@ In this article will assume that you already have it.</p>
 <category term="Automation" scheme="https://blog.racca.me/?tags=Automation" />
 <category term="TelegramSDK" scheme="https://blog.racca.me/?tags=TelegramSDK" />
 <category term="Series-FirstBot" scheme="https://blog.racca.me/?Series=FirstBot" />
-<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
-<category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 <entry>
     <title type="html"><![CDATA[Create Your First Telegram Bot]]></title>
@@ -749,7 +731,5 @@ Go to <a href="https://t.me/BotFather" rel="external" >@botfather</a>, start it 
 <category term="Automation" scheme="https://blog.racca.me/?tags=Automation" />
 <category term="TelegramSDK" scheme="https://blog.racca.me/?tags=TelegramSDK" />
 <category term="Series-FirstBot" scheme="https://blog.racca.me/?Series=FirstBot" />
-<category term="Year-2023" scheme="https://blog.racca.me/?Year=2023" />
-<category term="Language-English" scheme="https://blog.racca.me/?Language=English" />
     </entry>
 </feed>
