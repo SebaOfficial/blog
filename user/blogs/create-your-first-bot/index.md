@@ -3,7 +3,7 @@ title: Create Your First Telegram Bot
 description: Create your first telegram bot in a few steps in PHP using telegramsdk/botapi
 summary: 🤖 Create your first Telegram Bot using PHP in just a few steps
 published: '2023-11-06T12:00:00.000+01:00'
-updated: '2023-12-12T11:00:00.000+01:00'
+updated: '2024-01-10T13:00:00.000+01:00'
 cover: ./cover.jpg
 coverCaption: Photo by <a href="https://unsplash.com/@rubaitulazad">Nitish Meena</a> on <a href="https://unsplash.com/photos/a-blue-and-white-square-button-with-a-paper-airplane-on-it-u4F54GIZWGI">Unsplash</a>
 coverStyle: 'IN'
@@ -18,14 +18,16 @@ tags:
 </script>
 
 ## Introduction
-Telegram bots are special accounts that serve as an interface for code running on a server, allowing for a variety of functionalities within the Telegram platform. They can be used to automate tasks, provide information, interact with users, and even replace entire websites.
+Telegram bots are special accounts that serve as an interface for code running on a server, allowing for a variety of functionalities within the Telegram platform.
+They can be used to automate tasks, provide information, interact with users, and even replace entire websites.
 
-In this article, we'll explore how to build a PHP Telegram bot using the [Telegram Bot Api](https://core.telegram.org/bots/api) and [TelegramSDK](https://botapi.racca.me). We'll walk through the process of setting up the bot, configuring it, and testing it.
+In this article, we'll explore how to build a PHP Telegram bot using the [Telegram Bot Api](https://core.telegram.org/bots/api) and [TelegramSDK](https://botapi.racca.me).
+We'll walk through the process of setting up the bot, configuring it, and testing it.
 
 ### Prerequisites
 Before we begin, ensure that you have the following:
 * PHP installed on your machine. If not, you can download it from the official [PHP website](https://www.php.net/download).
-* Composer, a dependency manager for PHP. If you don't have it, you can download it from the official Composer website.
+* Composer, a dependency manager for PHP. If you don't have it, you can download it from the official [Composer website](https://getcomposer.org/download/).
 
 ## Setup your Bot on Telegram
 The first step is to create a Bot to which users will chat with.
@@ -43,7 +45,7 @@ Go to [@botfather](https://t.me/BotFather), start it and type `/newbot`
 ## Start Coding
 
 ### Setup Local Envirorment
-Before actually writing the bot's logic we need to install the lirary we're going to use:
+Before writing the bot's logic we need to install the library we're going to use:
 ```bash
 composer require telegramsdk/botapi
 ```
@@ -79,12 +81,12 @@ Just send a message to [@userinfobot](https://t.me/userinfobot) and replace `YOU
 If this is your first approach to Telegram or to [telegramsdk/botapi](https://github.com/TelegramSDK/BotAPI), you may wonder:
 > What am I Doing?
 
-Otherwise you can skip this explanation.
+If you already know, you can skip this explanation.
 
 Let's have a look a the code you've just written:
 
 ##### Instancing a new Bot
-In this lines we're importing the library from the `vendor/` directory and instancing a new Bot object.
+In this lines we're importing the library from the `vendor/` directory and instancing a new `Bot` object.
 ```php
 /// showLineNumber
 /// title: bot.php
@@ -103,7 +105,7 @@ See "[Setup your Bot on Telegram](#setup-your-bot-on-telegram)" if you don't kno
 :::
 
 ##### Sending a Message
-The lines are an API call to the Telegram `sendMessage` method.
+The lines are an API call to the Telegram [`sendMessage`](https://core.telegram.org/bots/api#sendmessage) method.
 
 This call will send a message to the specified user saying "My First Telegram bot!"
 
@@ -133,7 +135,6 @@ Testing the bot is super easy, you just need to start the file!
 php bot.php
 ```
 :::info Start the Bot
-
 If you don't **start the bot you created**, the program won't be able to send you the message.
 :::
 
