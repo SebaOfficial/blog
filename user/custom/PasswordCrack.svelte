@@ -7,7 +7,7 @@
   const estimateCrackingTime = () => {
     const attemptsPerSecond = 1000000000;
     const characterSet = 94; // 26 lowercase letters + 26 uppercase letters + 10 digits + 32 special characters
-    const possibleCombinations = Math.pow(characterSet, password.length / 1.35);
+    const possibleCombinations = Math.pow(characterSet, new Set(password).size / 1.35);
 
     const seconds = possibleCombinations / attemptsPerSecond;
     console.log(seconds);
