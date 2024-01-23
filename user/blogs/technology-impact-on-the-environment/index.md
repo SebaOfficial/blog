@@ -1,7 +1,7 @@
 ---
 title: Technology's Impact on the Environment
-description: 
-summary: 
+description: technology's impact on the environment, concerns and solutions
+summary: 🌳 Technology's impact on the environment
 published: '2024-01-22T19:24:20.000+01:00'
 updated: '2024-01-22T19:24:20.000+01:00'
 cover: ./cover.jpg
