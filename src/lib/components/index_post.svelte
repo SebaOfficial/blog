@@ -51,7 +51,7 @@
       itemprop="blogPost"
       in:fly|global={{ x: index % 2 ? 100 : -100, duration: 300, delay: 300 }}
       out:fly|global={{ x: index % 2 ? -100 : 100, duration: 300 }}
-      class="index-post flex flex-col relative w-full overflow-hidden group shadow-xl hover:(shadow-2xl) transform transition duration-300 md:(w-3xl rounded-lg hover:(scale-105))">
+      class="index-post flex flex-col relative w-full overflow-hidden group shadow-xl hover:(shadow-2xl) transform transition duration-500 md:(w-3xl rounded-lg hover:(scale-105))">
       {#if data.series_tag && data.series_title}
         <div class="series flex items-stretch gap-0 z10">
           <div
@@ -81,7 +81,7 @@
             loading={index < numberPostsEager ? 'eager' : 'lazy'}
             decoding={index < numberPostsEager ? 'auto' : 'async'}
             src={data.cover}
-            imgClass="z1 blur-sm op80 absolute object-cover w-full h-full transition transform duration-300 ease-in-out group-hover:(scale-110 blur-none)" />
+            imgClass="z1 blur-sm op80 absolute object-cover w-full h-full transition transform duration-1000 ease-in-out group-hover:(scale-110 blur-none)" />
           <div class="coverStyle-IN z2 px8 pt4 pb6 flex flex-col gap2 bg-white/[0.25] dark:bg-black/[0.25]">
             <time class="dt-published op80 group-hover:font-600" datetime={data.published} itemprop="datePublished">
               {postPublishedStr}
@@ -157,11 +157,13 @@
 
 <style lang="scss">
   .index-post {
-    border-top: var(--qwer-border-mobile);
-    border-bottom: var(--qwer-border-mobile);
+    border-radius: 0.5rem;
+    margin: auto;
+    max-width: 90%;
     color: var(--qwer-text-color);
     h2 a {
       color: var(--qwer-title-color);
+      font-size: clamp(5px, 8vw, 25px);
 
       &:hover {
         color: var(--qwer-title-hover-color);
@@ -169,31 +171,21 @@
     }
   }
 
+  @media (max-width: 768px) {
+    .index-post {
+      width: 90vw;
+    }
+  }
+
   .coverStyle-TOPnBOT {
-    height: var(--qwer-cover-height-TOPnBOT-mobile);
+    height: var(--qwer-cover-height-TOPnBOT);
   }
   .coverStyle-RnL {
-    width: var(--qwer-cover-width-RnL-mobile);
+    width: var(--qwer-cover-width-RnL);
   }
 
   .coverStyle-IN {
-    height: var(--qwer-cover-height-IN-mobile);
-  }
-
-  @media (min-width: 768px) {
-    .index-post {
-      border: var(--qwer-border-desktop);
-    }
-
-    .coverStyle-TOPnBOT {
-      height: var(--qwer-cover-height-TOPnBOT);
-    }
-    .coverStyle-RnL {
-      width: var(--qwer-cover-width-RnL);
-    }
-    .coverStyle-IN {
-      height: var(--qwer-cover-height-IN);
-    }
+    height: var(--qwer-cover-height-IN);
   }
 
   .index-post-panel {
