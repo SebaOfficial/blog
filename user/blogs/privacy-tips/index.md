@@ -3,7 +3,7 @@ title: 10 Privacy Tips to Protect Your Online Presence
 description: 10 Privacy Tips to Protect Your Online Presence
 summary: 🔐 10 tips to improve your privacy
 published: '2024-02-13T13:07:22.000+01:00'
-updated: '2024-02-13T13:07:22.000+01:00'
+updated: '2024-02-13T14:56:22.000+01:00'
 cover: ./cover.jpg
 coverCaption: Photo by <a href="https://unsplash.com/@jdent">Jason Dent</a> on <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-sign-that-says-privacy-please-JFk0dVyvdvw">Unsplash</a>
 coverStyle: 'IN'
@@ -36,6 +36,7 @@ Opt for open-source alternatives whenever possible, whether it's for your browse
 ## 4. Create Strong & Unique Passwords
 Strengthen your online accounts by using strong, unique passwords for each service.
 Avoid the temptation to reuse passwords across multiple platforms, as this significantly increases your vulnerability to hacking.
+Additionally, whenever possible, enable multi-factor authentication (MFA) to add an extra layer of security.
 Check out resources like [Passwords Best Practices](/passwords-best-practices) for guidance on creating robust passwords.
 
 ## 5. Caution with Cookies and Policies
