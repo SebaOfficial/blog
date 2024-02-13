@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-02-13T11:39:38.182Z</updated>
+<updated>2024-02-13T13:59:03.785Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -67,6 +67,7 @@ Opt for open-source alternatives whenever possible, whether it&#39;s for your br
 <h2 id="4-create-strong-and-amp-unique-passwords"><a href="#4-create-strong-and-amp-unique-passwords">4. Create Strong &amp; Unique Passwords</a></h2>
 <p>Strengthen your online accounts by using strong, unique passwords for each service.
 Avoid the temptation to reuse passwords across multiple platforms, as this significantly increases your vulnerability to hacking.
+Additionally, whenever possible, enable multi-factor authentication (MFA) to add an extra layer of security.
 Check out resources like <a href="/passwords-best-practices"  >Passwords Best Practices</a> for guidance on creating robust passwords.</p>
 <h2 id="5-caution-with-cookies-and-policies"><a href="#5-caution-with-cookies-and-policies">5. Caution with Cookies and Policies</a></h2>
 <p>Don&#39;t blindly accept cookie notices and privacy policies.
