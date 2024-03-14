@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-02-13T14:01:21.301Z</updated>
+<updated>2024-03-14T09:51:48.759Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -38,7 +38,52 @@
 <category term="VPN" scheme="https://blog.racca.me/?tags=VPN" />
 <category term="Technology" scheme="https://blog.racca.me/?tags=Technology" />
 <category term="Environment" scheme="https://blog.racca.me/?tags=Environment" />
+<category term="http" scheme="https://blog.racca.me/?tags=http" />
 <category term="Series-FirstBot" scheme="https://blog.racca.me/?tags=tags-Series=FirstBot" />
+<entry>
+    <title type="html"><![CDATA[The Evolution of HTTP]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://blog.racca.me/the-evolution-of-http" />
+    <id>https://blog.racca.me/the-evolution-of-http</id>
+    <published>2024-03-14T09:36:29.000Z</published>
+    <updated>2024-03-14T09:36:29.000Z</updated>
+    <summary type="html"><![CDATA[🌐 From HTTP/0.9 to HTTP/3.0]]></summary>
+    <content type="html"><![CDATA[<h2 id="introduction"><a href="#introduction">Introduction</a></h2>
+<p>The World Wide Web has undergone remarkable transformations since its inception, with the evolution of Hypertext Transfer Protocol (HTTP) playing a pivotal role in shaping its trajectory.
+From its humble beginnings to the sophisticated standards we have today, HTTP has continuously adapted to accommodate the changing landscape of the internet.
+In this blog post, we delve into the journey of HTTP, exploring its evolution and the impact it has had on the way we interact with the web.</p>
+<h2 id="http-0-9"><a href="#http-0-9">HTTP/0.9</a></h2>
+<p>HTTP was conceived in the early 1990s by Tim <a href="https://www.w3.org/People/Berners-Lee/" rel="external" >Berners-Lee</a>, a computer scientist at CERN, as a means to facilitate the exchange of information between servers and clients.
+The first version, HTTP/0.9, was a simple protocol designed primarily for retrieving static web pages. It lacked features such as headers and status codes, reflecting the nascent nature of the web at the time.</p>
+<h2 id="http-1-0"><a href="#http-1-0">HTTP/1.0</a></h2>
+<p>With the explosive growth of the web in the mid-1990s, the need for a more robust and extensible protocol became evident.
+HTTP/1.0 introduced several key features, including support for request headers, status codes, and content negotiation. 
+hese enhancements paved the way for more dynamic and interactive web experiences, enabling the development of early web applications.</p>
+<h2 id="http-1-1"><a href="#http-1-1">HTTP/1.1</a></h2>
+<p>As the complexity of web applications increased, HTTP/1.0 revealed its limitations.
+Issues such as inefficient resource utilization and latency prompted the development of HTTP/1.1 in 1997.
+This version introduced persistent connections, pipelining, and host-header-based virtual hosting, significantly improving performance and scalability.
+HTTP/1.1 became the de facto standard for web communication for over a decade, laying the foundation for the modern web.</p>
+<h2 id="http-2"><a href="#http-2">HTTP/2</a></h2>
+<p>By the early 2010s, the demands placed on web servers had outgrown the capabilities of HTTP/1.1.
+The emergence of rich media, dynamic content, and mobile devices necessitated a more efficient protocol.
+In 2015, HTTP/2 was standardized, bringing with it revolutionary features such as multiplexing, header compression, and server push.
+These advancements drastically reduced latency and improved page load times, ushering in a new era of web performance.</p>
+<h2 id="http-3"><a href="#http-3">HTTP/3</a></h2>
+<p>HTTP/3 was born from a new transport protocol, QUIC, created by Google in 2012.
+To solve TCP&#39;s head-of-line blocking, QUIC decided to use UDP for its transport protocol, because UDP does not care for guarantees of arrival.
+The responsibility of data integrity, that in TCP is part of the transport layer, is moved in QUIC to the application layer, and the frames of a message can arrive out of order, without blocking unrelated streams.</p>
+<h2 id="further-reading"><a href="#further-reading">Further Reading</a></h2>
+<p>If you want to read more about HTTP I suggest these articles:</p>
+<ul>
+<li><a href="https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained/" rel="external" >HTTP/2 and HTTP/3 explained</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP" rel="external" >Evolution of HTTP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/QUIC" rel="external" >QUIC - Wikipedia</a></li>
+<li><a href="https://blog.cloudflare.com/introducing-0-rtt" rel="external" >Introducing Zero Round Trip Time Resumption (0-RTT)</a></li>
+</ul>
+]]></content>
+    <category term="http" scheme="https://blog.racca.me/?tags=http" />
+    </entry>
 <entry>
     <title type="html"><![CDATA[10 Privacy Tips to Protect Your Online Presence]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
