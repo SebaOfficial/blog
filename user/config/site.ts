@@ -45,12 +45,26 @@ export const headConfig: Site.Head = {
     dev
       ? [
           // For Development Environment
+          `<script>
+            document.addEventListener("DOMContentLoaded", function() {
+              var script = document.createElement('script');
+              script.src = 'https://api.racca.me/newsletter.js';
+              document.body.appendChild(script);
+            });
+          </script>`,
         ]
       : [
           // For Production Environment
           `<!-- Cloudflare Web Analytics -->
             <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a38d5ca271be4ef388d669f29078f2cc"}'></script>
           <!-- End Cloudflare Web Analytics -->`,
+          `<script>
+            document.addEventListener("DOMContentLoaded", function() {
+              var script = document.createElement('script');
+              script.src = 'https://api.racca.me/newsletter.js';
+              document.body.appendChild(script);
+            });
+          </script>`,
         ],
 };
 
