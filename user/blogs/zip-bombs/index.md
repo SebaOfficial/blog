@@ -7,7 +7,7 @@ updated: '2024-03-28T13:15:22.000+01:00'
 cover: ./cover.jpg
 coverStyle: 'IN'
 tags:
-  - [ zip, zip-bomb, security ]
+  - [ Zip, Zip Bomb, Security ]
 ---
 
 <script lang="ts">
