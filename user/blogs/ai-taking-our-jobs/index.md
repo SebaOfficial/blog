@@ -5,7 +5,7 @@ summary: 🤖 Is AI going to take over our jobs as developers?
 published: '2024-01-29T18:22:37.000+01:00'
 updated: '2024-01-29T18:22:37.000+01:00'
 cover: ./cover.jpg
-coverCaption: https://unsplash.com/photos/two-hands-reaching-for-a-flying-object-in-the-sky-X9Cemmq4YjM?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+coverCaption: Photo by <a href="https://unsplash.com/@cashmacanaya">Cash Macanaya</a> on <a href="https://unsplash.com/photos/two-hands-reaching-for-a-flying-object-in-the-sky-X9Cemmq4YjM">Unsplash</a>
 coverStyle: 'IN'
 series_tag:
 series_title:
