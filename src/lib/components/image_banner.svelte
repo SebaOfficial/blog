@@ -13,7 +13,7 @@
 
   export let src: string;
   export let alt: string = src;
-  export let loading: 'eager' | 'lazy' = 'eager';
+  export let loading: 'eager' | 'lazy' = 'lazy';
   export let decoding: 'async' | 'sync' | 'auto' = 'async';
   export let width: string | number | undefined = undefined;
   export let height: string | number | undefined = undefined;
