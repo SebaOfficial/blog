@@ -8,7 +8,7 @@ cover: ./cover.jpg
 coverCaption: Photo by <a href="https://unsplash.com/@jdent">Jason Dent</a> on <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-sign-that-says-privacy-please-JFk0dVyvdvw">Unsplash</a>
 coverStyle: 'IN'
 tags:
-  - [ Privacy, Tips, Browser, Email, Password, OpenSource, Telegram, VPN ]
+  - [ Privacy, Tips, Browser, Email, Password, Open Source, Telegram, VPN ]
 ---
 
 ## Introduction

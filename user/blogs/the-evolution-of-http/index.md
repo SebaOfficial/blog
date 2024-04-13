@@ -7,7 +7,7 @@ updated: '2024-03-14T10:36:29.000+01:00'
 cover: ./cover.jpg
 coverStyle: 'IN'
 tags:
-  - [ http ]
+  - [ HTTP ]
 ---
 
 ## Introduction
