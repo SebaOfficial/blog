@@ -7,6 +7,13 @@
     </url>
     
         <url>
+        <loc>https://blog.racca.me/typescript-is-not-a-programming-language</loc>
+        <lastmod>2024-05-18T15:31:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        </url>
+      
+        <url>
         <loc>https://blog.racca.me/cloudflare-lava-lamps</loc>
         <lastmod>2024-04-22T14:20:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
