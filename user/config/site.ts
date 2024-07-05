@@ -45,13 +45,6 @@ export const headConfig: Site.Head = {
     dev
       ? [
           // For Development Environment
-          `<script>
-            document.addEventListener("DOMContentLoaded", function() {
-              var script = document.createElement('script');
-              script.src = 'https://api.racca.me/newsletter.js';
-              document.body.appendChild(script);
-            });
-          </script>`,
         ]
       : [
           // For Production Environment
