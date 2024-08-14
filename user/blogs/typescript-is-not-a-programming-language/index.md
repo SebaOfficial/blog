@@ -1,7 +1,7 @@
 ---
 title: TypeScript is NOT a Programming Language
 description: Why TypeScript can't be considered a real programming language
-summary: 🚫 TypeScript is not a real programming language.
+summary: 🚫 TypeScript is not a real programming language
 published: '2024-05-18T17:31:43.000+02:00'
 updated: '2024-05-18T17:31:43.000+02:00'
 cover: ./cover.jpg
