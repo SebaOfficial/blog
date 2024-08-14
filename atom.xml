@@ -8,7 +8,7 @@
 <icon>https://blog.racca.me/favicon.png</icon>
 <link href="https://blog.racca.me"/>
 <link href="https://blog.racca.me/atom.xml" rel="self" type="application/atom+xml"/>
-<updated>2024-07-05T14:43:27.121Z</updated>
+<updated>2024-08-14T15:20:39.202Z</updated>
 <author>
   <name><![CDATA[Sebastiano Racca]]></name>
 </author>
@@ -17,6 +17,11 @@
 <category term="Referral" scheme="https://blog.racca.me/?tags=Referral" />
 <category term="AI" scheme="https://blog.racca.me/?tags=AI" />
 <category term="Automation" scheme="https://blog.racca.me/?tags=Automation" />
+<category term="API" scheme="https://blog.racca.me/?tags=API" />
+<category term="HTTP" scheme="https://blog.racca.me/?tags=HTTP" />
+<category term="SOAP" scheme="https://blog.racca.me/?tags=SOAP" />
+<category term="GraphQL" scheme="https://blog.racca.me/?tags=GraphQL" />
+<category term="gRPC" scheme="https://blog.racca.me/?tags=gRPC" />
 <category term="QRCode" scheme="https://blog.racca.me/?tags=QRCode" />
 <category term="Barcode" scheme="https://blog.racca.me/?tags=Barcode" />
 <category term="SEO" scheme="https://blog.racca.me/?tags=SEO" />
@@ -43,7 +48,6 @@
 <category term="VPN" scheme="https://blog.racca.me/?tags=VPN" />
 <category term="Technology" scheme="https://blog.racca.me/?tags=Technology" />
 <category term="Environment" scheme="https://blog.racca.me/?tags=Environment" />
-<category term="HTTP" scheme="https://blog.racca.me/?tags=HTTP" />
 <category term="TypeScript" scheme="https://blog.racca.me/?tags=TypeScript" />
 <category term="Duck Typing" scheme="https://blog.racca.me/?tags=Duck%20Typing" />
 <category term="Nominal Typing" scheme="https://blog.racca.me/?tags=Nominal%20Typing" />
@@ -51,13 +55,76 @@
 <category term="Zip Bomb" scheme="https://blog.racca.me/?tags=Zip%20Bomb" />
 <category term="Series-FirstBot" scheme="https://blog.racca.me/?tags=tags-Series=FirstBot" />
 <entry>
+    <title type="html"><![CDATA[API Design 101]]></title>
+    <author><name><![CDATA[Sebastiano Racca]]></name></author>
+    <link href="https://blog.racca.me/api-design-101" />
+    <id>https://blog.racca.me/api-design-101</id>
+    <published>2024-08-14T14:49:53.000Z</published>
+    <updated>2024-08-14T14:49:53.000Z</updated>
+    <summary type="html"><![CDATA[🔌 Try these tips to improve your API developing skills]]></summary>
+    <content type="html"><![CDATA[<h2 id="api-design-101-from-basics-to-best-practices"><a href="#api-design-101-from-basics-to-best-practices">API Design 101: From Basics to Best Practices</a></h2>
+<p>APIs (Application Programming Interfaces) are the backbone of modern software development, enabling different systems and applications to communicate with each other.
+Whether you&#39;re building a simple microservice or a complex distributed system, designing an effective API is crucial. In this blog post, we&#39;ll explore the basics of API design and share best practices to help you create APIs that are robust, scalable, and easy to use.</p>
+<h3 id="what-is-an-api"><a href="#what-is-an-api">What is an API?</a></h3>
+<p>Before diving into best practices, it&#39;s essential to understand the fundamental concepts of API design.
+An API is a set of rules and protocols that allow one piece of software to interact with another.
+Typically, APIs are categorized as follows:</p>
+<ul>
+<li><strong>REST (Representational State Transfer)</strong>: A popular architectural style that uses standard HTTP methods (GET, POST, PUT, DELETE) and is stateless, meaning each request from a client to a server must contain all the information needed to understand and process the request.</li>
+<li><strong>SOAP (Simple Object Access Protocol)</strong>: A protocol for exchanging structured information in web services, known for its robustness and security features.</li>
+<li><strong>GraphQL</strong>: A query language for APIs that allows clients to request exactly the data they need, making it more flexible than REST.</li>
+<li><strong>gRPC</strong>: Uses HTTP/2 and supports bi-directional streaming making it suitable for microservices.</li>
+</ul>
+<p>Each of these approaches has its use cases, and the choice between them depends on factors like the nature of the application, performance requirements, and developer preferences.</p>
+<h3 id="best-practices-for-api-design"><a href="#best-practices-for-api-design">Best Practices for API Design</a></h3>
+<p>Now that we have a basic understanding of APIs, let&#39;s explore some best practices that can help you design efficient, scalable, and user-friendly APIs.</p>
+<h4 id="design-for-the-consumer"><a href="#design-for-the-consumer">Design for the Consumer</a></h4>
+<p>The primary users of your API will be developers, so it&#39;s crucial to understand their needs and design accordingly.
+Ensure that your API is easy to understand, use, and integrate.</p>
+<p>The API should be consistent in its design.
+For example, if you&#39;re using REST, adhere to RESTful conventions, like using proper HTTP status codes and URIs.
+Naming conventions should be clear and predictable.</p>
+<h4 id="use-versioning"><a href="#use-versioning">Use Versioning</a></h4>
+<p>Over time, your API will evolve, and breaking changes might be inevitable.
+Implementing versioning from the start helps manage these changes without disrupting existing users.</p>
+<p>There are various ways to version an API, such as using the URL (e.g., <code class="inline-code-block">/v1/resource</code>), headers (e.g. <code class="inline-code-block">Accept: application/vnd.yourapi.v1+json</code>), or query parameters (e.g. <code class="inline-code-block">/resource?version=1</code>).
+The choice of method should align with your overall API strategy.</p>
+<h4 id="emphasize-security"><a href="#emphasize-security">Emphasize Security</a></h4>
+<p>Implement strong authentication (e.g., OAuth 2.0) to ensure that only authorized users can access your API.
+Use API keys, tokens, or certificates to secure the communication.</p>
+<p>To prevent abuse and ensure fair usage, implement rate limiting.
+This helps protect your API from being overwhelmed by too many requests from a single user or source.</p>
+<h4 id="error-handling-and-feedback"><a href="#error-handling-and-feedback">Error Handling and Feedback</a></h4>
+<p>Design your API to return informative and consistent error messages.
+Use standard HTTP status codes, and provide meaningful messages that guide the user on how to resolve the issue.</p>
+<p>Implement logging to capture errors and monitor API usage.
+This helps in diagnosing issues quickly and understanding how the API is being used.</p>
+<h4 id="maintain-backward-compatibility"><a href="#maintain-backward-compatibility">Maintain Backward Compatibility</a></h4>
+<p>When updating your API, strive to maintain backward compatibility to avoid breaking existing client integrations.
+This is particularly important in APIs with a large user base.</p>
+<p>If you must make breaking changes, communicate them clearly and provide a migration path for users.
+Deprecation notices should be included in the documentation well in advance of any changes.</p>
+<h3 id="conclusion"><a href="#conclusion">Conclusion</a></h3>
+<p>API design is a critical aspect of modern software development.
+By following the best practices outlined above, you can create APIs that are not only functional but also robust, secure, and user-friendly.
+Whether you’re working on a simple application or a complex system, investing time in thoughtful API design will pay off in the long run, leading to better developer experiences and more successful integrations.</p>
+<p>Remember, the goal of an API is to be a bridge between different software components, and a well-designed API ensures that this bridge is strong, reliable, and easy to cross.</p>
+<p><strong>Happy coding!</strong></p>
+]]></content>
+    <category term="API" scheme="https://blog.racca.me/?tags=API" />
+<category term="HTTP" scheme="https://blog.racca.me/?tags=HTTP" />
+<category term="SOAP" scheme="https://blog.racca.me/?tags=SOAP" />
+<category term="GraphQL" scheme="https://blog.racca.me/?tags=GraphQL" />
+<category term="gRPC" scheme="https://blog.racca.me/?tags=gRPC" />
+    </entry>
+<entry>
     <title type="html"><![CDATA[TypeScript is NOT a Programming Language]]></title>
     <author><name><![CDATA[Sebastiano Racca]]></name></author>
     <link href="https://blog.racca.me/typescript-is-not-a-programming-language" />
     <id>https://blog.racca.me/typescript-is-not-a-programming-language</id>
     <published>2024-05-18T15:31:43.000Z</published>
     <updated>2024-05-18T15:31:43.000Z</updated>
-    <summary type="html"><![CDATA[🚫 TypeScript is not a real programming language.]]></summary>
+    <summary type="html"><![CDATA[🚫 TypeScript is not a real programming language]]></summary>
     <content type="html"><![CDATA[<h2 id="enhancing-javascript-with-static-typing"><a href="#enhancing-javascript-with-static-typing">Enhancing JavaScript with Static Typing</a></h2>
 <p>TypeScript stands as a superset of JavaScript, encompassing all its features while extending its capabilities with additional functionalities.
 It empowers developers with the ability to specify types, adding a layer of static typing to JavaScript projects.</p>
